@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-10-06",
+  "scope": "Optional later increases researched for the proposed broad 50-US-gallon aquarium; original stocking remains the starting proposal.",
+  "assumptions": "Qualitative adult bioload estimate including a modest colony of ordinary small ramshorns, established filtration and healthy planting. Actual tank volume, water chemistry and installed performance must be checked.",
+  "checks": [
+    "Wait until the original fish have settled and several weeks of normal feeding, water tests and maintenance show a stable tank. There is no automatic date for adding fish.",
+    "Quarantine newcomers separately, choose healthy fish of reasonably similar size, and acclimate them appropriately.",
+    "Increase one species at a time. Check that every fish eats, ammonia and nitrite remain undetectable, nitrate trends are manageable, and weekly care stays near one hour.",
+    "Count surviving offspring and watch ramshorn population growth. Confirm stable water chemistry and mineral availability suitable for both fish and snail shells."
+  ],
+  "sources": [
+    {
+      "label": "Stocking and gradual additions",
+      "url": "https://www.aquariumcoop.com/blogs/aquarium/how-many-fish"
+    },
+    {
+      "label": "Quarantining newcomers",
+      "url": "https://www.aquariumcoop.com/blogs/aquarium/quarantine-tank"
+    }
+  ],
+  "plans": {
+    "tanguar-haor-honey-gourami": {
+      "targets": [
+        {
+          "species": "Danio rerio",
+          "countRange": [
+            10,
+            10
+          ]
+        }
+      ],
+      "estimatedAdultBioload": "Light",
+      "comfortNote": "Keep all four honey gouramis. Preserve about 90 cm of clear swimming length, calm planted retreats and two feeding spots. Every gourami must continue eating confidently."
+    },
+    "kasumigaura-medaka-channel-margin": {
+      "targets": [
+        {
+          "species": "Oryzias latipes",
+          "countRange": [
+            18,
+            20
+          ]
+        }
+      ],
+      "estimatedAdultBioload": "Light",
+      "comfortNote": "Count any surviving medaka offspring before buying more fish. Keep the planned cooler water and an open swimming area."
+    },
+    "archer-vegetated-wetland-margin": {
+      "targets": [
+        {
+          "species": "Pseudomugil gertrudae",
+          "countRange": [
+            18,
+            20
+          ]
+        }
+      ],
+      "estimatedAdultBioload": "Light",
+      "comfortNote": "Check the sex balance and tiny-food intake of every newcomer. Keep planted cover, open surface access and mature, stable water."
+    },
+    "araguaia-ember-chain-sword-margin": {
+      "targets": [
+        {
+          "species": "Hyphessobrycon amandae",
+          "countRange": [
+            30,
+            30
+          ]
+        }
+      ],
+      "estimatedAdultBioload": "Light",
+      "comfortNote": "Keep sheltered planting alongside open swimming room. Use appropriately small food and avoid substantially larger or boisterous tankmates."
+    },
+    "apure-pristella-floodplain-margin": {
+      "targets": [
+        {
+          "species": "Pristella maxillaris",
+          "countRange": [
+            20,
+            24
+          ]
+        }
+      ],
+      "estimatedAdultBioload": "Light to moderate",
+      "comfortNote": "Preserve the open central swimming lane. Add a small batch first and reassess water quality and weekly maintenance before considering the upper end."
+    },
+    "upper-paraguay-bodoquena-community": {
+      "targets": [
+        {
+          "species": "Hyphessobrycon herbertaxelrodi",
+          "countRange": [
+            12,
+            12
+          ]
+        },
+        {
+          "species": "Megalamphodus megalopterus",
+          "countRange": [
+            12,
+            12
+          ]
+        }
+      ],
+      "estimatedAdultBioload": "Light to moderate",
+      "comfortNote": "This option applies to the two-species plan without corys. Keep planted sight breaks for black phantom displays and increase one species at a time."
+    },
+    "essequibo-small-creek-community": {
+      "targets": [
+        {
+          "species": "Holopristis ocellifera",
+          "countRange": [
+            12,
+            12
+          ]
+        }
+      ],
+      "estimatedAdultBioload": "Light to moderate",
+      "comfortNote": "Keep the existing 12 glowlights. Preserve open swimming space around the Mayaca planting. This option applies to the two-species plan without pencilfish."
+    }
+  }
+}
