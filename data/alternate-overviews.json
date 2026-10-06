@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-10-06",
+  "context": "An alternate can be a workable aquarium community while still needing more evidence for this project’s simple-care, regional-biotope and complete-setup requirements. The main plans also remain conditional on actual tank measurements, water and healthy stock.",
+  "sharedNote": "All three assessments now include your ramshorns. A modest colony adds some load; a growing, heavily fed colony adds more. Check stable pH and mineral availability for shell health alongside the fish requirements. Low bioload alone does not settle feeding, comfort or biotope accuracy.",
+  "sharedSource": {
+    "label": "Ramshorn care and reproduction",
+    "url": "https://aquaticarts.com/collections/freshwater-snails/products/blue-silver-ramshorn-snails-1-4-to-1"
+  },
+  "plans": {
+    "archer-threadfin-blue-eye": {
+      "summary": "A plausible peaceful pairing, with more demanding feeding than the blue-eye-only main plan.",
+      "bioload": "Light expected adult load in the proposed broad 50-gallon setup, including a modest ramshorn colony. This is a planning inference, not a measured capacity.",
+      "sections": [
+        {
+          "title": "How it could work",
+          "text": "Threadfins and spotted blue-eyes are small, peaceful fish; Aquagreen’s cultivation account specifically suggests blue-eyes as companions. Use a mature, well-planted tank, gentle circulation, open swimming space and tiny foods that both groups demonstrably eat. Six threadfins is a minimum group; care guidance prefers ten or more, which would require a separate stocking review.",
+          "sources": [
+            {
+              "label": "Firsthand threadfin cultivation",
+              "url": "https://www.aquagreen.com.au/plant_data/Iriatherina_werneri.html"
+            },
+            {
+              "label": "Threadfin group size and feeding",
+              "url": "https://www.seriouslyfish.com/species/iriatherina-werneri/"
+            }
+          ]
+        },
+        {
+          "title": "Why it stayed an alternate",
+          "text": "The earlier procurement route failed its supply/budget screen. A later historical basket was $953.13, so this pairing was not excluded because incompatibility had been demonstrated. That later route still lacked verified stock origin, sex balance, food acceptance and water overlap. Its estimated weekly care was 55.67–67.98 minutes, with the upper case above the 65-minute target. The main plan retained the simpler single-species route."
+        },
+        {
+          "title": "What needs checking",
+          "text": "Confirm healthy stock that accepts a practical tiny prepared/frozen diet, suitable stable water and a workable sex balance. Watch for threadfins losing access to food. Requote the full fitted setup: the old basket predates later tank/lid benchmarks. These are regional habitat records, not proof that every organism was collected together at one patch."
+        }
+      ]
+    },
+    "paraguay-bronze-cory": {
+      "summary": "A plausible three-species community whose exact biotope identity and complete care assessment remain unresolved.",
+      "bioload": "Moderate expected adult load with six bronze corys and a modest ramshorn colony. Corys add body mass and their own feeding demand; they do not remove waste from the system.",
+      "sections": [
+        {
+          "title": "How it could work",
+          "text": "Ten black neons, ten black phantoms and six bronze corys are a plausible peaceful community. The saved 23–25°C keeping scenario lies within the cory’s published range, but actual stock and water still need checking. Keep accessible clean sand, cover, good oxygen exchange and dedicated sinking food. Six corys meets the published minimum social-group recommendation.",
+          "sources": [
+            {
+              "label": "Bronze cory care and identity",
+              "url": "https://www.seriouslyfish.com/species/osteogaster-aenea"
+            }
+          ]
+        },
+        {
+          "title": "Why it stayed an alternate",
+          "text": "This exact 10 + 10 + 6 combination was added later as a research option; its full cost, maintenance and combined adult-space assessment were not completed. The older rejected Paraguay prototype used different tetras, so its cost result does not establish this combination’s cost. Regional records labelled Corydoras aff. aeneus do not securely identify ordinary shop bronze corys as the same local fish.",
+          "sources": [
+            {
+              "label": "Regional identity: saved IMASUL guide assessment, printed p.306",
+              "url": "https://www.imasul.ms.gov.br/wp-content/uploads/2022/11/Montagem-livro-Peixes-VERSAO-FINAL-MARCO-2022-ISBN97865-81066-05-5-ONLINE_FINAL-1.pdf"
+            }
+          ]
+        },
+        {
+          "title": "What needs checking",
+          "text": "Measure the planned 90 × 40 cm internal base and preserve bottom feeding space and the open swimming lane. Verify waste processing with the extra food, sand-cleaning workload and a complete current quote. Resolve locality identity for an accurate regional biotope; otherwise describe the cory version as biotope-inspired. The saved $977.06 total covers only the two-species baseline, not this alternate.",
+          "sources": [
+            {
+              "label": "Commercial bronze-cory identity caveat",
+              "url": "https://www.seriouslyfish.com/species/osteogaster-aenea"
+            }
+          ]
+        }
+      ]
+    },
+    "essequibo-pencilfish": {
+      "summary": "A field-supported regional community whose original procurement route failed the budget screen.",
+      "bioload": "Light to moderate expected adult load for the 30 small fish plus a modest ramshorn colony. Feeding access is a stronger concern than fish count alone.",
+      "sections": [
+        {
+          "title": "How it could work",
+          "text": "Ten glowlights, ten head-and-tail-lights and ten dwarf pencilfish have a plausible peaceful combination. An Upper Essequibo survey records all three in the small forest creek habitat category; that supports the regional concept, not a single jointly sampled patch. Provide mature water, shaded planted cover, gentle circulation and food small enough for pencilfish.",
+          "sources": [
+            {
+              "label": "Upper Essequibo field survey",
+              "url": "https://www.scielo.br/j/bn/a/gxdzHNNbGR5KFBmVMxytPdM/"
+            },
+            {
+              "label": "Dwarf pencilfish husbandry",
+              "url": "https://www.seriouslyfish.com/species/nannostomus-marginatus/"
+            }
+          ]
+        },
+        {
+          "title": "Why it stayed an alternate",
+          "text": "The archived complete setup was $1,140.37, exceeding the $1,000 retail ceiling by $140.37. That was a procurement rejection, not proof of overcrowding or incompatible species. Pencilfish food access remained uncertain, and the historical care estimate of 53.97–66.73 minutes/week exceeded the 65-minute target at its upper end. The two-species main plan removed the pencilfish feeding task and reduced cost."
+        },
+        {
+          "title": "What needs checking",
+          "text": "Observe pencilfish eating alongside both tetra groups; their timid nature can make competition important. Confirm manageable tiny prepared/frozen food acceptance, Mayaca growth and pruning under the installed light, and a revised complete quote. Mayaca establishment also needs checking in the main plan. Snail shell health needs particular attention if using soft, acidic water.",
+          "sources": [
+            {
+              "label": "Pencilfish diet and temperament",
+              "url": "https://www.seriouslyfish.com/species/nannostomus-marginatus/"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
