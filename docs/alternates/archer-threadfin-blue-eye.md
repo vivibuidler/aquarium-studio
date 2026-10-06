@@ -34,7 +34,7 @@ A plausible peaceful pairing, with more demanding feeding than the blue-eye-only
 
 ### How it could work
 
-Threadfins and spotted blue-eyes are small, peaceful fish; Aquagreen’s cultivation account specifically suggests blue-eyes as companions. Use a mature, well-planted tank, gentle circulation, open swimming space and tiny foods that both groups demonstrably eat. Six threadfins is a minimum group; care guidance prefers ten or more, which would require a separate stocking review. [Firsthand threadfin cultivation](https://www.aquagreen.com.au/plant_data/Iriatherina_werneri.html) [Threadfin group size and feeding](https://www.seriouslyfish.com/species/iriatherina-werneri/)
+Threadfins and spotted blue-eyes are small, peaceful fish; Aquagreen’s cultivation account specifically suggests blue-eyes as companions. Use a mature, well-planted tank, gentle circulation, open swimming space and tiny foods that both groups demonstrably eat. Six threadfins is a minimum group; care guidance prefers ten or more. The Future increase tab offers an optional addition of four once feeding, water quality and maintenance are stable, keeping the twelve blue-eyes. [Firsthand threadfin cultivation](https://www.aquagreen.com.au/plant_data/Iriatherina_werneri.html) [Threadfin group size and feeding](https://www.seriouslyfish.com/species/iriatherina-werneri/)
 
 ### Why it stayed an alternate
 
@@ -45,3 +45,7 @@ The earlier procurement route failed its supply/budget screen. A later historica
 Confirm healthy stock that accepts a practical tiny prepared/frozen diet, suitable stable water and a workable sex balance. Watch for threadfins losing access to food. Requote the full fitted setup: the old basket predates later tank/lid benchmarks. These are regional habitat records, not proof that every organism was collected together at one patch.
 
 All three assessments now include your ramshorns. A modest colony adds some load; a growing, heavily fed colony adds more. Check stable pH and mineral availability for shell health alongside the fish requirements. Low bioload alone does not settle feeding, comfort or biotope accuracy. [Ramshorn care](https://aquaticarts.com/collections/freshwater-snails/products/blue-silver-ramshorn-snails-1-4-to-1)
+
+## Optional future increase
+
+Start with the original 6 threadfins and 12 spotted blue-eyes. If desired after the tank and feeding routine are stable, add 4 threadfins for a total of 10 threadfins and 12 blue-eyes. Estimated adult load is light to moderate including a modest ramshorn colony; this is a qualitative planning inference, not measured capacity. Confirm tiny-food access for every fish, suitable sex balance, healthy stock and quarantine, stable water quality and manageable maintenance before proceeding. The original swimming preview remains 18 fish.

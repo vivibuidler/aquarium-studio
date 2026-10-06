@@ -117,6 +117,19 @@
       ],
       "estimatedAdultBioload": "Light to moderate",
       "comfortNote": "Keep the existing 12 glowlights. Preserve open swimming space around the Mayaca planting. This option applies to the two-species plan without pencilfish."
+    },
+    "archer-threadfin-blue-eye": {
+      "targets": [
+        {
+          "species": "Iriatherina werneri",
+          "countRange": [
+            10,
+            10
+          ]
+        }
+      ],
+      "estimatedAdultBioload": "Light to moderate",
+      "comfortNote": "Optional addition: four threadfins, bringing the group from six to ten while keeping the existing twelve spotted blue-eyes. A larger threadfin group can support social confidence and display behavior. First confirm mature, stable water and reliable tiny-food intake by both groups. Keep a suitable sex balance, planted retreats and gentle circulation; watch for feeding competition and keep weekly care manageable."
     }
   }
 }
