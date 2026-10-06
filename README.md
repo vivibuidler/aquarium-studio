@@ -10,9 +10,9 @@ This is a visual decision tool, not a biological prediction. The fish move; the 
 
 ## Why I started this
 
-I’m Vivienne. My love of fish inspired this first project; my broader goal is to build tools that help people enjoy their hobbies and find better value in the things they love.
+I’m Vivienne. My love of fish and interest in keeping natural, biotope aquariums inspired this first project; my broader goal is to build tools that help people enjoy their hobbies and find better value in the things they love.
 
-Choosing an aquarium is more than picking attractive fish. Adult size, swimming space, plant placement, equipment cost and maintenance all affect the result. Aquarium Studio connects those constraints to a scene you can explore rather than asking you to imagine the finished tank from a shopping list.
+Choosing an aquarium is more than stocking up a tank with as much attractive fish as possible. Adult size, bio-load, swimming space, plant placement, equipment cost, tank-mate compatibility, fish comfortability and maintenance all affect the result. Aquarium Studio connects those constraints to a scene you can explore rather than asking you to imagine the finished tank from a shopping list or become a scientist in order to create the perfect tank.
 
 The project combines aquarium research, procedural graphics, configurable software design and automated verification. I set the project’s goals and requirements, including beginner-friendly stocking, realistic counts, value, simple maintenance and useful comparisons. AI assisted with research, implementation and testing. Its source, assumptions and test evidence are available here so that you can evaluate what it actually does.
 
