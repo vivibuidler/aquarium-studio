@@ -2,7 +2,7 @@
 
 **Compare the aquarium you want to watch before choosing the aquarium you want to build.**
 
-Aquarium Studio turns ten researched freshwater habitat plans into interactive 3D aquariums. Watch their proposed adult fish populations, inspect the planting, and compare two habitats with the same camera, lighting and tank dimensions.
+Aquarium Studio turns ten researched freshwater habitat plans into interactive 3D aquariums, with three exploratory communities in a separate Alternate plans tab. Watch their proposed adult fish populations, inspect the planting, and compare two habitats with the same camera, lighting and tank dimensions.
 
 ![Two habitats compared in Aquarium Studio](validation/comparison.png)
 
@@ -126,3 +126,17 @@ Project-owned code and procedural assets are offered under **Business Source Lic
 Third-party components retain their own licenses, including the locally bundled [Three.js MIT license](vendor/THREE-LICENSE.txt). Asset origins and visual assumptions are documented in [docs/provenance.md](docs/provenance.md).
 
 Thoughtful bug reports are welcome. Include the plan, planting stage, browser/device and steps to reproduce. A screenshot or exported comparison helps make a visual issue reviewable.
+
+## Alternate plans
+
+Use the **Alternate plans** tab to explore three additional communities separately from the ten main plans:
+
+| Alternate | Proposed adults | Status |
+| --- | --- | --- |
+| Archer | 6 threadfin rainbowfish + 12 spotted blue-eyes | Historical basket; feeding, origin, water and workload unresolved |
+| Paraguay | 10 black neons + 10 black phantoms + 6 bronze corys | Added cory group unpriced; workload and regional identity unresolved |
+| Essequibo | 10 glowlights + 10 head-and-tail-lights + 10 dwarf pencilfish | Historical $1,140.37 basket exceeds retail budget |
+
+Alternates support both planting stages, fish inspection, favorites/notes, comparison with main plans, and their own three-scene contact-sheet export. They are exploratory candidates, not approved additions. Editable alternate data live in `data/alternates.json`; portable notes live in `docs/alternates/`.
+
+![The three exploratory alternate communities](validation/export-alternates.png)

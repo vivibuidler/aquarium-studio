@@ -37,6 +37,12 @@ def refresh(source_root):
     lock=json.loads((PUBLIC/'package-lock.json').read_text());lock['packages']['']['license']='BUSL-1.1';lock['packages']['']['engines']=pkg['engines'];write_json(PUBLIC/'package-lock.json',lock)
     (PUBLIC/'docs').mkdir(exist_ok=True)
     shutil.copy2(app/'docs/provenance.md',PUBLIC/'docs/provenance.md')
+    shutil.copytree(app/'docs/alternates',PUBLIC/'docs/alternates',dirs_exist_ok=True)
+    alternate=clean(json.loads((app/'data/alternates.json').read_text()))
+    for plan in alternate['plans']:
+        plan.pop('originalReferences',None)
+        plan['planFile']=plan['planUrl'];plan['reportFile']=None
+    write_json(PUBLIC/'data/alternates.json',alternate)
     d=json.loads((original/'options.json').read_text()); entries=[]
     normalized=json.loads((app/'data/plans.json').read_text())
     for o in d['options']:
@@ -88,7 +94,7 @@ def refresh(source_root):
     for path in (PUBLIC/'tools').glob('*.mjs'):
         s=path.read_text().replace("executablePath:process.env.AQUARIUM_CHROME||'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',", "...(process.env.AQUARIUM_CHROME?{executablePath:process.env.AQUARIUM_CHROME}:{}),")
         s=s.replace("executablePath:'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',","...(process.env.AQUARIUM_CHROME?{executablePath:process.env.AQUARIUM_CHROME}:{}),")
-        s=s.replace("'http://127.0.0.1:8765'", "(process.env.AQUARIUM_URL||'http://127.0.0.1:8765')")
+        s=re.sub(r"(?<!\|\|)'http://127\.0\.0\.1:8765'", "(process.env.AQUARIUM_URL||'http://127.0.0.1:8765')", s)
         path.write_text(s)
     appjs=(PUBLIC/'src/app.js').read_text().replace('Complete stocking plan ↗','Public stocking snapshot ↗').replace('Current equipment assessment ↗','Saved cost/work snapshot ↗');(PUBLIC/'src/app.js').write_text(appjs)
     provenance=(PUBLIC/'docs/provenance.md').read_text().replace('`biotope-plan/habitat-options/options.json`','`references/habitat-options/options.json`').replace('a SHA-256 of the authoritative index','a SHA-256 of the sanitized public snapshot').replace('served read-only from the original project','served read-only from curated public reference snapshots').replace('under the local MIT license','under the root project license (third-party licenses remain separate)')

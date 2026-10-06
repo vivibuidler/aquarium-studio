@@ -4,7 +4,7 @@ Validated locally on October 5, 2026. This report describes checks performed, no
 
 ## Public package
 
-The standalone public package passed all seven domain tests (`public-core-test-output.txt`). These check the sanitized source snapshot, exact counts and adult size semantics, conditional cost/work data, editable dimensions, nursery quantities, conserved substrate volume, Hainan’s rooted/floating layout, frame-rate reproducibility and forty behavior cases: ten plans × two planting stages × two seeds, each for 125 simulated seconds. No failures were reported. Source snapshot and asset hashes are independently checked by `tools/check_public_package.py`.
+The standalone public package passed all seven domain tests (`alternate-release-test-output.txt`). These check the sanitized source snapshot, exact counts and adult size semantics, conditional cost/work data, editable dimensions, nursery quantities, conserved substrate volume, Hainan’s rooted/floating layout, frame-rate reproducibility and forty behavior cases: ten plans × two planting stages × two seeds, each for 125 simulated seconds. No failures were reported. Source snapshot and asset hashes are independently checked by `tools/check_public_package.py`.
 
 Public references are curated snapshots. They preserve scientific identities, quantities, source size fields, conditions and dated cost/work values. Private installation records and planning conversations are excluded; the manifest hash identifies the public snapshot rather than the private original.
 
@@ -25,3 +25,11 @@ The approximately 60-FPS ordinary-view / 30-FPS lower-quality aims were not cons
 ## Limits
 
 Procedural anatomy, commercial colors, movement constants and planting growth are interpretations. Equipment is a placement proxy; water and glass use real-time approximations. Default internal dimensions are assumptions until measured. This app does not predict compatibility, water quality, stress, survival, breeding or plant growth, and does not yet grade Marketplace equipment. Dated prices and care conditions require review before buying or stocking a real tank.
+
+## Alternate-plan release — October 5, 2026
+
+Three independent candidates are now available in an accessible Alternate plans tab: Archer 6 threadfins + 12 blue-eyes; Paraguay 10 black neons + 10 black phantoms + 6 bronze corys; Essequibo 10 glowlights + 10 head-and-tail-lights + 10 dwarf pencilfish. The main catalog remains ten plans. The public release passed all nine domain tests, including twelve additional alternate motion cases (three plans × two stages × two seeds, each 90 simulated seconds).
+
+`alternate-browser-results.json` verifies both tabs, exact cohorts, both planting stages, reference responses, unknown cory cost/work, persistent notes/favorites, comparison with a main plan, alternate-only PNG export, keyboard navigation and tablet layout. Errors were empty. New fish geometry and conservative floor clearance were checked; threadfin rays, bronze-cory anatomy, pencilfish stripes, all six alternate planting scenes and the contact sheet were visually inspected. Historical alternate quotes are labeled; no cory total or workload is fabricated. The archived Essequibo branch/root is included and shares its collision geometry with rendering.
+
+Prior performance measurements describe the ten-main-plan release; no new frame-rate guarantee is made for the alternate communities.

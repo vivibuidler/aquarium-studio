@@ -1061,6 +1061,210 @@
       "femaleDorsalScale": 1,
       "femaleAnalScale": 1,
       "clearanceRadiusFraction": 0.54
+    },
+    "Iriatherina werneri": {
+      "form": "threadfin",
+      "color": "#b8b494",
+      "mark": "threadfin",
+      "depth": 0.15,
+      "thickness": 0.065,
+      "tail": 0.28,
+      "speed": 0.4,
+      "shoal": 0.18,
+      "level": 0.64,
+      "dorsalOutline": [
+        [
+          -0.23,
+          0.04,
+          0
+        ],
+        [
+          -0.21,
+          0.11,
+          0
+        ],
+        [
+          -0.15,
+          0.14,
+          0
+        ],
+        [
+          -0.07,
+          0.13,
+          0
+        ],
+        [
+          0.02,
+          0.04,
+          0
+        ]
+      ],
+      "analOutline": [
+        [
+          -0.27,
+          -0.03,
+          0
+        ],
+        [
+          -0.24,
+          -0.12,
+          0
+        ],
+        [
+          -0.12,
+          -0.13,
+          0
+        ],
+        [
+          0.035,
+          -0.035,
+          0
+        ]
+      ],
+      "eyeRadiusFraction": 0.019,
+      "finOpacity": 0.48,
+      "bodyTaperExponent": 0.8,
+      "noseRise": 0.0,
+      "femaleDorsalScale": 0.45,
+      "femaleAnalScale": 0.45,
+      "clearanceRadiusFraction": 0.6,
+      "visualLengthBySex": {
+        "male": 6,
+        "female": 4
+      }
+    },
+    "Osteogaster aenea": {
+      "form": "catfish",
+      "color": "#999877",
+      "mark": "bronze",
+      "depth": 0.29,
+      "thickness": 0.2,
+      "tail": 0.15,
+      "speed": 0.32,
+      "shoal": 0.13,
+      "level": 0.025,
+      "dorsalOutline": [
+        [
+          -0.04,
+          0.1,
+          0
+        ],
+        [
+          -0.08,
+          0.26,
+          0
+        ],
+        [
+          0.11,
+          0.23,
+          0
+        ],
+        [
+          0.2,
+          0.09,
+          0
+        ]
+      ],
+      "analOutline": [
+        [
+          -0.3,
+          -0.035,
+          0
+        ],
+        [
+          -0.28,
+          -0.15,
+          0
+        ],
+        [
+          -0.15,
+          -0.16,
+          0
+        ],
+        [
+          -0.08,
+          -0.06,
+          0
+        ]
+      ],
+      "eyeRadiusFraction": 0.021,
+      "finOpacity": 0.47,
+      "bodyTaperExponent": 0.8,
+      "noseRise": -0.018,
+      "femaleDorsalScale": 1,
+      "femaleAnalScale": 1,
+      "clearanceRadiusFraction": 0.56,
+      "floorClearanceFraction": 0.23,
+      "bottomHabitat": true,
+      "bottomOffsetCm": [
+        0.12,
+        0.7
+      ],
+      "pitchLimit": 0.08,
+      "levelSpreadCm": 0.8,
+      "forageChance": 0.65
+    },
+    "Nannostomus marginatus": {
+      "form": "pencil",
+      "color": "#c2b38d",
+      "mark": "pencil",
+      "depth": 0.13,
+      "thickness": 0.067,
+      "tail": 0.2,
+      "speed": 0.32,
+      "shoal": 0.17,
+      "level": 0.65,
+      "dorsalOutline": [
+        [
+          -0.13,
+          0.045,
+          0
+        ],
+        [
+          -0.1,
+          0.13,
+          0
+        ],
+        [
+          -0.035,
+          0.14,
+          0
+        ],
+        [
+          0.02,
+          0.045,
+          0
+        ]
+      ],
+      "analOutline": [
+        [
+          -0.24,
+          -0.025,
+          0
+        ],
+        [
+          -0.21,
+          -0.105,
+          0
+        ],
+        [
+          -0.12,
+          -0.095,
+          0
+        ],
+        [
+          -0.08,
+          -0.03,
+          0
+        ]
+      ],
+      "eyeRadiusFraction": 0.022,
+      "finOpacity": 0.45,
+      "bodyTaperExponent": 0.8,
+      "noseRise": 0.0,
+      "femaleDorsalScale": 1,
+      "femaleAnalScale": 1,
+      "clearanceRadiusFraction": 0.54
     }
   },
   "plants": {

@@ -13,6 +13,14 @@ for plan in manifest['plans']:
     for key in ['planFile','reportFile']:
         target=(ROOT/'references/habitat-options'/plan[key]).resolve()
         assert target.is_relative_to(ROOT/'references') and target.is_file(), (plan['id'],key)
+alternates=read(ROOT/'data/alternates.json')
+assert len(alternates['plans'])==3
+assert not ({p['id'] for p in manifest['plans']} & {p['id'] for p in alternates['plans']})
+for plan in alternates['plans']:
+    assert plan['category']=='alternate' and plan['unresolved']
+    assert sum(g['count'] for g in plan['groups'])==plan['fishCount']
+    target=(ROOT/plan['planUrl']).resolve()
+    assert target.is_relative_to(ROOT/'docs/alternates') and target.is_file()
 for asset in read(ROOT/'data/assets-manifest.json')['assets']:
     target=(ROOT/asset['path']).resolve()
     assert target.is_relative_to(ROOT) and target.is_file()
@@ -25,4 +33,4 @@ for base in ['references','data','src']:
             text=path.read_text()
             assert '/Users/' not in text, 'Private absolute path: '+str(path.relative_to(ROOT))
             assert not re.search(r'(?:assumed|reference-region|ZIP)\d{5}',text,re.I), 'Private delivery ZIP: '+str(path.relative_to(ROOT))
-print('Public snapshot SHA, ten plans, twenty reference targets, asset hashes/licenses and portable paths verified.')
+print('Public snapshot SHA, ten plans, twenty main reference targets, three alternate references, asset hashes/licenses and portable paths verified.')

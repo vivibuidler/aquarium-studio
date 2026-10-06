@@ -1,7 +1,7 @@
 import {chromium} from '@playwright/test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
-const url=process.env.AQUARIUM_URL||(process.env.AQUARIUM_URL||(process.env.AQUARIUM_URL||(process.env.AQUARIUM_URL||'http://127.0.0.1:8765')));
+const url=process.env.AQUARIUM_URL||'http://127.0.0.1:8765';
 const browser=await chromium.launch({...(process.env.AQUARIUM_CHROME?{executablePath:process.env.AQUARIUM_CHROME}:{}),headless:true,args:['--no-sandbox']});
 try {
  const page=await browser.newPage({viewport:{width:1440,height:1100}}),errors=[];page.on('pageerror',e=>errors.push(String(e)));page.on('console',m=>{if(m.type()==='error')errors.push(m.text());});

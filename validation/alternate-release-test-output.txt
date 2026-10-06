@@ -1,0 +1,21 @@
+
+> aquarium-studio@1.0.0 test
+> node --test tests/*.test.js
+
+✔ alternate catalog preserves ten main plans and three distinct full communities (3.364894ms)
+✔ every alternate remains bounded and mobile across both planting stages (68368.336403ms)
+✔ Every active record and adult count survives normalization; no archived fish are selectable (6.628529ms)
+✔ Length semantics, cost and maintenance match source; conversion is explicitly labeled (2.728499ms)
+✔ Configurable dimensions do not scale fish counts or conceal an unmet space requirement (16.959708ms)
+✔ Reset and fixed-step updates reproduce trajectories at different frame rates (1990.927827ms)
+✔ Both planting stages preserve funded substrate volume and plant unit metadata (75.709327ms)
+✔ All layouts: multi-minute, multi-seed motion remains inside full-body bounds and out of solid cores (215398.463788ms)
+✔ Hainan preserves two rooted pot groups and one floating group (7.811041ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 9
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 217858.966236

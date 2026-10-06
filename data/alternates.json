@@ -1,0 +1,860 @@
+{
+  "schemaVersion": 1,
+  "sourceAccessedAt": "2026-10-04",
+  "note": "Separate exploratory variants; no alternate is approved by visualization. Historical assessments retained, Paraguay addition unpriced.",
+  "plans": [
+    {
+      "id": "archer-threadfin-blue-eye",
+      "name": "Archer \u00b7 threadfins & blue-eyes",
+      "number": 11,
+      "country": "Australia",
+      "habitat": "Sheltered vegetated freshwater wetland margin",
+      "displayHabitat": "Vegetated floodplain wetland",
+      "groups": [
+        {
+          "species": "Iriatherina werneri",
+          "count": 6,
+          "sexRequirement": "Prefer 2 males / 4 females; actual supplier ratio unconfirmed.",
+          "visualSexMix": [
+            "male",
+            "male",
+            "female",
+            "female",
+            "female",
+            "female"
+          ]
+        },
+        {
+          "species": "Pseudomugil gertrudae",
+          "count": 12,
+          "sexRequirement": "Females at least equal males; supplied ratio unconfirmed."
+        }
+      ],
+      "plants": [
+        {
+          "species": "Ceratopteris thalictroides",
+          "quantity": 3,
+          "unit": "nursery pot",
+          "placement": "floating rear/sides; opencenterandsurface",
+          "mode": "floating",
+          "rootedUnits": null,
+          "patchPattern": [
+            0,
+            1,
+            2
+          ],
+          "profile": {
+            "form": "fern",
+            "color": "#6d9147",
+            "height": [
+              13,
+              27
+            ],
+            "shoots": [
+              2,
+              5
+            ],
+            "rooted": true
+          },
+          "biomassNote": "Shoot/crown counts, patch area and growth are illustrative, not guaranteed nursery biomass or timed outcomes"
+        }
+      ],
+      "fishCount": 18,
+      "minimumBaseCm": [
+        80,
+        35
+      ],
+      "minimumLaneCm": 80,
+      "substrate": {
+        "massLb": 20,
+        "densityLbPerFt3": 95,
+        "patchDepthCm": 0,
+        "patchAreaFraction": 0,
+        "color": "#d0c7af",
+        "note": "Funded commercial sand, not authenticated wild sediment"
+      },
+      "decor": [],
+      "startupUsd": 953.13,
+      "regularStandUsd": 980.13,
+      "maintenance": {
+        "low": 55.67,
+        "expected": 61.83,
+        "high": 67.98,
+        "unit": "min"
+      },
+      "verdict": "research_alternative",
+      "environment": {
+        "target_temperature_C": 24,
+        "note": "Provisional only; selected-stock temperature, hardness and tiny-food acceptance unresolved."
+      },
+      "unresolved": [
+        "Tiny prepared/frozen food acceptance and feeding competition need verification; mature stable water required.",
+        "Supplier origin and sex ratio unconfirmed; selected-stock water overlap unresolved.",
+        "Historical $953.13 equipment/plant basket needs complete repricing; latest matching lid/tank quotes were not applied.",
+        "High ordinary-care case 67.98 min/week exceeds the 65-minute target."
+      ],
+      "planFile": "docs/alternates/archer-threadfin-blue-eye.md",
+      "reportFile": null,
+      "sources": [
+        {
+          "url": "https://researchonline.jcu.edu.au/73250/1/Will%20fencing%20floodplain%20and%20riverrine%20wetlands%20from%20feral%20pig%20damage.pdf",
+          "role": "Primary Archer wetland fish survey, Table 1; pooled not joint-site evidence",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "url": "https://wetlandinfo.detsi.qld.gov.au/wetlands/facts-maps/wildlife/?AreaID=sub-basin-herb-archer-river",
+          "role": "Native fern specimen records; coarse precision/buffer and growth form caveat",
+          "accessed_at": "2026-10-04"
+        },
+        "https://www.wetspottropicalfish.com/product/pseudomugil-gertrudae/",
+        {
+          "url": "archer-selected-fish-coop-pots-audit.json",
+          "accessed_at": "2026-10-04",
+          "purpose": "Selected12TRfish/3potsfullquantity, combinednurserybasket andfreereference-regionZIPquote, synonym andmatchedcanopybudget"
+        },
+        "https://www.aquariumcoop.com/products/water-sprite"
+      ],
+      "evidenceLevel": "pooled_wetland_fish_records_and_separate_named_area_native_fern_records",
+      "category": "alternate",
+      "planUrl": "docs/alternates/archer-threadfin-blue-eye.md",
+      "reportUrl": null,
+      "alternativeStatus": "Research alternative \u00b7 care and complete basket need review",
+      "costNote": "Historical alternative basket \u00b7 not a current quote"
+    },
+    {
+      "id": "paraguay-bronze-cory",
+      "name": "Paraguay \u00b7 tetras & bronze corys",
+      "number": 12,
+      "country": "Brazil",
+      "habitat": "Sheltered shallow clearwater vegetated margins; fish Taquari records, plant Salobra record",
+      "displayHabitat": "Vegetated clear-water margin",
+      "groups": [
+        {
+          "species": "Hyphessobrycon herbertaxelrodi",
+          "count": 10,
+          "sexRequirement": "Refer to the numbered plan; displayed sex mix is illustrative"
+        },
+        {
+          "species": "Megalamphodus megalopterus",
+          "count": 10,
+          "sexRequirement": "Refer to the numbered plan; displayed sex mix is illustrative"
+        },
+        {
+          "species": "Osteogaster aenea",
+          "count": 6,
+          "sexRequirement": "Full unsexed social group; breeding not planned."
+        }
+      ],
+      "plants": [
+        {
+          "species": "Ceratophyllum demersum",
+          "quantity": 3,
+          "unit": "bunch",
+          "placement": "Rear/side planting with open front; see numbered plan",
+          "mode": "loose",
+          "rootedUnits": null,
+          "patchPattern": [
+            0,
+            2
+          ],
+          "profile": {
+            "form": "hornwort",
+            "color": "#587840",
+            "height": [
+              16,
+              32
+            ],
+            "shoots": [
+              5,
+              9
+            ],
+            "rooted": false
+          },
+          "biomassNote": "Shoot/crown counts, patch area and growth are illustrative, not guaranteed nursery biomass or timed outcomes"
+        }
+      ],
+      "fishCount": 26,
+      "minimumBaseCm": [
+        90,
+        40
+      ],
+      "minimumLaneCm": 80,
+      "substrate": {
+        "massLb": 20,
+        "densityLbPerFt3": 95,
+        "patchDepthCm": 0,
+        "patchAreaFraction": 0,
+        "color": "#d0c7af",
+        "note": "Funded commercial sand, not authenticated wild sediment"
+      },
+      "decor": [],
+      "startupUsd": null,
+      "regularStandUsd": null,
+      "maintenance": null,
+      "verdict": "research_alternative",
+      "environment": {
+        "temperature_C": [
+          23,
+          25
+        ],
+        "target_temperature_C": 24,
+        "pH": [
+          6,
+          7
+        ],
+        "GH_dGH": [
+          2,
+          10
+        ],
+        "note": "Proposed literature overlap; actual stable tap/source water unverified."
+      },
+      "unresolved": [
+        "10 black neons + 10 black phantoms + 6 bronze corys is an unapproved candidate requiring combined adult-space and waste/filtration assessment.",
+        "Commercial bronze-cory identity is not securely matched to Upper Paraguay aff. aeneus records; geographic accuracy uncertain.",
+        "Saved two-species baseline is $977.06, leaving $22.94; corys, sinking food and additional shipping/tax have not been priced.",
+        "Weekly care has not been reassessed for the extra bottom group. Feed sinking food directly; clean sand and surface access matter."
+      ],
+      "planFile": "docs/alternates/paraguay-bronze-cory.md",
+      "reportFile": null,
+      "sources": [
+        {
+          "url": "https://www.imasul.ms.gov.br/wp-content/uploads/2022/11/Montagem-livro-Peixes-VERSAO-FINAL-MARCO-2022-ISBN97865-81066-05-5-ONLINE_FINAL-1.pdf",
+          "role": "See organism source fields and numbered plan for precise claim and limitations",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "url": "https://www.seriouslyfish.com/species/hyphessobrycon-herbertaxelrodi/",
+          "role": "See organism source fields and numbered plan for precise claim and limitations",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "url": "https://www.wetspottropicalfish.com/product/hyphessobrycon-herbertaxelrodi/",
+          "role": "See organism source fields and numbered plan for precise claim and limitations",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "url": "https://www.seriouslyfish.com/species/megalamphodus-megalopterus",
+          "role": "See organism source fields and numbered plan for precise claim and limitations",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "url": "https://www.wetspottropicalfish.com/product/hyphessobrycon-megalopterus/",
+          "role": "See organism source fields and numbered plan for precise claim and limitations",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "url": "https://www.cantonaquatics.com/products/hornwort-coontail-bunch-2-3-stems",
+          "role": "See organism source fields and numbered plan for precise claim and limitations",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "evidenceLevel": "drainage_and_compatible_microhabitat_overlap_separate_observations",
+      "category": "alternate",
+      "planUrl": "docs/alternates/paraguay-bronze-cory.md",
+      "reportUrl": null,
+      "alternativeStatus": "Proposed third species \u00b7 full assessment pending",
+      "costNote": "Needs quote \u00b7 two-species baseline $977.06"
+    },
+    {
+      "id": "essequibo-pencilfish",
+      "name": "Essequibo \u00b7 tetras & pencilfish",
+      "number": 13,
+      "country": "Guyana",
+      "habitat": "Slow forest tributary margin with a light opening for native Mayaca",
+      "displayHabitat": "Shaded forest creek",
+      "groups": [
+        {
+          "species": "Hemigrammus erythrozonus (alternate allowance)",
+          "count": 10,
+          "sexRequirement": "Unsexed social group; breeding not planned."
+        },
+        {
+          "species": "Holopristis ocellifera (alternate allowance)",
+          "count": 10,
+          "sexRequirement": "Unsexed social group; breeding not planned."
+        },
+        {
+          "species": "Nannostomus marginatus",
+          "count": 10,
+          "sexRequirement": "Unsexed social group; breeding not planned."
+        }
+      ],
+      "plants": [
+        {
+          "species": "Mayaca fluviatilis",
+          "quantity": 3,
+          "unit": "fresh-cut pack",
+          "placement": "Approximately 18+ starter stems at rear/one side; nursery fullness varies.",
+          "mode": "rooted",
+          "rootedUnits": null,
+          "patchPattern": [
+            0,
+            1,
+            2
+          ],
+          "profile": {
+            "form": "mayaca",
+            "color": "#739659",
+            "height": [
+              17,
+              30
+            ],
+            "shoots": [
+              6,
+              10
+            ],
+            "rooted": true
+          },
+          "biomassNote": "Shoot/crown counts, patch area and growth are illustrative, not guaranteed nursery biomass or timed outcomes"
+        }
+      ],
+      "fishCount": 30,
+      "minimumBaseCm": [
+        80,
+        38
+      ],
+      "minimumLaneCm": 80,
+      "substrate": {
+        "massLb": 40,
+        "densityLbPerFt3": 95,
+        "patchDepthCm": 4.5,
+        "patchAreaFraction": 0.23,
+        "color": "#d0c7af",
+        "note": "Funded commercial sand, not authenticated wild sediment"
+      },
+      "decor": [
+        {
+          "type": "branch",
+          "costUsd": 20,
+          "note": "One modest branch/root, included in historical candidate basket; procedural placement interpretation.",
+          "anchorFractions": [
+            -0.18,
+            -0.24
+          ],
+          "segments": [
+            {
+              "a": [
+                -10,
+                1,
+                0
+              ],
+              "b": [
+                10,
+                6,
+                -2
+              ],
+              "radius": 0.6
+            },
+            {
+              "a": [
+                0,
+                3.5,
+                -1
+              ],
+              "b": [
+                -4,
+                8,
+                -3
+              ],
+              "radius": 0.32
+            },
+            {
+              "a": [
+                5,
+                4.8,
+                -1.5
+              ],
+              "b": [
+                9,
+                9,
+                1
+              ],
+              "radius": 0.25
+            }
+          ]
+        }
+      ],
+      "startupUsd": 1140.37,
+      "regularStandUsd": 1167.37,
+      "maintenance": {
+        "low": 53.968514715947975,
+        "expected": 60.599589322381924,
+        "high": 66.73237508555783,
+        "unit": "min",
+        "method": "Sum of supplied bounds; not a statistical confidence interval"
+      },
+      "verdict": "research_alternative",
+      "environment": {
+        "water_temperature_C": {
+          "low": 24,
+          "target": 25,
+          "high": 26,
+          "status": "assumed keeping scenario"
+        },
+        "pH": {
+          "low": 6.5,
+          "high": 7.0,
+          "status": "provisional overlap; not field measurement"
+        },
+        "GH_dGH": {
+          "low": 2,
+          "high": 8,
+          "status": "provisional soft-water keeping screen"
+        },
+        "KH": "unknown; verify stable ordinary tap water",
+        "minimum_internal_base_cm": [
+          80,
+          38
+        ],
+        "light": "moderate at plant stand; dimmer fish refuge; installed PAR unknown",
+        "flow": "gentle circulation and surface exchange"
+      },
+      "unresolved": [
+        "Historical complete setup $1,140.37 exceeds the retail ceiling; no used-equipment discount is credited.",
+        "Pencilfish food access alongside quicker tetras needs observation and tiny prepared-food acceptance.",
+        "Mayaca low-tech growth needs verification; high work estimate 66.73 min/week exceeds 65 minutes.",
+        "Shared forest-creek survey category does not prove one jointly collected patch."
+      ],
+      "planFile": "docs/alternates/essequibo-pencilfish.md",
+      "reportFile": null,
+      "sources": [
+        {
+          "url": "https://www.scielo.br/j/bn/a/gxdzHNNbGR5KFBmVMxytPdM/",
+          "role": "See organism source fields and numbered plan for precise claim and limitations",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "url": "https://imperialtropicals.com/products/glo-light-tetra",
+          "role": "See organism source fields and numbered plan for precise claim and limitations",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "url": "https://imperialtropicals.com/products/head-and-tail-light-tetra",
+          "role": "See organism source fields and numbered plan for precise claim and limitations",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "url": "https://records.data.kew.org/occurrences/df1f7ff5-b47f-4dc4-bf3d-764452208f31",
+          "role": "See organism source fields and numbered plan for precise claim and limitations",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "url": "https://www.aquariumcoop.com/products/mayaca-fluviatilis",
+          "role": "See organism source fields and numbered plan for precise claim and limitations",
+          "accessed_at": "2026-10-04"
+        },
+        "essequibo-reference-region-freight-audit.json",
+        "https://www.aquariumcoop.com/products/mayaca-fluviatilis",
+        "https://www.gbif.org/occurrence/4602039152",
+        "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:565395-1",
+        "https://records-ws.data.kew.org/occurrences/df1f7ff5-b47f-4dc4-bf3d-764452208f31"
+      ],
+      "evidenceLevel": "fish_field_habitat_category_overlap; plant_separate_named_drainage_voucher_and_margin_growth_support",
+      "category": "alternate",
+      "planUrl": "docs/alternates/essequibo-pencilfish.md",
+      "reportUrl": null,
+      "alternativeStatus": "Historical candidate \u00b7 above retail budget",
+      "costNote": "Historical complete basket \u00b7 exceeds $1,000"
+    }
+  ],
+  "species": {
+    "Iriatherina werneri": {
+      "scientificName": "Iriatherina werneri",
+      "commonName": "Threadfin rainbowfish",
+      "commonNamePlural": "Threadfin rainbowfish",
+      "totalLengthCm": 6,
+      "sourceSizeField": "adult_total_length_allowance_cm",
+      "sourceSizeValue": 6,
+      "sizeInterpretation": "Cultivation account: males to 6 cm total length including extended fins; females 4 cm. Display sex mix is illustrative.",
+      "appearance": "Original procedural ordinary aquarium appearance; supplied strain, sex and lineage unverified.",
+      "profile": {
+        "form": "threadfin",
+        "color": "#b8b494",
+        "mark": "threadfin",
+        "depth": 0.15,
+        "thickness": 0.065,
+        "tail": 0.28,
+        "speed": 0.4,
+        "shoal": 0.18,
+        "level": 0.64,
+        "dorsalOutline": [
+          [
+            -0.23,
+            0.04,
+            0
+          ],
+          [
+            -0.21,
+            0.11,
+            0
+          ],
+          [
+            -0.15,
+            0.14,
+            0
+          ],
+          [
+            -0.07,
+            0.13,
+            0
+          ],
+          [
+            0.02,
+            0.04,
+            0
+          ]
+        ],
+        "analOutline": [
+          [
+            -0.27,
+            -0.03,
+            0
+          ],
+          [
+            -0.24,
+            -0.12,
+            0
+          ],
+          [
+            -0.12,
+            -0.13,
+            0
+          ],
+          [
+            0.035,
+            -0.035,
+            0
+          ]
+        ],
+        "eyeRadiusFraction": 0.019,
+        "finOpacity": 0.48,
+        "bodyTaperExponent": 0.8,
+        "noseRise": 0.0,
+        "femaleDorsalScale": 0.45,
+        "femaleAnalScale": 0.45,
+        "clearanceRadiusFraction": 0.6,
+        "visualLengthBySex": {
+          "male": 6,
+          "female": 4
+        }
+      },
+      "careSource": "https://www.aquagreen.com.au/plant_data/Iriatherina_werneri.html",
+      "sourcePlan": "docs/alternates/overview.md"
+    },
+    "Osteogaster aenea": {
+      "scientificName": "Osteogaster aenea",
+      "commonName": "Bronze cory",
+      "commonNamePlural": "Bronze corys",
+      "totalLengthCm": 8.82,
+      "sourceSizeField": "adult_standard_length_cm",
+      "sourceSizeValue": 7.5,
+      "sizeInterpretation": "7.5 cm standard length divided by configured body proportion .85 gives conservative visual total length. Commercial species/locality identity uncertain.",
+      "appearance": "Original procedural ordinary aquarium appearance; supplied strain, sex and lineage unverified.",
+      "profile": {
+        "form": "catfish",
+        "color": "#999877",
+        "mark": "bronze",
+        "depth": 0.29,
+        "thickness": 0.2,
+        "tail": 0.15,
+        "speed": 0.32,
+        "shoal": 0.13,
+        "level": 0.025,
+        "dorsalOutline": [
+          [
+            -0.04,
+            0.1,
+            0
+          ],
+          [
+            -0.08,
+            0.26,
+            0
+          ],
+          [
+            0.11,
+            0.23,
+            0
+          ],
+          [
+            0.2,
+            0.09,
+            0
+          ]
+        ],
+        "analOutline": [
+          [
+            -0.3,
+            -0.035,
+            0
+          ],
+          [
+            -0.28,
+            -0.15,
+            0
+          ],
+          [
+            -0.15,
+            -0.16,
+            0
+          ],
+          [
+            -0.08,
+            -0.06,
+            0
+          ]
+        ],
+        "eyeRadiusFraction": 0.021,
+        "finOpacity": 0.47,
+        "bodyTaperExponent": 0.8,
+        "noseRise": -0.018,
+        "femaleDorsalScale": 1,
+        "femaleAnalScale": 1,
+        "clearanceRadiusFraction": 0.56,
+        "floorClearanceFraction": 0.23,
+        "bottomHabitat": true,
+        "bottomOffsetCm": [
+          0.12,
+          0.7
+        ],
+        "pitchLimit": 0.08,
+        "levelSpreadCm": 0.8,
+        "forageChance": 0.65
+      },
+      "careSource": "https://www.seriouslyfish.com/species/osteogaster-aenea",
+      "sourcePlan": "docs/alternates/overview.md"
+    },
+    "Nannostomus marginatus": {
+      "scientificName": "Nannostomus marginatus",
+      "commonName": "Dwarf pencilfish",
+      "commonNamePlural": "Dwarf pencilfish",
+      "totalLengthCm": 3.5,
+      "sourceSizeField": "adult_total_length_allowance_cm",
+      "sourceSizeValue": 3.5,
+      "sizeInterpretation": "Archived plan uses 2.5 cm standard length and roughly 3.5 cm total-length planning allowance.",
+      "appearance": "Original procedural ordinary aquarium appearance; supplied strain, sex and lineage unverified.",
+      "profile": {
+        "form": "pencil",
+        "color": "#c2b38d",
+        "mark": "pencil",
+        "depth": 0.13,
+        "thickness": 0.067,
+        "tail": 0.2,
+        "speed": 0.32,
+        "shoal": 0.17,
+        "level": 0.65,
+        "dorsalOutline": [
+          [
+            -0.13,
+            0.045,
+            0
+          ],
+          [
+            -0.1,
+            0.13,
+            0
+          ],
+          [
+            -0.035,
+            0.14,
+            0
+          ],
+          [
+            0.02,
+            0.045,
+            0
+          ]
+        ],
+        "analOutline": [
+          [
+            -0.24,
+            -0.025,
+            0
+          ],
+          [
+            -0.21,
+            -0.105,
+            0
+          ],
+          [
+            -0.12,
+            -0.095,
+            0
+          ],
+          [
+            -0.08,
+            -0.03,
+            0
+          ]
+        ],
+        "eyeRadiusFraction": 0.022,
+        "finOpacity": 0.45,
+        "bodyTaperExponent": 0.8,
+        "noseRise": 0.0,
+        "femaleDorsalScale": 1,
+        "femaleAnalScale": 1,
+        "clearanceRadiusFraction": 0.54
+      },
+      "careSource": "https://www.seriouslyfish.com/species/nannostomus-marginatus/",
+      "sourcePlan": "docs/alternates/overview.md"
+    },
+    "Hemigrammus erythrozonus (alternate allowance)": {
+      "scientificName": "Hemigrammus erythrozonus",
+      "commonName": "Glowlight tetra",
+      "commonNamePlural": "Glowlight tetras",
+      "totalLengthCm": 5,
+      "sourceSizeField": "adult_total_length_allowance_cm",
+      "sourceSizeValue": 5,
+      "sizeInterpretation": "Archived three-species candidate total-length planning allowance.",
+      "appearance": "Representative ordinary commercial adults; exact sexes and batch colors not guaranteed",
+      "profile": {
+        "form": "tetra",
+        "color": "#bdb1a1",
+        "mark": "glowlight",
+        "depth": 0.25,
+        "thickness": 0.105,
+        "tail": 0.23,
+        "speed": 0.65,
+        "shoal": 0.45,
+        "level": 0.51,
+        "dorsalOutline": [
+          [
+            -0.15,
+            0.065,
+            0
+          ],
+          [
+            -0.115,
+            0.205,
+            0
+          ],
+          [
+            -0.035,
+            0.25,
+            0
+          ],
+          [
+            0.04,
+            0.2,
+            0
+          ],
+          [
+            0.09,
+            0.1,
+            0
+          ]
+        ],
+        "analOutline": [
+          [
+            -0.25,
+            -0.035,
+            0
+          ],
+          [
+            -0.2,
+            -0.18,
+            0
+          ],
+          [
+            -0.02,
+            -0.23,
+            0
+          ],
+          [
+            0.14,
+            -0.105,
+            0
+          ]
+        ],
+        "eyeRadiusFraction": 0.026,
+        "finOpacity": 0.4,
+        "bodyTaperExponent": 0.8,
+        "noseRise": 0.0,
+        "femaleDorsalScale": 1,
+        "femaleAnalScale": 1,
+        "clearanceRadiusFraction": 0.54
+      },
+      "careSource": null,
+      "sourcePlan": "09-essequibo-forest-creek-margin.md"
+    },
+    "Holopristis ocellifera (alternate allowance)": {
+      "scientificName": "Holopristis ocellifera",
+      "commonName": "Head-and-tail-light tetra",
+      "commonNamePlural": "Head-and-tail-light tetras",
+      "totalLengthCm": 5.5,
+      "sourceSizeField": "adult_total_length_allowance_cm",
+      "sourceSizeValue": 5.5,
+      "sizeInterpretation": "Archived three-species candidate total-length planning allowance.",
+      "appearance": "Representative ordinary commercial adults; exact sexes and batch colors not guaranteed",
+      "profile": {
+        "form": "tetra",
+        "color": "#b4b9ab",
+        "mark": "headtail",
+        "depth": 0.3,
+        "thickness": 0.115,
+        "tail": 0.24,
+        "speed": 0.68,
+        "shoal": 0.4,
+        "level": 0.53,
+        "dorsalOutline": [
+          [
+            -0.15,
+            0.065,
+            0
+          ],
+          [
+            -0.115,
+            0.205,
+            0
+          ],
+          [
+            -0.035,
+            0.25,
+            0
+          ],
+          [
+            0.04,
+            0.2,
+            0
+          ],
+          [
+            0.09,
+            0.1,
+            0
+          ]
+        ],
+        "analOutline": [
+          [
+            -0.25,
+            -0.035,
+            0
+          ],
+          [
+            -0.2,
+            -0.18,
+            0
+          ],
+          [
+            -0.02,
+            -0.23,
+            0
+          ],
+          [
+            0.14,
+            -0.105,
+            0
+          ]
+        ],
+        "eyeRadiusFraction": 0.026,
+        "finOpacity": 0.4,
+        "bodyTaperExponent": 0.8,
+        "noseRise": 0.0,
+        "femaleDorsalScale": 1,
+        "femaleAnalScale": 1,
+        "clearanceRadiusFraction": 0.54
+      },
+      "careSource": null,
+      "sourcePlan": "09-essequibo-forest-creek-margin.md"
+    }
+  }
+}

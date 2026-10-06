@@ -164,6 +164,61 @@
       "configuredSurfaceClearanceCm": null,
       "animationSamples": 32,
       "shaderDeformationIncluded": true
+    },
+    {
+      "name": "Iriatherina werneri",
+      "commonName": "Threadfin rainbowfish",
+      "lengthCm": 6,
+      "maxGeometryExtentCm": 3.285563855717636,
+      "configuredRadiusCm": 3.5999999999999996,
+      "surfacePoseTopCm": null,
+      "configuredSurfaceClearanceCm": null,
+      "animationSamples": 32,
+      "shaderDeformationIncluded": true
+    },
+    {
+      "name": "Osteogaster aenea",
+      "commonName": "Bronze cory",
+      "lengthCm": 8.82,
+      "maxGeometryExtentCm": 4.669654826389294,
+      "configuredRadiusCm": 4.9392000000000005,
+      "surfacePoseTopCm": null,
+      "configuredSurfaceClearanceCm": null,
+      "animationSamples": 32,
+      "shaderDeformationIncluded": true
+    },
+    {
+      "name": "Nannostomus marginatus",
+      "commonName": "Dwarf pencilfish",
+      "lengthCm": 3.5,
+      "maxGeometryExtentCm": 1.7544629441288968,
+      "configuredRadiusCm": 1.8900000000000001,
+      "surfacePoseTopCm": null,
+      "configuredSurfaceClearanceCm": null,
+      "animationSamples": 32,
+      "shaderDeformationIncluded": true
+    },
+    {
+      "name": "Hemigrammus erythrozonus (alternate allowance)",
+      "commonName": "Glowlight tetra",
+      "lengthCm": 5,
+      "maxGeometryExtentCm": 2.531208208924031,
+      "configuredRadiusCm": 2.7,
+      "surfacePoseTopCm": null,
+      "configuredSurfaceClearanceCm": null,
+      "animationSamples": 32,
+      "shaderDeformationIncluded": true
+    },
+    {
+      "name": "Holopristis ocellifera (alternate allowance)",
+      "commonName": "Head-and-tail-light tetra",
+      "lengthCm": 5.5,
+      "maxGeometryExtentCm": 2.802992071039215,
+      "configuredRadiusCm": 2.97,
+      "surfacePoseTopCm": null,
+      "configuredSurfaceClearanceCm": null,
+      "animationSamples": 32,
+      "shaderDeformationIncluded": true
     }
   ],
   "errors": []

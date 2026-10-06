@@ -2,7 +2,7 @@
   "assets": [
     {
       "path": "src/fish-model.js",
-      "sha256": "d13d06de24447d0c98887175821a572647bef7f908d98986ba930492366aaa8c",
+      "sha256": "d60c1da65df51d59f5af6138db23650ab0a8c92c44b99c889203678f5ee55225",
       "origin": "Original project-authored procedural geometry, appearance or rendering",
       "license": "BUSL-1.1",
       "licenseFile": "LICENSE"
@@ -23,14 +23,14 @@
     },
     {
       "path": "src/renderer.js",
-      "sha256": "46e8983d6e39ddeb1fb8c3da1d422b9bfce4997dc7759140a1cdb6c476933e1c",
+      "sha256": "a28d3065bac4b2b86af71073dceff113f06a3ac166c209dd2b46a22a62072b95",
       "origin": "Original project-authored procedural geometry, appearance or rendering",
       "license": "BUSL-1.1",
       "licenseFile": "LICENSE"
     },
     {
       "path": "data/visual-profiles.json",
-      "sha256": "44eb298646950bc0054fa0caa7ccd48af0b04fb9ccaaef1861c88122ac593af3",
+      "sha256": "a2ad9c00b06f94b913e8554e6e7ac759d34e4312c5bacdd72b4cfe986a75f5be",
       "origin": "Original project-authored procedural geometry, appearance or rendering",
       "license": "BUSL-1.1",
       "licenseFile": "LICENSE"
@@ -62,6 +62,13 @@
       "license": "BUSL-1.1",
       "licenseFile": "LICENSE",
       "sha256": "d95566e03e0b40a083f783e8f5ef8fd8a4ad7760fc5262838bd9d4af3439d8ff"
+    },
+    {
+      "path": "data/alternates.json",
+      "origin": "Original exploratory catalog derived from saved historical candidate scenarios; biological and procurement uncertainty labeled.",
+      "license": "BUSL-1.1",
+      "licenseFile": "LICENSE",
+      "sha256": "77311cc351f962513518f290c47dfd166cfd2534260933daff4d69f336df3044"
     }
   ],
   "externalImages": [],

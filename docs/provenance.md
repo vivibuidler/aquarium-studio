@@ -40,6 +40,12 @@ Equipment collision cylinders include configured padding for the filter intake r
 
 Thin transparent fin, ray and glass/water/lid surfaces use the pinned runtime's single-pass double-sided rendering option. This reduces redundant draw submission while keeping both faces and all geometry. Instanced fish/plant buffers are explicitly disposed on plan changes, alongside their geometry and materials.
 
+## Exploratory alternate catalog
+
+`data/alternates.json` holds three separate candidates, leaving the ten source plans unchanged. Threadfin rainbowfish use the cultivation account’s 6 cm male / 4 cm female total lengths and illustrative 2 male / 4 female appearance; supplied sex ratios and ordinary tiny-food acceptance remain unresolved. Bronze corys use a 7.5 cm standard-length source and conservative 8.82 cm visual conversion; stock identity is not authenticated to Upper Paraguay records. Their barbels, body plates and small adipose fin are procedural interpretations. Bottom agents use a mesh-checked floor clearance and bounded shallow pitch, retaining conservative full-body clearances around fish and solid obstacles. Dwarf pencilfish use the archived 3.5 cm total-length allowance and slower upper/plant-edge movement.
+
+The Essequibo candidate includes its historically budgeted $20 branch/root, drawn from the same capsule segments used for avoidance, plus three fresh-cut Mayaca packs with approximately 18 starter stems. It keeps its archived 10+10+10 groups and size allowances. Original main-plan layouts retain their existing decor. Alternate historical totals are labeled; the new cory community has no verified total or workload estimate. These scenarios do not imply compatibility, current stock availability or biological approval.
+
 ## Public snapshot boundary
 
 Public reference summaries preserve scientific identity, adult counts, nursery units, source size semantics, dated cost/work values and caveats. Personal owner/installation details, prompts, private procurement logs and archives are excluded. Reference summaries are curated derivatives rather than the complete private planning workspace. The manifest hash identifies the public JSON snapshot.
