@@ -1,0 +1,167 @@
+[
+  {
+    "name": "Trichogaster chuna",
+    "commonName": "Honey gourami",
+    "lengthCm": 7,
+    "maxGeometryExtentCm": 3.6251111767102913,
+    "configuredRadiusCm": 3.7800000000000002,
+    "surfacePoseTopCm": 3.0334748488228045,
+    "configuredSurfaceClearanceCm": 3.108,
+    "animationSamples": 32,
+    "shaderDeformationIncluded": true
+  },
+  {
+    "name": "Danio rerio",
+    "commonName": "Ordinary striped zebra danio",
+    "lengthCm": 6,
+    "maxGeometryExtentCm": 3.015032809083424,
+    "configuredRadiusCm": 3.24,
+    "surfacePoseTopCm": null,
+    "configuredSurfaceClearanceCm": null,
+    "animationSamples": 32,
+    "shaderDeformationIncluded": true
+  },
+  {
+    "name": "Barbodes semifasciolatus",
+    "commonName": "Gold barb",
+    "lengthCm": 9,
+    "maxGeometryExtentCm": 4.5800457951936275,
+    "configuredRadiusCm": 4.86,
+    "surfacePoseTopCm": null,
+    "configuredSurfaceClearanceCm": null,
+    "animationSamples": 32,
+    "shaderDeformationIncluded": true
+  },
+  {
+    "name": "Rohanella titteya",
+    "commonName": "Cherry barb",
+    "lengthCm": 6.58,
+    "maxGeometryExtentCm": 3.330712720580117,
+    "configuredRadiusCm": 3.5532000000000004,
+    "surfacePoseTopCm": null,
+    "configuredSurfaceClearanceCm": null,
+    "animationSamples": 32,
+    "shaderDeformationIncluded": true
+  },
+  {
+    "name": "Pethia nigrofasciata",
+    "commonName": "Black ruby barb",
+    "lengthCm": 7.5,
+    "maxGeometryExtentCm": 3.8466886521377286,
+    "configuredRadiusCm": 4.050000000000001,
+    "surfacePoseTopCm": null,
+    "configuredSurfaceClearanceCm": null,
+    "animationSamples": 32,
+    "shaderDeformationIncluded": true
+  },
+  {
+    "name": "Hyphessobrycon herbertaxelrodi",
+    "commonName": "Black neon tetra",
+    "lengthCm": 5.13,
+    "maxGeometryExtentCm": 2.5973039491538596,
+    "configuredRadiusCm": 2.7702,
+    "surfacePoseTopCm": null,
+    "configuredSurfaceClearanceCm": null,
+    "animationSamples": 32,
+    "shaderDeformationIncluded": true
+  },
+  {
+    "name": "Megalamphodus megalopterus",
+    "commonName": "Black phantom tetra",
+    "lengthCm": 5.33,
+    "maxGeometryExtentCm": 2.7520912680555467,
+    "configuredRadiusCm": 2.8782,
+    "surfacePoseTopCm": null,
+    "configuredSurfaceClearanceCm": null,
+    "animationSamples": 32,
+    "shaderDeformationIncluded": true
+  },
+  {
+    "name": "Rasbora borapetensis",
+    "commonName": "Red-tailed rasbora",
+    "lengthCm": 8,
+    "maxGeometryExtentCm": 4.032844069669142,
+    "configuredRadiusCm": 4.32,
+    "surfacePoseTopCm": null,
+    "configuredSurfaceClearanceCm": null,
+    "animationSamples": 32,
+    "shaderDeformationIncluded": true
+  },
+  {
+    "name": "Trichopsis pumila",
+    "commonName": "Sparkling gourami",
+    "lengthCm": 5,
+    "maxGeometryExtentCm": 2.5712958725549155,
+    "configuredRadiusCm": 2.7,
+    "surfacePoseTopCm": 2.1651858100066756,
+    "configuredSurfaceClearanceCm": 2.22,
+    "animationSamples": 32,
+    "shaderDeformationIncluded": true
+  },
+  {
+    "name": "Oryzias latipes",
+    "commonName": "Japanese medaka",
+    "lengthCm": 4,
+    "maxGeometryExtentCm": 2.0319619615716915,
+    "configuredRadiusCm": 2.16,
+    "surfacePoseTopCm": null,
+    "configuredSurfaceClearanceCm": null,
+    "animationSamples": 32,
+    "shaderDeformationIncluded": true
+  },
+  {
+    "name": "Pseudomugil gertrudae",
+    "commonName": "Spotted blue-eye",
+    "lengthCm": 4,
+    "maxGeometryExtentCm": 2.0128512854055134,
+    "configuredRadiusCm": 2.16,
+    "surfacePoseTopCm": null,
+    "configuredSurfaceClearanceCm": null,
+    "animationSamples": 32,
+    "shaderDeformationIncluded": true
+  },
+  {
+    "name": "Hyphessobrycon amandae",
+    "commonName": "ember tetra",
+    "lengthCm": 2.5,
+    "maxGeometryExtentCm": 1.2669856993858577,
+    "configuredRadiusCm": 1.35,
+    "surfacePoseTopCm": null,
+    "configuredSurfaceClearanceCm": null,
+    "animationSamples": 32,
+    "shaderDeformationIncluded": true
+  },
+  {
+    "name": "Hemigrammus erythrozonus",
+    "commonName": "Glowlight tetra",
+    "lengthCm": 5.19,
+    "maxGeometryExtentCm": 2.6273941208631446,
+    "configuredRadiusCm": 2.8026000000000004,
+    "surfacePoseTopCm": null,
+    "configuredSurfaceClearanceCm": null,
+    "animationSamples": 32,
+    "shaderDeformationIncluded": true
+  },
+  {
+    "name": "Holopristis ocellifera",
+    "commonName": "Head-and-tail-light tetra",
+    "lengthCm": 5.92,
+    "maxGeometryExtentCm": 3.0170387382822095,
+    "configuredRadiusCm": 3.1968,
+    "surfacePoseTopCm": null,
+    "configuredSurfaceClearanceCm": null,
+    "animationSamples": 32,
+    "shaderDeformationIncluded": true
+  },
+  {
+    "name": "Pristella maxillaris",
+    "commonName": "Ordinary x-ray tetra",
+    "lengthCm": 5.5,
+    "maxGeometryExtentCm": 2.8071789085042327,
+    "configuredRadiusCm": 2.97,
+    "surfacePoseTopCm": null,
+    "configuredSurfaceClearanceCm": null,
+    "animationSamples": 32,
+    "shaderDeformationIncluded": true
+  }
+]

@@ -1,0 +1,437 @@
+{
+  "date": "2026-10-06T00:44:59.444Z",
+  "browserVersion": "154.0.8037.97",
+  "device": "ANGLE (Intel, ANGLE Metal Renderer: Intel(R) Iris(TM) Plus Graphics 645, Unspecified Version)",
+  "viewport": [
+    1440,
+    1100
+  ],
+  "sampling": "5-second warm-up followed by a fresh 5-second counted render window per scene/quality, excluding export/initialization stalls",
+  "records": [
+    {
+      "mode": "single-high",
+      "plans": 10,
+      "selected": "tanguar-haor-honey-gourami",
+      "comparison": false,
+      "geometry": {
+        "length": 90,
+        "width": 44,
+        "height": 44,
+        "waterline": 41,
+        "glassThickness": 0.6,
+        "status": "assumed",
+        "note": "Display-only internal dimensions inspired by the nominal 36 × 18-inch external planning footprint; these are not measured dimensions or a derived usable-water fact."
+      },
+      "stage": "established",
+      "paused": false,
+      "counts": [
+        12
+      ],
+      "stats": [
+        {
+          "renderMs": 4.616333333353202,
+          "drawCalls": 168,
+          "triangles": 286134,
+          "quality": "high",
+          "fishCount": 12
+        }
+      ],
+      "fps": 36.988903329001296,
+      "measuredFrames": 185,
+      "elapsedMs": 5001.5,
+      "meanRenderMs": 4.60000000012082,
+      "meanPhysicsMsPerRenderedFrame": 0.8805405400492049
+    },
+    {
+      "mode": "single-high",
+      "plans": 10,
+      "selected": "hainan-gold-barb-stream-margin",
+      "comparison": false,
+      "geometry": {
+        "length": 90,
+        "width": 44,
+        "height": 44,
+        "waterline": 41,
+        "glassThickness": 0.6,
+        "status": "assumed",
+        "note": "Display-only internal dimensions inspired by the nominal 36 × 18-inch external planning footprint; these are not measured dimensions or a derived usable-water fact."
+      },
+      "stage": "established",
+      "paused": false,
+      "counts": [
+        10
+      ],
+      "stats": [
+        {
+          "renderMs": 3.604999999801318,
+          "drawCalls": 114,
+          "triangles": 153874,
+          "quality": "high",
+          "fishCount": 10
+        }
+      ],
+      "fps": 46.596272298230026,
+      "measuredFrames": 233,
+      "elapsedMs": 5000.39999999851,
+      "meanRenderMs": 3.606866952815281,
+      "meanPhysicsMsPerRenderedFrame": 0.605579399180003
+    },
+    {
+      "mode": "single-high",
+      "plans": 10,
+      "selected": "kalu-cherry-stream-margin",
+      "comparison": false,
+      "geometry": {
+        "length": 90,
+        "width": 44,
+        "height": 44,
+        "waterline": 41,
+        "glassThickness": 0.6,
+        "status": "assumed",
+        "note": "Display-only internal dimensions inspired by the nominal 36 × 18-inch external planning footprint; these are not measured dimensions or a derived usable-water fact."
+      },
+      "stage": "established",
+      "paused": false,
+      "counts": [
+        20
+      ],
+      "stats": [
+        {
+          "renderMs": 4.799000000158946,
+          "drawCalls": 162,
+          "triangles": 102910,
+          "quality": "high",
+          "fishCount": 20
+        }
+      ],
+      "fps": 45.392737162081126,
+      "measuredFrames": 227,
+      "elapsedMs": 5000.79999999702,
+      "meanRenderMs": 4.792070484765301,
+      "meanPhysicsMsPerRenderedFrame": 0.48810572702322763
+    },
+    {
+      "mode": "single-high",
+      "plans": 10,
+      "selected": "upper-paraguay-bodoquena-community",
+      "comparison": false,
+      "geometry": {
+        "length": 90,
+        "width": 44,
+        "height": 44,
+        "waterline": 41,
+        "glassThickness": 0.6,
+        "status": "assumed",
+        "note": "Display-only internal dimensions inspired by the nominal 36 × 18-inch external planning footprint; these are not measured dimensions or a derived usable-water fact."
+      },
+      "stage": "established",
+      "paused": false,
+      "counts": [
+        20
+      ],
+      "stats": [
+        {
+          "renderMs": 4.957000000203649,
+          "drawCalls": 164,
+          "triangles": 210988,
+          "quality": "high",
+          "fishCount": 20
+        }
+      ],
+      "fps": 36.39053845996787,
+      "measuredFrames": 182,
+      "elapsedMs": 5001.30000000447,
+      "meanRenderMs": 4.8164835169010765,
+      "meanPhysicsMsPerRenderedFrame": 0.9252747250618515
+    },
+    {
+      "mode": "single-high",
+      "plans": 10,
+      "selected": "boraphet-vegetated-marsh-margin",
+      "comparison": false,
+      "geometry": {
+        "length": 90,
+        "width": 44,
+        "height": 44,
+        "waterline": 41,
+        "glassThickness": 0.6,
+        "status": "assumed",
+        "note": "Display-only internal dimensions inspired by the nominal 36 × 18-inch external planning footprint; these are not measured dimensions or a derived usable-water fact."
+      },
+      "stage": "established",
+      "paused": false,
+      "counts": [
+        13
+      ],
+      "stats": [
+        {
+          "renderMs": 4.683000000094374,
+          "drawCalls": 168,
+          "triangles": 290484,
+          "quality": "high",
+          "fishCount": 13
+        }
+      ],
+      "fps": 32.963081348879435,
+      "measuredFrames": 165,
+      "elapsedMs": 5005.60000000149,
+      "meanRenderMs": 4.709090909000599,
+      "meanPhysicsMsPerRenderedFrame": 0.9751515153231043
+    },
+    {
+      "mode": "single-high",
+      "plans": 10,
+      "selected": "kasumigaura-medaka-channel-margin",
+      "comparison": false,
+      "geometry": {
+        "length": 90,
+        "width": 44,
+        "height": 44,
+        "waterline": 41,
+        "glassThickness": 0.6,
+        "status": "assumed",
+        "note": "Display-only internal dimensions inspired by the nominal 36 × 18-inch external planning footprint; these are not measured dimensions or a derived usable-water fact."
+      },
+      "stage": "established",
+      "paused": false,
+      "counts": [
+        12
+      ],
+      "stats": [
+        {
+          "renderMs": 4.809333333298564,
+          "drawCalls": 164,
+          "triangles": 285982,
+          "quality": "high",
+          "fishCount": 12
+        }
+      ],
+      "fps": 37.995440547123025,
+      "measuredFrames": 190,
+      "elapsedMs": 5000.60000000149,
+      "meanRenderMs": 4.925789473323445,
+      "meanPhysicsMsPerRenderedFrame": 0.8331578950740789
+    },
+    {
+      "mode": "single-high",
+      "plans": 10,
+      "selected": "archer-vegetated-wetland-margin",
+      "comparison": false,
+      "geometry": {
+        "length": 90,
+        "width": 44,
+        "height": 44,
+        "waterline": 41,
+        "glassThickness": 0.6,
+        "status": "assumed",
+        "note": "Display-only internal dimensions inspired by the nominal 36 × 18-inch external planning footprint; these are not measured dimensions or a derived usable-water fact."
+      },
+      "stage": "established",
+      "paused": false,
+      "counts": [
+        12
+      ],
+      "stats": [
+        {
+          "renderMs": 4.601333333080014,
+          "drawCalls": 138,
+          "triangles": 166918,
+          "quality": "high",
+          "fishCount": 12
+        }
+      ],
+      "fps": 48.77073755746552,
+      "measuredFrames": 244,
+      "elapsedMs": 5003,
+      "meanRenderMs": 4.5336065571449815,
+      "meanPhysicsMsPerRenderedFrame": 0.5909836063558449
+    },
+    {
+      "mode": "single-high",
+      "plans": 10,
+      "selected": "araguaia-ember-chain-sword-margin",
+      "comparison": false,
+      "geometry": {
+        "length": 90,
+        "width": 44,
+        "height": 44,
+        "waterline": 41,
+        "glassThickness": 0.6,
+        "status": "assumed",
+        "note": "Display-only internal dimensions inspired by the nominal 36 × 18-inch external planning footprint; these are not measured dimensions or a derived usable-water fact."
+      },
+      "stage": "established",
+      "paused": false,
+      "counts": [
+        21
+      ],
+      "stats": [
+        {
+          "renderMs": 3.64166666649282,
+          "drawCalls": 110,
+          "triangles": 113308,
+          "quality": "high",
+          "fishCount": 21
+        }
+      ],
+      "fps": 44.99280115177549,
+      "measuredFrames": 225,
+      "elapsedMs": 5000.80000000447,
+      "meanRenderMs": 3.659111110733615,
+      "meanPhysicsMsPerRenderedFrame": 1.011111111442248
+    },
+    {
+      "mode": "single-high",
+      "plans": 10,
+      "selected": "essequibo-small-creek-community",
+      "comparison": false,
+      "geometry": {
+        "length": 90,
+        "width": 44,
+        "height": 44,
+        "waterline": 41,
+        "glassThickness": 0.6,
+        "status": "assumed",
+        "note": "Display-only internal dimensions inspired by the nominal 36 × 18-inch external planning footprint; these are not measured dimensions or a derived usable-water fact."
+      },
+      "stage": "established",
+      "paused": false,
+      "counts": [
+        21
+      ],
+      "stats": [
+        {
+          "renderMs": 5.276333333452542,
+          "drawCalls": 164,
+          "triangles": 152284,
+          "quality": "high",
+          "fishCount": 21
+        }
+      ],
+      "fps": 39.37243929249525,
+      "measuredFrames": 197,
+      "elapsedMs": 5003.5,
+      "meanRenderMs": 5.301015228486908,
+      "meanPhysicsMsPerRenderedFrame": 0.9578680203575168
+    },
+    {
+      "mode": "single-high",
+      "plans": 10,
+      "selected": "apure-pristella-floodplain-margin",
+      "comparison": false,
+      "geometry": {
+        "length": 90,
+        "width": 44,
+        "height": 44,
+        "waterline": 41,
+        "glassThickness": 0.6,
+        "status": "assumed",
+        "note": "Display-only internal dimensions inspired by the nominal 36 × 18-inch external planning footprint; these are not measured dimensions or a derived usable-water fact."
+      },
+      "stage": "established",
+      "paused": false,
+      "counts": [
+        16
+      ],
+      "stats": [
+        {
+          "renderMs": 3.8790000002582867,
+          "drawCalls": 120,
+          "triangles": 128390,
+          "quality": "high",
+          "fishCount": 16
+        }
+      ],
+      "fps": 41.39089400330694,
+      "measuredFrames": 207,
+      "elapsedMs": 5001.10000000149,
+      "meanRenderMs": 3.9391304350993486,
+      "meanPhysicsMsPerRenderedFrame": 1.060386473213993
+    },
+    {
+      "mode": "dense-comparison-high",
+      "plans": 10,
+      "selected": "boraphet-vegetated-marsh-margin",
+      "comparison": true,
+      "geometry": {
+        "length": 90,
+        "width": 44,
+        "height": 44,
+        "waterline": 41,
+        "glassThickness": 0.6,
+        "status": "assumed",
+        "note": "Display-only internal dimensions inspired by the nominal 36 × 18-inch external planning footprint; these are not measured dimensions or a derived usable-water fact."
+      },
+      "stage": "established",
+      "paused": false,
+      "counts": [
+        13,
+        20
+      ],
+      "stats": [
+        {
+          "renderMs": 14.300666666626931,
+          "drawCalls": 168,
+          "triangles": 290484,
+          "quality": "high",
+          "fishCount": 13
+        },
+        {
+          "renderMs": 14.535087719494314,
+          "drawCalls": 164,
+          "triangles": 210988,
+          "quality": "high",
+          "fishCount": 20
+        }
+      ],
+      "fps": 23.955442876228798,
+      "measuredFrames": 120,
+      "elapsedMs": 5009.30000000447,
+      "meanRenderMs": 7.381666666952272,
+      "meanPhysicsMsPerRenderedFrame": 1.6208333333333333
+    },
+    {
+      "mode": "dense-comparison-economy",
+      "plans": 10,
+      "selected": "boraphet-vegetated-marsh-margin",
+      "comparison": true,
+      "geometry": {
+        "length": 90,
+        "width": 44,
+        "height": 44,
+        "waterline": 41,
+        "glassThickness": 0.6,
+        "status": "assumed",
+        "note": "Display-only internal dimensions inspired by the nominal 36 × 18-inch external planning footprint; these are not measured dimensions or a derived usable-water fact."
+      },
+      "stage": "established",
+      "paused": false,
+      "counts": [
+        13,
+        20
+      ],
+      "stats": [
+        {
+          "renderMs": 5.79099999986589,
+          "drawCalls": 168,
+          "triangles": 290484,
+          "quality": "economy",
+          "fishCount": 13
+        },
+        {
+          "renderMs": 5.769666666761041,
+          "drawCalls": 164,
+          "triangles": 210988,
+          "quality": "economy",
+          "fishCount": 20
+        }
+      ],
+      "fps": 25.191938579647005,
+      "measuredFrames": 126,
+      "elapsedMs": 5001.60000000149,
+      "meanRenderMs": 5.643650793366962,
+      "meanPhysicsMsPerRenderedFrame": 1.396031746256446
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,22 @@
+{
+  "snapshotNote": "Sanitized public summary of the saved 2026-10-04 assessment, not a fresh retail quote or installation approval.",
+  "verdict": "conditional",
+  "costs": {
+    "startup_known_subtotal": {
+      "low": 974.11,
+      "expected": 974.11,
+      "high": 974.11,
+      "unit": "USD",
+      "method": "Sum of supplied bounds; not a statistical confidence interval"
+    }
+  },
+  "maintenance": {
+    "weekly_minutes": {
+      "low": 48.48733744010951,
+      "expected": 54.62012320328542,
+      "high": 60.75290896646133,
+      "unit": "min",
+      "method": "Sum of supplied bounds; not a statistical confidence interval"
+    }
+  }
+}

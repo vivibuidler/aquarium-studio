@@ -1,0 +1,8 @@
+{
+  "coldStartPort": 8779,
+  "appHttp": 200,
+  "referencesHttp": 200,
+  "referenceTraversalHttp": 404,
+  "existingAppLaunch": "verified with browser-open spy",
+  "existingAppUrl": "http://127.0.0.1:8765"
+}

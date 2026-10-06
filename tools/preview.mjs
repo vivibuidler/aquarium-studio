@@ -1,0 +1,3 @@
+import {chromium} from '@playwright/test';
+const browser=await chromium.launch({...(process.env.AQUARIUM_CHROME?{executablePath:process.env.AQUARIUM_CHROME}:{}),headless:true,args:['--no-sandbox']});
+const page=await browser.newPage({viewport:{width:1440,height:1100},deviceScaleFactor:1});const errors=[];page.on('pageerror',e=>errors.push(String(e)));page.on('console',m=>{if(m.type()==='error')errors.push(m.text());});await page.goto((process.env.AQUARIUM_URL||'http://127.0.0.1:8765'));await page.waitForTimeout(2500);await page.screenshot({path:'validation/first-scene.png',fullPage:true});console.log(JSON.stringify({errors,snapshot:await page.evaluate(()=>window.aquarium?.snapshot())},null,2));await browser.close();

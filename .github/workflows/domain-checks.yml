@@ -1,0 +1,29 @@
+name: Aquarium model checks
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  model:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.13'
+      - name: Regenerate the public manifest and detect stale data
+        run: |
+          python3 tools/build_manifest.py
+          git diff --exit-code -- data/plans.json
+      - name: Check public references, hashes and licenses
+        run: python3 tools/check_public_package.py
+      - name: Check quantities, length semantics, substrate and multi-minute motion
+        run: npm test

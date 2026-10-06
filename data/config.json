@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "geometry": {
+    "length": 90,
+    "width": 44,
+    "height": 44,
+    "waterline": 41,
+    "glassThickness": 0.6,
+    "status": "assumed",
+    "note": "Display-only internal dimensions inspired by the nominal 36 \u00d7 18-inch external planning footprint; these are not measured dimensions or a derived usable-water fact."
+  },
+  "simulation": {
+    "seed": 47291,
+    "fixedStep": 0.016666666666666666,
+    "maxFrameDelta": 0.12,
+    "turnRate": 1.4,
+    "speedBlend": 1.5,
+    "goalSeconds": [
+      5,
+      14
+    ],
+    "hoverChance": 0.17,
+    "hoverSeconds": [
+      1,
+      3
+    ],
+    "separationStrength": 7,
+    "wallMargin": 6,
+    "wallStrength": 8,
+    "cohesionStrength": 0.22,
+    "alignmentStrength": 0.15,
+    "wanderStrength": 0.8,
+    "obstacleMargin": 3,
+    "obstacleStrength": 9,
+    "displayChance": 0.18,
+    "displaySeconds": [
+      1.5,
+      3
+    ],
+    "unsexedAppearancePattern": [
+      "male",
+      "female"
+    ]
+  },
+  "camera": {
+    "fov": 35,
+    "distanceMultiplier": 1.15,
+    "minimumDistanceMultiplier": 0.43,
+    "maximumDistanceMultiplier": 3.0,
+    "front": [
+      0,
+      0.1,
+      1
+    ],
+    "orbit": [
+      0.8,
+      0.27,
+      1
+    ],
+    "top": [
+      0,
+      1,
+      0.001
+    ]
+  },
+  "rendering": {
+    "defaultQuality": "high",
+    "high": {
+      "pixelRatioCap": 1.6,
+      "shadowSize": 1024,
+      "fpsLimit": 60,
+      "transmissionResolutionScale": 0.45
+    },
+    "economy": {
+      "pixelRatioCap": 1.0,
+      "shadowSize": 512,
+      "fpsLimit": 30,
+      "transmissionResolutionScale": 0.25
+    },
+    "exposure": 1.12,
+    "surfaceWaveAmplitude": 0.07,
+    "plantSwayAmplitude": 0.16,
+    "plantSwaySpeed": 0.65,
+    "neutralWaterColor": "#819d91",
+    "background": "#e3e6de",
+    "environmentIntensity": 0.7,
+    "glassTransmission": 0.82,
+    "glassOpacity": 0.16,
+    "glassIor": 1.5,
+    "leafSegments": {
+      "needle": 4,
+      "leaflet": 6,
+      "crypt": 8,
+      "grass": 8
+    }
+  },
+  "layout": {
+    "patchXFractions": [
+      -0.34,
+      0.02,
+      0.34
+    ],
+    "patchZFraction": -0.29,
+    "patchWidthFraction": 0.19,
+    "patchDepthFraction": 0.22,
+    "starterSpread": 0.68,
+    "establishedSpread": 1,
+    "equipmentSide": "left",
+    "stemCoreRadius": 0.15,
+    "equipment": [
+      {
+        "type": "filter",
+        "makeModel": "Tidal 55 placement proxy",
+        "anchor": "surface",
+        "xFraction": -0.47,
+        "zFraction": -0.455,
+        "lengthCm": 19,
+        "radiusCm": 1.5,
+        "aboveWaterCm": 2,
+        "housingSizeCm": [
+          10,
+          8,
+          5
+        ],
+        "housingOffsetCm": [
+          3,
+          -1,
+          -3.7
+        ],
+        "collisionRadiusCm": 1.65,
+        "collisionVerticalPaddingCm": 0.15
+      },
+      {
+        "type": "heater",
+        "makeModel": "Eheim Jager 150 W placement proxy",
+        "anchor": "substrate",
+        "xFraction": 0.47,
+        "zFraction": -0.455,
+        "lengthCm": 26,
+        "radiusCm": 0.9,
+        "baseClearanceCm": 3,
+        "surfaceClearanceCm": 2,
+        "capSizeCm": [
+          2,
+          3,
+          2
+        ],
+        "collisionRadiusCm": 0.9,
+        "collisionVerticalPaddingCm": 0
+      },
+      {
+        "type": "thermometer",
+        "makeModel": "Funded glass thermometer placement proxy",
+        "anchor": "surface",
+        "xFraction": 0.38,
+        "zFraction": 0.44,
+        "lengthCm": 8,
+        "radiusCm": 0.28,
+        "aboveWaterCm": -0.5,
+        "collisionRadiusCm": 0.30800000000000005,
+        "collisionVerticalPaddingCm": 0.30800000000000005
+      }
+    ],
+    "structureClearanceCm": 0.02
+  },
+  "ui": {
+    "defaultPlanId": "upper-paraguay-bodoquena-community",
+    "defaultStage": "established",
+    "defaultView": "front",
+    "showScale": false,
+    "showLabels": false,
+    "storageKey": "aquarium-studio-v1",
+    "dimensionInputBounds": {
+      "length": [
+        30,
+        300
+      ],
+      "width": [
+        20,
+        150
+      ],
+      "height": [
+        20,
+        150
+      ],
+      "waterline": [
+        10,
+        149
+      ]
+    }
+  }
+}

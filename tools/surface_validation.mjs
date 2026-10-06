@@ -1,0 +1,6 @@
+import fs from 'node:fs';
+import assert from 'node:assert/strict';
+import {PlanAdapter,TankGeometry,SimulationWorld} from '../src/core.js';
+const config=JSON.parse(fs.readFileSync('data/config.json')),adapter=new PlanAdapter(JSON.parse(fs.readFileSync('data/plans.json'))),tank=new TankGeometry(config.geometry),results=[];
+for(const plan of adapter.plans.filter(p=>p.groups.some(g=>adapter.species.get(g.species).profile.surfaceVisit))){const world=new SimulationWorld(plan,tank,adapter,config,'established');const visited=new Set(),closest=new Map();for(let step=0;step<60*180;step++){world.step(1/60);for(const fish of world.agents.filter(a=>a.species.profile.surfaceVisit)){const mouthHeight=fish.position[1]+fish.species.totalLengthCm*.5*Math.sin(fish.pitch),gap=tank.waterline-mouthHeight;closest.set(fish.id,Math.min(closest.get(fish.id)??Infinity,gap));if(fish.state==='surface'&&gap<.25)visited.add(fish.id);assert.ok(gap>0);}}assert.ok(visited.size>0,plan.name+' has no near-surface access');results.push({plan:plan.id,seconds:world.time,fishVisitingSurface:[...visited],minimumMouthGapsCm:[...closest].map(([id,gap])=>({id,gap})),cadence:'illustrative, not a biological measurement'});}
+fs.writeFileSync('validation/surface-results.json',JSON.stringify(results,null,2));console.log(JSON.stringify(results));

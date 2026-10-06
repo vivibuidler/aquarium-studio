@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-06T00:55:32.673Z",
+  "scope": "Portable public package, local server, all ten species/count groups and all twenty public source-link HTTP responses; comparison screenshot",
+  "browserVersion": "154.0.8037.97",
+  "counts": [
+    {
+      "id": "tanguar-haor-honey-gourami",
+      "actual": {
+        "Trichogaster chuna": 4,
+        "Danio rerio": 8
+      }
+    },
+    {
+      "id": "hainan-gold-barb-stream-margin",
+      "actual": {
+        "Barbodes semifasciolatus": 10
+      }
+    },
+    {
+      "id": "kalu-cherry-stream-margin",
+      "actual": {
+        "Rohanella titteya": 10,
+        "Pethia nigrofasciata": 10
+      }
+    },
+    {
+      "id": "upper-paraguay-bodoquena-community",
+      "actual": {
+        "Hyphessobrycon herbertaxelrodi": 10,
+        "Megalamphodus megalopterus": 10
+      }
+    },
+    {
+      "id": "boraphet-vegetated-marsh-margin",
+      "actual": {
+        "Rasbora borapetensis": 9,
+        "Trichopsis pumila": 4
+      }
+    },
+    {
+      "id": "kasumigaura-medaka-channel-margin",
+      "actual": {
+        "Oryzias latipes": 12
+      }
+    },
+    {
+      "id": "archer-vegetated-wetland-margin",
+      "actual": {
+        "Pseudomugil gertrudae": 12
+      }
+    },
+    {
+      "id": "araguaia-ember-chain-sword-margin",
+      "actual": {
+        "Hyphessobrycon amandae": 21
+      }
+    },
+    {
+      "id": "essequibo-small-creek-community",
+      "actual": {
+        "Hemigrammus erythrozonus": 12,
+        "Holopristis ocellifera": 9
+      }
+    },
+    {
+      "id": "apure-pristella-floodplain-margin",
+      "actual": {
+        "Pristella maxillaris": 16
+      }
+    }
+  ],
+  "referencePaths": [
+    "/references/habitat-options/01-tanguar-haor-vegetated-margin.md",
+    "/references/habitat-options/assessment-results/tanguar-haor-honey-gourami.md",
+    "/references/habitat-options/02-hainan-coastal-stream-margin.md",
+    "/references/habitat-options/assessment-results/hainan-gold-barb-stream-margin.md",
+    "/references/habitat-options/03-kalu-shaded-stream-margin.md",
+    "/references/habitat-options/assessment-results/kalu-cherry-stream-margin.md",
+    "/references/habitat-options/04-upper-paraguay-vegetated-margin.md",
+    "/references/habitat-options/assessment-results/upper-paraguay-bodoquena-community.md",
+    "/references/habitat-options/05-boraphet-vegetated-marsh-margin.md",
+    "/references/habitat-options/assessment-results/boraphet-vegetated-marsh-margin.md",
+    "/references/habitat-options/06-kasumigaura-medaka-channel-margin.md",
+    "/references/habitat-options/assessment-results/kasumigaura-medaka-channel-margin.md",
+    "/references/habitat-options/07-archer-vegetated-wetland-margin.md",
+    "/references/habitat-options/assessment-results/archer-vegetated-wetland-margin.md",
+    "/references/habitat-options/08-araguaia-vegetated-tributary-margin.md",
+    "/references/habitat-options/assessment-results/araguaia-ember-chain-sword-margin.md",
+    "/references/habitat-options/09-essequibo-forest-creek-margin.md",
+    "/references/habitat-options/assessment-results/essequibo-small-creek-community.md",
+    "/references/habitat-options/10-apure-floodplain-margin.md",
+    "/references/habitat-options/assessment-results/apure-pristella-floodplain-margin.md"
+  ],
+  "errors": []
+}

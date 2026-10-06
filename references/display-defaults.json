@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "target_volume": {
+      "value": 50,
+      "unit": "US_gal",
+      "status": "configurable_display_default"
+    },
+    "upfront_budget": 1000,
+    "maintenance_budget_minutes_per_week": 65
+  },
+  "note": "Public reusable scenario defaults, not a personal installation profile."
+}

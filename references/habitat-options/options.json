@@ -1,0 +1,1839 @@
+{
+  "schema_version": 1,
+  "status": "public_sanitized_snapshot",
+  "accessed_at": "2026-10-04",
+  "snapshot_note": "Curated public data derived from the active ten-plan collection. Personal installation/owner details and private procurement audit paths omitted. SHA-256 applies to this public snapshot, not the private source. Scientific identities, quantities, source size fields, cost/work values and constraints are retained.",
+  "options": [
+    {
+      "id": "tanguar-haor-honey-gourami",
+      "status": "conditional_planning_design_delivered",
+      "plan_file": "01-tanguar-haor-vegetated-margin.md",
+      "geography": {
+        "country": "Bangladesh",
+        "locality": "Tanguar Haor, Sunamganj",
+        "habitat": "Sheltered vegetated freshwater floodplain margin"
+      },
+      "evidence_level": "wetland_and_microhabitat_overlap_separate_surveys",
+      "strict_locality_cooccurrence_proven": false,
+      "fish_groups": [
+        {
+          "scientific_name": "Trichogaster chuna",
+          "common_name": "Honey gourami",
+          "adult_count": 4,
+          "male_count": 1,
+          "female_count": 3,
+          "sexed_supply_verified": false,
+          "adult_total_length_planning_cm": [
+            5,
+            7
+          ],
+          "care_ceiling": "intermediate",
+          "source": "https://portals.iucn.org/library/sites/library/files/documents/2012-021-v.3.pdf"
+        },
+        {
+          "scientific_name": "Danio rerio",
+          "common_name": "Ordinary striped zebra danio",
+          "adult_count": 8,
+          "sex_ratio": "mixed unsexed; no fixed ratio required",
+          "adult_standard_length_planning_cm": 5,
+          "adult_total_length_planning_cm": 6,
+          "social_minimum_planning_count": 8,
+          "care_ceiling": "beginner",
+          "source": "https://portals.iucn.org/library/sites/library/files/documents/2012-021-v.3.pdf",
+          "source_page": 108,
+          "care_source": "https://www.seriouslyfish.com/species/danio-rerio/",
+          "minimum_base_cm": [
+            90,
+            30
+          ],
+          "native_locality_record_status": "wetland record; exact shared patch unproven"
+        }
+      ],
+      "plant_groups": [
+        {
+          "scientific_name": "Ceratophyllum demersum",
+          "common_name": "Hornwort",
+          "initial_quantity": 6,
+          "quantity_unit": "bunch",
+          "placement": "back and side refuges; loose submerged/floating stems",
+          "field_growth": "submerged rootless",
+          "source": "https://www.fisheriesjournal.com/archives/2018/vol6issue4/PartG/6-4-25-560.pdf"
+        }
+      ],
+      "environmental_requirements": {
+        "status": "proposed_husbandry_overlap_not_wild_measurements",
+        "temperature_c": [
+          24,
+          25
+        ],
+        "ph": [
+          6,
+          7.5
+        ],
+        "gh_dgh": [
+          5,
+          8
+        ],
+        "kh_dkh": null,
+        "flow": "Gentle distributed circulation with calm refuges",
+        "co2_injection_required": false,
+        "source": "https://fluvalaquatics.com/uk/wp-content/uploads/2022/02/Species-Spotlight_Honey-Gourami_EN.pdf",
+        "notes": "Conservative published-care overlap scenario, not field chemistry. Actual soft reference-region water may fall outside it; retailer general holding water does not verify lifetime performance. No routine chemistry forcing."
+      },
+      "retail_cost_screen": {
+        "subtotal_usd": 963.45,
+        "regular_stand_sensitivity_usd": 990.45,
+        "scope_complete": true,
+        "fits_1000_ceiling_at_supplied_sale_scenario": true,
+        "fits_1000_ceiling_at_regular_stand_price": true,
+        "contingency_usd": 50,
+        "plant_shipping_assumed_usd": 10,
+        "dated_at": "2026-10-04",
+        "notes": "Matching209.99tank/66.99top retailbenchmarks included; actualreference-regiondeliveredquote unverified. Current122.99publicstand governs, regular149.99sensitivity. Fulladultgroups/plantquantities andexistingreserves unchanged; organism supply/site/installedperformance checks retained.",
+        "shared_price_reference": "shared-retail-prices.json",
+        "current_assessment_directory": "assessment-results/tanguar-matching-main-screen",
+        "scope_status": "assumed_complete_categories_fitted_quotes_incomplete",
+        "fits_1000_ceiling": true,
+        "fits_1000_ceiling_at_regular_stand": true,
+        "regular_stand_price_total_usd": 990.45,
+        "sale_stand_price_total_usd": 963.45,
+        "current_sale_dependency": false
+      },
+      "unresolved": [
+        "Actual 90 cm swimming length and open lane; nominal 36-inch tank is not an internal measurement",
+        "Gourami sex balance, retreat access and feeding competition",
+        "Measured tap chemistry versus conservative GH 5\u20138 envelope without routine adjustment",
+        "Recheck chosen TR variants before acquisition; offered full quantities verified on October 4; complete fitted retail checkout and transport",
+        "Any required isolation setup must be included before acquisition",
+        "Current matchingtank/top categoryscreen963.45sale/990.45regular; complete localdeliveredquote stillunknown. No futureuseddiscount credited."
+      ],
+      "sources": [
+        {
+          "url": "https://www.researchgate.net/publication/283152209_Assessment_of_aquatic_natural_resources_in_the_Tanguar_haor_at_Sunamgonj_Bangladesh",
+          "role": "Author-uploaded2012study Table4fish and mixed field/interview/secondary methodology; locality-level list not joint-site evidence",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "url": "https://www.fisheriesjournal.com/archives/2018/vol6issue4/PartG/6-4-25-560.pdf",
+          "role": "2018Tanguar vegetation surveyTable2 Cdemersum; table growth headings unreliable, independently verify rootless submerged culture",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "url": "https://fluvalaquatics.com/uk/wp-content/uploads/2022/02/Species-Spotlight_Honey-Gourami_EN.pdf",
+          "role": "Manufacturer direct husbandry guidance; moderatecare, plantcover and omnivorous prepared/frozen diet",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "environmental_observations": {
+        "minimum_internal_length": {
+          "value": {
+            "value": 90,
+            "unit": "cm"
+          },
+          "status": "assumed",
+          "source": "01-tanguar-haor-vegetated-margin.md; linked care and habitat sources",
+          "observed_at": "2026-10-04",
+          "notes": "Design requirement, not an observed tank dimension"
+        },
+        "minimum_internal_width": {
+          "value": {
+            "value": 30,
+            "unit": "cm"
+          },
+          "status": "assumed",
+          "source": "01-tanguar-haor-vegetated-margin.md; linked care and habitat sources",
+          "observed_at": "2026-10-04",
+          "notes": "Clear swimming/refuge space must be assessed after planting; Kalu 30cm is lane width with additional refuges"
+        }
+      },
+      "existing_model_candidate": {
+        "purchase": {
+          "cost_items": [
+            {
+              "id": "substrate",
+              "category": "setup",
+              "amount": {
+                "value": {
+                  "value": 26.24,
+                  "unit": "USD"
+                },
+                "status": "documented",
+                "source": "https://www.bulkreefsupply.com/super-naturals-substrate-moonlight-sand-caribsea.html",
+                "observed_at": "2026-10-04",
+                "notes": "One20lb Moonlight sand bag; roughly1.4cm at nominal36x18in footprint. Decorative bed only; rootless hornwort does not need a rooted planting depth."
+              },
+              "timing": "startup"
+            }
+          ]
+        }
+      },
+      "evaluator_reference": {
+        "current_report_json": "assessment-results/tanguar-haor-honey-gourami.json",
+        "current_report_markdown": "assessment-results/tanguar-haor-honey-gourami.md",
+        "meaning": "Public cost/work snapshot; full private installation model is not distributed. Not compatibility proof."
+      }
+    },
+    {
+      "id": "hainan-gold-barb-stream-margin",
+      "status": "conditional_planning_design_delivered",
+      "plan_file": "02-hainan-coastal-stream-margin.md",
+      "geography": {
+        "country": "China",
+        "locality": "Unnamed Hainan coastal stream in Chan and Chen 2009 survey",
+        "habitat": "Sheltered vegetated stream margin"
+      },
+      "evidence_level": "locality_supported_selection_with_field_growth_compromise",
+      "strict_locality_cooccurrence_proven": false,
+      "fish_groups": [
+        {
+          "scientific_name": "Barbodes semifasciolatus",
+          "trade_synonym": "Puntius semifasciolatus",
+          "common_name": "Gold barb",
+          "adult_count": 10,
+          "adult_standard_length_planning_cm": 7.5,
+          "adult_total_length_planning_cm": 9,
+          "social_minimum_planning_count": 8,
+          "sex_requirement": "Mixed sexes preferred; one unsexedshoal, no mandatorybreedingratio.",
+          "care_ceiling": "beginner",
+          "supplier_origin": "SelectedTRvariant; supplierdeclaredtankraised, not Hainanlineageproof.",
+          "appearance_compromise": "Golden ornamentalstrain; naturalgreenform notquoted.",
+          "native_source": "https://www.researchgate.net/profile/Bosco-Chan/publication/43564174_Discovery_of_Tanichthys_albonubes_Lin_1932_Cyprinidae_on_Hainan_Island_and_Notes_on_Its_Ecology/links/0c96052c6775ae6570000000/Discovery-of-Tanichthys-albonubes-Lin-1932-Cyprinidae-on-Hainan-Island-and-Notes-on-Its-Ecology.pdf",
+          "taxonomy_source": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=2006",
+          "care_source": "https://www.seriouslyfish.com/species/barbodes-semifasciolatus",
+          "supplier": "https://www.wetspottropicalfish.com/product/barbodes-semifasciolatus/"
+        }
+      ],
+      "plant_groups": [
+        {
+          "scientific_name": "Ceratopteris thalictroides",
+          "common_name": "Water sprite",
+          "initial_quantity": 3,
+          "quantity_unit": "pot",
+          "placement": "two rear planted groups, one floating refuge",
+          "field_growth": "emergent; aquarium submerged/floating culture is disclosed compromise",
+          "substrate": "40lb Moonlight sand; concentrate rear planting areas to approximately4\u20135cm while maintaining shallow front; confirm actual footprint and exposed crowns"
+        }
+      ],
+      "environmental_requirements": {
+        "status": "proposed_ordinary_husbandry_scenario_site_unknown",
+        "temperature_c": [
+          22,
+          24
+        ],
+        "ph": [
+          6.5,
+          7.5
+        ],
+        "gh_dgh": [
+          2,
+          12
+        ],
+        "kh_dkh": null,
+        "flow": "mild with calm refuge and open breathing access",
+        "co2_injection_required": false
+      },
+      "retail_cost_screen": {
+        "subtotal_usd": 974.11,
+        "scope_complete": true,
+        "scope_status": "assumed",
+        "below_1000_in_planning_scenario": true,
+        "fully_quoted_available_cart": false,
+        "shared_price_reference": "shared-retail-prices.json",
+        "current_assessment_directory": "assessment-results/hainan-gold-barb-main-screen",
+        "regular_stand_total_usd": 1001.11,
+        "fits_1000_ceiling": true,
+        "fits_1000_ceiling_at_regular_stand": false,
+        "notes": "Full10TRgoldbarbs39.90,publishedNCovernight49.99andvegetable-containingstaple13.99included. Existing3fern pots,40lbsand,root/liquidnutrition,65tax,35tools,50reserve retained. Finalfittedreference-regionquotesunknown; regularstandfails1.11.",
+        "regular_stand_price_total_usd": 1001.11,
+        "sale_stand_price_total_usd": 974.11,
+        "current_sale_dependency": true,
+        "fits_1000_ceiling_at_regular_stand_price": false
+      },
+      "unresolved": [
+        "Actual90x35cm internalbase/90cmlane,usablewater, support andserviceaccess.",
+        "ConditionedhomepH/GH/KH/stability andtemperatureextremes; noforcedadvancedtreatment.",
+        "Completefittedreference-regionquotes/tax/parcel eligibility;974.11sale,1001.11regularfails.",
+        "Receivedfishidentity/health/ordinaryfoodintake andhealthyferncover/biomass.",
+        "Goldenstrain/unverifiedHainanlineage and fieldemergent-to-aquariumculture compromises disclosed."
+      ],
+      "sources": [
+        {
+          "url": "https://www.researchgate.net/profile/Bosco-Chan/publication/43564174_Discovery_of_Tanichthys_albonubes_Lin_1932_Cyprinidae_on_Hainan_Island_and_Notes_on_Its_Ecology/links/0c96052c6775ae6570000000/Discovery-of-Tanichthys-albonubes-Lin-1932-Cyprinidae-on-Hainan-Island-and-Notes-on-Its-Ecology.pdf",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=2006",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://www.seriouslyfish.com/species/barbodes-semifasciolatus",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://www.wetspottropicalfish.com/product/barbodes-semifasciolatus/",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://www.wetspottropicalfish.com/shipping-information/",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://www.aquariumcoop.com/products/easy-fry-and-small-fish-food",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://www.aquariumcoop.com/products/water-sprite",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://www.iplant.cn/foc/pdf/Pteridaceae.pdf",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        }
+      ],
+      "environmental_observations": {
+        "minimum_internal_length": {
+          "value": {
+            "value": 90,
+            "unit": "cm"
+          },
+          "status": "assumed",
+          "source": "02-hainan-coastal-stream-margin.md; linked care and habitat sources",
+          "observed_at": "2026-10-04",
+          "notes": "Design requirement, not an observed tank dimension"
+        },
+        "minimum_internal_width": {
+          "value": {
+            "value": 35,
+            "unit": "cm"
+          },
+          "status": "assumed",
+          "source": "02-hainan-coastal-stream-margin.md; linked care and habitat sources",
+          "observed_at": "2026-10-04",
+          "notes": "Clear swimming/refuge space must be assessed after planting; Kalu 30cm is lane width with additional refuges"
+        }
+      },
+      "existing_model_candidate": {
+        "purchase": {
+          "cost_items": [
+            {
+              "id": "substrate",
+              "category": "setup",
+              "amount": {
+                "value": {
+                  "value": 47.33,
+                  "unit": "USD"
+                },
+                "status": "documented",
+                "source": "https://www.bulkreefsupply.com/super-naturals-substrate-moonlight-sand-caribsea.html",
+                "observed_at": "2026-10-04",
+                "notes": "One 40 lb bag; SKU252296, selected row in stock. Slope to a 4-5 cm planted margin; actual geometry/depth verification pending."
+              },
+              "timing": "startup"
+            }
+          ]
+        }
+      },
+      "evaluator_reference": {
+        "current_report_json": "assessment-results/hainan-gold-barb-stream-margin.json",
+        "current_report_markdown": "assessment-results/hainan-gold-barb-stream-margin.md",
+        "meaning": "Public cost/work snapshot; full private installation model is not distributed. Not compatibility proof."
+      }
+    },
+    {
+      "id": "kalu-cherry-stream-margin",
+      "status": "conditional_planning_design_delivered",
+      "plan_file": "03-kalu-shaded-stream-margin.md",
+      "geography": {
+        "country": "Sri Lanka",
+        "drainage": "Kalu Ganga",
+        "habitat": "Shaded sheltered stream margin; plant record middle river at Gilimale"
+      },
+      "evidence_level": "separate_drainage_and_compatible_margin_records_submerged_culture_compromise",
+      "strict_locality_cooccurrence_proven": false,
+      "fish_groups": [
+        {
+          "scientific_name": "Rohanella titteya",
+          "trade_synonym": "Puntius titteya",
+          "common_name": "Cherry barb",
+          "adult_count": 10,
+          "proposed_males": 4,
+          "proposed_females": 6,
+          "sexed_supply_verified": false,
+          "social_group_rationale": "10, within source group guidance; not maximum stocking",
+          "adult_standard_length_cm": 5,
+          "care_ceiling": "beginner_to_intermediate",
+          "supplier_origin": "TR explicitly stated by current selected retailer; delivered-batch/local genetic provenance unverified",
+          "captive_supply_verified": true,
+          "retail_source": "https://www.wetspottropicalfish.com/product/rohanella-titteya/",
+          "selected_supplier_size": "extra-small0.5\u20131in"
+        },
+        {
+          "scientific_name": "Pethia nigrofasciata",
+          "common_name": "Black ruby barb",
+          "adult_count": 10,
+          "adult_standard_length_planning_cm": 5.5,
+          "minimum_social_group": 6,
+          "chosen_group": 10,
+          "sex_ratio": "unsexed group; no guaranteed ratio",
+          "sexed_supply_verified": false,
+          "care_ceiling": "intermediate",
+          "source": "https://www.seriouslyfish.com/species/pethia-nigrofasciata/",
+          "supplier_origin": "TR explicitly stated by current selected retailer; delivered-batch/local genetic provenance unverified",
+          "captive_supply_verified": true,
+          "retail_source": "https://www.wetspottropicalfish.com/product/pethia-nigrofasciata/",
+          "adult_total_length_allowance_cm": 7.5,
+          "selected_supplier_size": "small1\u20131.5in"
+        }
+      ],
+      "plant_groups": [
+        {
+          "scientific_name": "Cryptocoryne walkeri",
+          "trade_synonym": "Cryptocoryne lutea",
+          "common_name": "Walker's crypt",
+          "initial_quantity": 3,
+          "quantity_unit": "pot",
+          "placement": "rear/side rooted patches, crown exposed",
+          "field_record": "AdG851/STXIII middle Kalu Gilimale; riverbank species habitat independently documented; submerged culture established, exact Gilimale submerged patch unproven.",
+          "co2_injection_required": false,
+          "substrate_plan": {
+            "mass_lb": 40,
+            "price_usd": 47.33,
+            "rooted_depth_cm": [
+              4,
+              5
+            ],
+            "rooted_area_fraction": 0.5,
+            "status": "assumed_geometry",
+            "notes": "Nominal 36x18 footprint at95lb/cu ft gives2.85cm uniform depth; redistribution into half-area root patches with0.70cm front layer."
+          }
+        }
+      ],
+      "environmental_requirements": {
+        "status": "supported_culture_planning_envelope_actual_site_and_stock_unknown",
+        "temperature_c": [
+          23,
+          25
+        ],
+        "ph": [
+          6.5,
+          7.5
+        ],
+        "gh_dgh": [
+          2,
+          10
+        ],
+        "kh_dkh": null,
+        "flow": "mild distributed circulation with sheltered planted margin",
+        "co2_injection_required": false,
+        "minimum_internal_base_cm": [
+          90,
+          40
+        ]
+      },
+      "retail_cost_screen": {
+        "subtotal_usd": 980.02,
+        "scope_complete": true,
+        "scope_status": "assumed_complete_categories_fitted_quotes_incomplete",
+        "below_1000_in_planning_scenario": true,
+        "fully_quoted_available_cart": false,
+        "fits_1000_ceiling": true,
+        "scope_basis": "All ordinary startup categories included; caps and source/site gaps remain, not verified cart",
+        "current_sale_dependency": true,
+        "regular_stand_price_total_usd": 1007.02,
+        "fish_shipping_usd": 49.99,
+        "wood_usd": 0,
+        "shared_price_reference": "shared-retail-prices.json",
+        "current_assessment_directory": "assessment-results/kalu-selected-small-main-screen",
+        "fits_1000_ceiling_at_regular_stand": false,
+        "fish_goods_usd": 89.8,
+        "contingency_usd": 25,
+        "notes": "Selected currently availableTRjuvenilevariants10each accepted cart39.90+49.90; adultdesign unchanged. Matching209.99tank/66.99top benchmarks;25reserve. Sale19.98headroom; regularfails7.02. Full reference-regionfittedquote unresolved."
+      },
+      "unresolved": [
+        "Received10+10selectedjuvenile identity/health/sex mix and suitably small prepared-food intake; full groups accepted public add-to-cart, not reserved",
+        "Actual90x40cm internalbase,80cmopenlane, establishedthreecryptrefuges andusablewater/filterprocessing",
+        "Complete local fitted retail/tax/transport quote;980.02sale includes25reserve,1007.02regular fails",
+        "Homechemistry/room/support/serviceaccess; no routinechemistryforcing",
+        "Plantidentity/low-tech submergedgrowth; exactjointGilimale collectingpatchnotclaimed"
+      ],
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41598-023-45377-9",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://heimbiotop.de/Lagenandra-Literatur/deGraaf_1991.pdf",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://cryptocoryneworld.org/c_walkeri.php",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://www.aquariumcoop.com/products/cryptocoryne-lutea",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://www.seriouslyfish.com/species/puntius-titteya/",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8582130/",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://sljas.sljol.info/articles/7548/files/submission/proof/7548-1-26642-1-10-20180531.pdf",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://aquahuna.com/products/black-ruby-barb",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://aquahuna.com/pages/shipping",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://shopgdlf.com/products/40-50-gallon-fish-tank-stand-with-hidden-litter-box-cabinet-and-cat-perch-36-6x18-9",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://shopgdlf.com/policies/shipping-policy",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://www.heimbiotop.de/cryptocoryne.html",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://www.aquariumindustries.com.au/wp-content/uploads/2015/05/Cryptocoryne-walkeri.pdf",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://www.bulkreefsupply.com/super-naturals-substrate-moonlight-sand-caribsea.html",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://www.aquariumcoop.com/products/hikari-micro-pellets",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://www.aquariumcoop.com/products/floating-glass-thermometer",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        }
+      ],
+      "environmental_observations": {
+        "minimum_internal_length": {
+          "value": {
+            "value": 90,
+            "unit": "cm"
+          },
+          "status": "assumed",
+          "source": "03-kalu-shaded-stream-margin.md; linked care and habitat sources",
+          "observed_at": "2026-10-04",
+          "notes": "Design requirement, not an observed tank dimension"
+        },
+        "minimum_internal_width": {
+          "value": {
+            "value": 40,
+            "unit": "cm"
+          },
+          "status": "assumed",
+          "source": "03-kalu-shaded-stream-margin.md; linked care and habitat sources",
+          "observed_at": "2026-10-04",
+          "notes": "Stronger combined-design base, with80cm clear lane and separate planted refuges; not an observed tank dimension."
+        }
+      },
+      "existing_model_candidate": {
+        "purchase": {
+          "cost_items": [
+            {
+              "id": "substrate",
+              "category": "setup",
+              "amount": {
+                "value": {
+                  "value": 47.33,
+                  "unit": "USD"
+                },
+                "status": "documented",
+                "source": "https://www.bulkreefsupply.com/super-naturals-substrate-moonlight-sand-caribsea.html",
+                "observed_at": "2026-10-04",
+                "notes": "40 lb Moonlight Sand, SKU252296; 95 lb/cu ft manufacturer density. Redistribute to rooted patches; actual geometry pending."
+              },
+              "timing": "startup"
+            }
+          ]
+        }
+      },
+      "evaluator_reference": {
+        "current_report_json": "assessment-results/kalu-cherry-stream-margin.json",
+        "current_report_markdown": "assessment-results/kalu-cherry-stream-margin.md",
+        "meaning": "Public cost/work snapshot; full private installation model is not distributed. Not compatibility proof."
+      }
+    },
+    {
+      "id": "upper-paraguay-bodoquena-community",
+      "status": "conditional_planning_design_delivered",
+      "plan_file": "04-upper-paraguay-vegetated-margin.md",
+      "geography": {
+        "country": "Brazil",
+        "drainage": "Upper Paraguay",
+        "habitat": "Sheltered shallow clearwater vegetated margins; fish Taquari records, plant Salobra record"
+      },
+      "evidence_level": "drainage_and_compatible_microhabitat_overlap_separate_observations",
+      "strict_locality_cooccurrence_proven": false,
+      "fish_groups": [
+        {
+          "scientific_name": "Hyphessobrycon herbertaxelrodi",
+          "common_name": "Black neon tetra",
+          "adult_count": 10,
+          "adult_body_length_planning_cm": 4,
+          "social_minimum_planning_count": 10,
+          "sex_ratio": "unsexed mixed group; no compulsory breeding ratio",
+          "care_ceiling": "beginner_to_intermediate",
+          "native_source": "https://www.imasul.ms.gov.br/wp-content/uploads/2022/11/Montagem-livro-Peixes-VERSAO-FINAL-MARCO-2022-ISBN97865-81066-05-5-ONLINE_FINAL-1.pdf",
+          "source_printed_page": 139,
+          "care_source": "https://www.seriouslyfish.com/species/hyphessobrycon-herbertaxelrodi/",
+          "retail_source": "https://www.wetspottropicalfish.com/product/hyphessobrycon-herbertaxelrodi/",
+          "supplier_origin": "TR",
+          "local_genetic_provenance_proven": false
+        },
+        {
+          "scientific_name": "Megalamphodus megalopterus",
+          "common_name": "Black phantom tetra",
+          "adult_count": 10,
+          "adult_body_length_planning_cm": 4,
+          "social_minimum_planning_count": 10,
+          "sex_ratio": "unsexed mixed group; no compulsory breeding ratio",
+          "care_ceiling": "beginner_to_intermediate",
+          "native_source": "https://www.imasul.ms.gov.br/wp-content/uploads/2022/11/Montagem-livro-Peixes-VERSAO-FINAL-MARCO-2022-ISBN97865-81066-05-5-ONLINE_FINAL-1.pdf",
+          "source_printed_page": 141,
+          "care_source": "https://www.seriouslyfish.com/species/megalamphodus-megalopterus",
+          "retail_source": "https://www.wetspottropicalfish.com/product/hyphessobrycon-megalopterus/",
+          "supplier_origin": "TR",
+          "local_genetic_provenance_proven": false
+        }
+      ],
+      "plant_groups": [
+        {
+          "scientific_name": "Ceratophyllum demersum",
+          "initial_quantity": 3,
+          "quantity_unit": "bunch",
+          "field_growth": "submerged",
+          "native_source": "https://www.imasul.ms.gov.br/wp-content/uploads/2022/11/Montagem-livro-Peixes-VERSAO-FINAL-MARCO-2022-ISBN97865-81066-05-5-ONLINE_FINAL-1.pdf",
+          "source_printed_page": 50,
+          "culture_source": "https://www.cantonaquatics.com/products/hornwort-coontail-bunch-2-3-stems"
+        }
+      ],
+      "environmental_requirements": {
+        "temperature_C": [
+          23,
+          25
+        ],
+        "target_temperature_C": 24,
+        "pH": [
+          6,
+          7
+        ],
+        "GH_dGH": [
+          1,
+          10
+        ],
+        "KH": null,
+        "minimum_internal_base_cm": [
+          90,
+          40
+        ],
+        "minimum_clear_lane_cm": 80,
+        "co2_injection_required": false
+      },
+      "retail_cost_screen": {
+        "subtotal_usd": 977.06,
+        "regular_stand_price_total_usd": 1004.06,
+        "fits_1000_ceiling": true,
+        "scope_complete": true,
+        "fully_quoted_available_cart": false,
+        "dated_at": "2026-10-04",
+        "notes": "Matching209.99tank/66.99top retailbenchmarks included; actualreference-regiondeliveredquote unverified. Current122.99publicstand governs, regular149.99sensitivity. Fulladultgroups/plantquantities andexistingreserves unchanged; organism supply/site/installedperformance checks retained.",
+        "fits_1000_ceiling_at_regular_stand": false,
+        "sale_stand_price_total_usd": 977.06,
+        "current_sale_dependency": true,
+        "fits_1000_ceiling_at_regular_stand_price": false,
+        "current_assessment_directory": "assessment-results/upper-paraguay-matching-main-screen"
+      },
+      "unresolved": [
+        "Fitted available hardware cart, final tax/transport/postage",
+        "Actual internal dimensions, usable water and support",
+        "Home pH/GH/KH and stability",
+        "Offered full TR quantities verified; received ordinary-fin phenotype and food acceptance",
+        "Actual three-bunch biomass/identity and established cover",
+        "No exact joint collecting patch; practical regional reconstruction only",
+        "Current matchingtank/top categoryscreen977.06sale/1004.06regular; complete localdeliveredquote stillunknown. No futureuseddiscount credited."
+      ],
+      "sources": [
+        {
+          "url": "https://www.imasul.ms.gov.br/wp-content/uploads/2022/11/Montagem-livro-Peixes-VERSAO-FINAL-MARCO-2022-ISBN97865-81066-05-5-ONLINE_FINAL-1.pdf",
+          "role": "See organism source fields and numbered plan for precise claim and limitations",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "url": "https://www.seriouslyfish.com/species/hyphessobrycon-herbertaxelrodi/",
+          "role": "See organism source fields and numbered plan for precise claim and limitations",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "url": "https://www.wetspottropicalfish.com/product/hyphessobrycon-herbertaxelrodi/",
+          "role": "See organism source fields and numbered plan for precise claim and limitations",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "url": "https://www.seriouslyfish.com/species/megalamphodus-megalopterus",
+          "role": "See organism source fields and numbered plan for precise claim and limitations",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "url": "https://www.wetspottropicalfish.com/product/hyphessobrycon-megalopterus/",
+          "role": "See organism source fields and numbered plan for precise claim and limitations",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "url": "https://www.cantonaquatics.com/products/hornwort-coontail-bunch-2-3-stems",
+          "role": "See organism source fields and numbered plan for precise claim and limitations",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "environmental_observations": {
+        "minimum_internal_length": {
+          "value": {
+            "value": 90,
+            "unit": "cm"
+          },
+          "status": "assumed",
+          "source": "04-upper-paraguay-vegetated-margin.md; linked care and habitat sources",
+          "observed_at": "2026-10-04",
+          "notes": "Design requirement, not an observed tank dimension"
+        },
+        "minimum_internal_width": {
+          "value": {
+            "value": 40,
+            "unit": "cm"
+          },
+          "status": "assumed",
+          "source": "04-upper-paraguay-vegetated-margin.md; linked care and habitat sources",
+          "observed_at": "2026-10-04",
+          "notes": "Clear swimming/refuge space must be assessed after planting; Kalu 30cm is lane width with additional refuges"
+        }
+      },
+      "existing_model_candidate": {
+        "purchase": {
+          "cost_items": [
+            {
+              "id": "substrate",
+              "category": "setup",
+              "amount": {
+                "value": {
+                  "value": 26.24,
+                  "unit": "USD"
+                },
+                "status": "documented",
+                "source": "https://www.bulkreefsupply.com/super-naturals-substrate-moonlight-sand-caribsea.html",
+                "observed_at": "2026-10-04",
+                "notes": "One20lb Moonlight sand bag, SKU252294. About1.4cm nominal decorative bed for rootless hornwort; not a rooted-plant bed. Actual base unknown."
+              },
+              "timing": "startup"
+            }
+          ]
+        }
+      },
+      "evaluator_reference": {
+        "current_report_json": "assessment-results/upper-paraguay-bodoquena-community.json",
+        "current_report_markdown": "assessment-results/upper-paraguay-bodoquena-community.md",
+        "meaning": "Public cost/work snapshot; full private installation model is not distributed. Not compatibility proof."
+      }
+    },
+    {
+      "id": "boraphet-vegetated-marsh-margin",
+      "status": "conditional_planning_design_delivered",
+      "plan_file": "05-boraphet-vegetated-marsh-margin.md",
+      "geography": {
+        "country": "Thailand",
+        "province": "Nakhon Sawan",
+        "drainage": "Chao Phraya",
+        "locality": "Bueng Boraphet",
+        "habitat": "Sheltered vegetated freshwater littoral margin"
+      },
+      "evidence_level": "locality_records_from_separate_observations",
+      "strict_locality_cooccurrence_proven": false,
+      "fish_groups": [
+        {
+          "scientific_name": "Rasbora borapetensis",
+          "common_name": "Red-tailed rasbora",
+          "adult_count": 9,
+          "adult_total_length_planning_cm": 8,
+          "care_ceiling": "beginner_to_intermediate",
+          "social_requirement": "One whole school; care reference minimum8\u201310.",
+          "sex_requirement": "Unsexed; no prescribed ratio.",
+          "captive_origin_verified": true,
+          "captive_origin_scope": "Supplier listing claim, not inspected broodstock or local ancestry.",
+          "native_source": "https://www4.fisheries.go.th/local/file_document/20220303110514_new.pdf",
+          "supplier_source": "https://imperialtropicals.com/products/brilliant-rasbora-rasbora-borapetensis"
+        },
+        {
+          "scientific_name": "Trichopsis pumila",
+          "common_name": "Sparkling gourami",
+          "adult_count": 4,
+          "adult_total_length_planning_cm": 5,
+          "care_ceiling": "beginner_to_intermediate",
+          "social_requirement": "Small group with dense separated refuges; males territorial.",
+          "sex_requirement": "Ideally2males2females; random supplier sexes, no guaranteed ratio.",
+          "captive_origin_verified": true,
+          "captive_origin_scope": "Supplier listing claim, not inspected broodstock or local ancestry.",
+          "native_source": "https://www.scienceasia.org/2013.39.n2/scias39_105.pdf",
+          "supplier_source": "https://aquaticarts.com/products/sparkling-dwarf-gourami"
+        }
+      ],
+      "plant_groups": [
+        {
+          "scientific_name": "Ceratophyllum demersum",
+          "common_name": "Hornwort",
+          "initial_quantity": 6,
+          "quantity_unit": "5+stem_portion",
+          "minimum_starter_stems": 30,
+          "placement": "Loose submerged/floating stems in3rear/side patches, open front and air access; grow dense refuges before gouramis.",
+          "field_growth": "ILEC lake submerged flora",
+          "source": "https://wldb.ilec.or.jp/Display/html/3536"
+        }
+      ],
+      "environmental_requirements": {
+        "status": "proposed_husbandry_scenario_not_wild_measurements",
+        "temperature_c": [
+          24,
+          24
+        ],
+        "ph": [
+          6.5,
+          7.0
+        ],
+        "gh_dgh": [
+          5,
+          10
+        ],
+        "kh_dkh": null,
+        "hardness_note": "Sparkler supplierKH4\u20138dKH; rasbora-specificKHunreported. No claimed proved shared optimum or forced mineral treatment.",
+        "flow": "Gentle distributed current and surface exchange; quiet planted refuges.",
+        "co2_injection_required": false
+      },
+      "retail_cost_screen": {
+        "subtotal_usd": 986.04,
+        "regular_stand_total_usd": 1013.04,
+        "scope_complete": true,
+        "fully_quoted_available_cart": false,
+        "dated_at": "2026-10-04",
+        "fits_1000_ceiling": true,
+        "fits_1000_ceiling_at_regular_stand": false,
+        "notes": "Current manufacturer122.99stand available; tank/lid benchmark acquisition unknown. Exact fish/plant carts and assumed[reference delivery area]freight documented.50reserve retained."
+      },
+      "unresolved": [
+        "Actual home chemistry, temperature, internal geometry and support.",
+        "Available reference-region fitted tank/lid acquisition and complete final costs; current stand discount must hold.",
+        "Received health, identities, sex mix and food intake; cover establishment before gouramis."
+      ],
+      "sources": [
+        {
+          "url": "https://www.scienceasia.org/2013.39.n2/scias39_105.pdf",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://www4.fisheries.go.th/local/file_document/20220303110514_new.pdf",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://wldb.ilec.or.jp/Display/html/3536",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://powo.science.kew.org/taxon/30006047-2",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://www.fishbase.se/Country/CountrySpeciesSummary.php?Country=Thailand&genusname=Trichopsis&speciesname=pumila",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://www.fws.gov/sites/default/files/documents/Ecological-Risk-Screening-Summary-Blackline-Rasbora.pdf",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://www.seriouslyfish.com/species/rasbora-borapetensis/",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://www.seriouslyfish.com/species/trichopsis-pumila/",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://imperialtropicals.com/products/brilliant-rasbora-rasbora-borapetensis",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://imperialtropicals.com/products/hornwort-ceratophyllum-demursum-floating-pond-plant",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://aquaticarts.com/products/sparkling-dwarf-gourami",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        }
+      ],
+      "environmental_observations": {
+        "minimum_internal_length": {
+          "value": {
+            "value": 80,
+            "unit": "cm"
+          },
+          "status": "assumed",
+          "source": "05-boraphet-vegetated-marsh-margin.md",
+          "observed_at": "2026-10-04",
+          "notes": ""
+        },
+        "minimum_internal_width": {
+          "value": {
+            "value": 35,
+            "unit": "cm"
+          },
+          "status": "assumed",
+          "source": "05-boraphet-vegetated-marsh-margin.md",
+          "observed_at": "2026-10-04",
+          "notes": ""
+        }
+      },
+      "existing_model_candidate": {
+        "purchase": {
+          "cost_items": [
+            {
+              "id": "substrate",
+              "category": "setup",
+              "amount": {
+                "value": {
+                  "value": 26.24,
+                  "unit": "USD"
+                },
+                "status": "documented",
+                "source": "https://www.bulkreefsupply.com/super-naturals-substrate-moonlight-sand-caribsea.html",
+                "observed_at": "2026-10-04",
+                "notes": "20lb smooth Moonlight sand, shallow decorative/rootless layout; actual footprint pending."
+              },
+              "timing": "startup"
+            }
+          ]
+        }
+      },
+      "evaluator_reference": {
+        "current_report_json": "assessment-results/boraphet-vegetated-marsh-margin.json",
+        "current_report_markdown": "assessment-results/boraphet-vegetated-marsh-margin.md",
+        "meaning": "Public cost/work snapshot; full private installation model is not distributed. Not compatibility proof."
+      }
+    },
+    {
+      "id": "kasumigaura-medaka-channel-margin",
+      "status": "conditional_planning_design_delivered",
+      "plan_file": "06-kasumigaura-medaka-channel-margin.md",
+      "geography": {
+        "country": "Japan",
+        "region": "Ibaraki",
+        "drainage": "Lake Kasumigaura system",
+        "fish_locality": "Yogoiri lake-connected channel and paddy field",
+        "habitat": "Sheltered vegetated freshwater lake and agricultural-channel margin"
+      },
+      "evidence_level": "drainage_and_aquatic_habitat_overlap_separate_observations",
+      "strict_locality_cooccurrence_proven": false,
+      "fish_groups": [
+        {
+          "scientific_name": "Oryzias latipes",
+          "common_name": "Japanese medaka",
+          "adult_count": 12,
+          "adult_total_length_allowance_cm": 4,
+          "social_minimum_planning_count": 8,
+          "sex_ratio": "unsexed pack; mixed preferred, females at least equal males where feasible; no guaranteed ratio",
+          "care_ceiling": "beginner to intermediate temperature/recruitment monitoring",
+          "taxonomy_source": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/50910e.html",
+          "native_evidence_source": "https://www.jstage.jst.go.jp/article/jarq/36/4/36_219/_pdf/-char/en",
+          "retail_source": "https://aquaticarts.com/products/assorted-medaka-ricefish",
+          "captive_supply_verified": true,
+          "supplier_origin": "Seller states tank-bred; assorted ornamental colors and unverified Kasumigaura ancestry"
+        }
+      ],
+      "plant_groups": [
+        {
+          "scientific_name": "Ceratophyllum demersum",
+          "common_name": "hornwort",
+          "initial_quantity": 6,
+          "quantity_unit": "nursery bunch",
+          "placement": "rootless submerged rear/side clumps; open center",
+          "submerged_culture_supported": true,
+          "care_ceiling": "beginner ordinary thinning",
+          "native_evidence_source": "https://www.nat.museum.ibk.ed.jp/wp-content/uploads/2021/03/2021-03-17_17-18-13_962019.pdf",
+          "taxonomy_source": "https://powo.science.kew.org/taxon/30006047-2",
+          "retail_source": "https://quinnsfins.com/product/bunch-plants-hornwort/",
+          "joint_fish_patch_verified": false
+        }
+      ],
+      "environmental_requirements": {
+        "status": "selected_husbandry_scenario_not_measurements",
+        "temperature_c": [
+          20,
+          22
+        ],
+        "ph": [
+          7,
+          7.5
+        ],
+        "whole_system_gh_dgh": [
+          5,
+          15
+        ],
+        "kh_dkh": null,
+        "flow": "Gentle distributed circulation, visible surface exchange and calm feeding margins",
+        "photoperiod_start_h": 6,
+        "co2_injection_required": false
+      },
+      "retail_cost_screen": {
+        "subtotal_usd": 977.08,
+        "regular_stand_price_total_usd": 1004.08,
+        "sale_stand_price_total_usd": 977.08,
+        "fits_1000_ceiling": true,
+        "fits_1000_ceiling_at_regular_stand": false,
+        "current_sale_dependency": true,
+        "scope_complete": true,
+        "scope_status": "assumed_complete_categories_fitted_quotes_incomplete",
+        "contingency_usd": 50,
+        "fish_order_usd": 51.99,
+        "fish_shipping_usd": 32,
+        "plant_goods_usd": 35.94,
+        "plant_shipping_usd": 24.99,
+        "overnight_plant_sensitivity_usd": 992.08,
+        "dated_at": "2026-10-04",
+        "current_assessment_directory": "assessment-results/kasumigaura-matching-main-screen",
+        "notes": "Matching209.99tank/66.99top retailbenchmarks included; actualreference-regiondeliveredquote unverified. Current122.99publicstand governs, regular149.99sensitivity. Fulladultgroups/plantquantities andexistingreserves unchanged; organism supply/site/installedperformance checks retained.",
+        "fits_1000_ceiling_at_regular_stand_price": false
+      },
+      "unresolved": [
+        "Home pH/GH/KH and stability; scenario may exclude soft reference-region water",
+        "Sustained room/tank warmth above22C cannot be solved with heater; no compulsory chiller",
+        "Actual internal geometry/usable water/support and installed flow",
+        "Complete correctly fitted local retail quotes, actual tax/address delivery and health/identity",
+        "Observe received food intake and recruitment within65min/week; no forced advanced routine",
+        "Current matchingtank/top categoryscreen977.08sale/1004.08regular; complete localdeliveredquote stillunknown. No futureuseddiscount credited."
+      ],
+      "sources": [
+        {
+          "url": "https://www.jstage.jst.go.jp/article/jarq/36/4/36_219/_pdf/-char/en",
+          "accessed_at": "2026-10-04",
+          "role": "Primary fish locality/habitat"
+        },
+        {
+          "url": "https://www.nat.museum.ibk.ed.jp/wp-content/uploads/2021/03/2021-03-17_17-18-13_962019.pdf",
+          "accessed_at": "2026-10-04",
+          "role": "Museum submerged botanical records"
+        },
+        {
+          "url": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/50910e.html",
+          "accessed_at": "2026-10-04",
+          "role": "Modern Japanese fish identity/native account"
+        },
+        {
+          "url": "https://powo.science.kew.org/taxon/30006047-2",
+          "accessed_at": "2026-10-04",
+          "role": "Accepted plant/native Japan"
+        },
+        {
+          "url": "https://aquaticarts.com/products/assorted-medaka-ricefish",
+          "accessed_at": "2026-10-04",
+          "role": "Selected tank-bred pack price/ordinary food"
+        },
+        {
+          "url": "https://quinnsfins.com/product/bunch-plants-hornwort/",
+          "accessed_at": "2026-10-04",
+          "role": "Plant stock/price/culture"
+        },
+        {
+          "url": "https://quinnsfins.com/shipping-process/",
+          "accessed_at": "2026-10-04",
+          "role": "Separate plant shipping"
+        },
+        {
+          "url": "https://www.seriouslyfish.com/species/oryzias-latipes/",
+          "accessed_at": "2026-10-04",
+          "role": "Secondary ordinary keeping/reproduction"
+        },
+        {
+          "url": "https://www.aquariumcoop.com/products/easy-fry-and-small-fish-food",
+          "accessed_at": "2026-10-04",
+          "role": "Prepared food ingredients/price"
+        }
+      ],
+      "environmental_observations": {
+        "minimum_internal_length": {
+          "value": {
+            "value": 80,
+            "unit": "cm"
+          },
+          "status": "assumed",
+          "source": "06-kasumigaura-medaka-channel-margin.md",
+          "observed_at": "2026-10-04",
+          "notes": "Design requirement"
+        },
+        "minimum_internal_width": {
+          "value": {
+            "value": 35,
+            "unit": "cm"
+          },
+          "status": "assumed",
+          "source": "06-kasumigaura-medaka-channel-margin.md",
+          "observed_at": "2026-10-04",
+          "notes": "Design requirement"
+        }
+      },
+      "existing_model_candidate": {
+        "purchase": {
+          "cost_items": [
+            {
+              "id": "substrate",
+              "category": "setup",
+              "amount": {
+                "value": {
+                  "value": 26.24,
+                  "unit": "USD"
+                },
+                "status": "documented",
+                "source": "https://www.bulkreefsupply.com/super-naturals-substrate-moonlight-sand-caribsea.html",
+                "observed_at": "2026-10-04",
+                "notes": "20lb smooth Moonlight sand, shallow decorative/rootless layout; actual footprint pending."
+              },
+              "timing": "startup"
+            }
+          ]
+        }
+      },
+      "evaluator_reference": {
+        "current_report_json": "assessment-results/kasumigaura-medaka-channel-margin.json",
+        "current_report_markdown": "assessment-results/kasumigaura-medaka-channel-margin.md",
+        "meaning": "Public cost/work snapshot; full private installation model is not distributed. Not compatibility proof."
+      }
+    },
+    {
+      "id": "archer-vegetated-wetland-margin",
+      "status": "conditional_planning_design_delivered",
+      "plan_file": "07-archer-vegetated-wetland-margin.md",
+      "geography": {
+        "country": "Australia",
+        "region": "Cape York Peninsula, Queensland",
+        "drainage": "Archer River",
+        "habitat": "Sheltered vegetated freshwater wetland margin"
+      },
+      "evidence_level": "pooled_wetland_fish_records_and_separate_named_area_native_fern_records",
+      "strict_locality_cooccurrence_proven": false,
+      "fish_groups": [
+        {
+          "scientific_name": "Pseudomugil gertrudae",
+          "common_name": "Spotted blue-eye",
+          "adult_count": 12,
+          "adult_total_length_planning_cm": 4,
+          "social_minimum_planning_count": 10,
+          "sex_ratio": "mixed unsexed group; prefer females at least equal males, no guaranteed supplier ratio",
+          "care_ceiling": "intermediate",
+          "native_habitat_source": "https://researchonline.jcu.edu.au/73250/1/Will%20fencing%20floodplain%20and%20riverrine%20wetlands%20from%20feral%20pig%20damage.pdf",
+          "care_source": "https://www.seriouslyfish.com/species/pseudomugil-gertrudae/",
+          "retail_source": "https://www.wetspottropicalfish.com/product/pseudomugil-gertrudae/",
+          "supplier_origin": "TR; no Archer lineage verified"
+        }
+      ],
+      "plant_groups": [
+        {
+          "scientific_name": "Ceratopteris thalictroides",
+          "initial_quantity": 3,
+          "quantity_unit": "nursery pot",
+          "placement": "floating rear/sides; opencenterandsurface",
+          "native_source": "https://wetlandinfo.detsi.qld.gov.au/wetlands/facts-maps/wildlife/?AreaID=sub-basin-herb-archer-river",
+          "field_culture_source": "https://www.aquagreen.com.au/plant_data/Ceratopteris_thalictroides.html",
+          "care_ceiling": "beginner",
+          "joint_Archer_fish_plant_patch_proven": false,
+          "supplier": "https://www.aquariumcoop.com/products/water-sprite"
+        }
+      ],
+      "environmental_requirements": {
+        "temperature_C": [
+          24,
+          26
+        ],
+        "target_temperature_C": 25,
+        "pH": [
+          6.5,
+          7.5
+        ],
+        "GH_dGH": [
+          5,
+          10
+        ],
+        "KH": "unknown; stock guidance conflicts, no12-15dKHtargetadopted",
+        "minimum_internal_base_cm": [
+          60,
+          35
+        ],
+        "light": "low/moderate for floating fern,6hourstart",
+        "flow": "gentle distributed flow with visible surface exchange andquietfeedingareas"
+      },
+      "retail_cost_screen": {
+        "subtotal_usd": 976.01,
+        "regular_stand_price_total_usd": 1003.01,
+        "fits_1000_ceiling": true,
+        "scope_complete": true,
+        "fully_quoted_available_cart": false,
+        "dated_at": "2026-10-04",
+        "fish_goods_usd": 101.88,
+        "fish_postage_allowance_usd": 49.99,
+        "plant_whole_quantity_cap_usd": 23.97,
+        "plant_postage_usd": 0,
+        "notes": "12TRselectedXSvariant8.49accepted;3nurserypots7.99 andselectedsupplies45.94combinedbasketaccepted/freereference-regionZIPstandardquote. Matchingtank209.99/top66.99included;35reserve. Sale23.99headroom;regularfails3.01. Site/receivedstock/localacquisition unknown.",
+        "contingency_usd": 35,
+        "current_sale_dependency": true,
+        "fits_1000_ceiling_at_regular_stand": false,
+        "current_assessment_directory": "assessment-results/archer-selected-pots-main-screen",
+        "plant_quantity_basis": "3 nursery pots, not3guaranteedindividualcrowns"
+      },
+      "unresolved": [
+        "Supplierstock frozen/prepared-food success and actualholdingchemistry; do not invent resolution",
+        "Received3pot plantidentity/biomass and establishment of adequatefloatingcover; offeredquantityacceptedcart, no reservedstock",
+        "Native fern reportingboundary precision and noexactjointpatch; practicalregionalonly",
+        "Full fitted reference-regionretailcart/tax/transport; matchingbenchmarks included, sale976.01/regular1003.01fails",
+        "Actualhomechemistry may failGH5-10; dimensions/usablewater/room/support",
+        "Receiving/isolation need and associatedbudget/time"
+      ],
+      "sources": [
+        {
+          "url": "https://researchonline.jcu.edu.au/73250/1/Will%20fencing%20floodplain%20and%20riverrine%20wetlands%20from%20feral%20pig%20damage.pdf",
+          "role": "Primary Archer wetland fish survey, Table 1; pooled not joint-site evidence",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "url": "https://wetlandinfo.detsi.qld.gov.au/wetlands/facts-maps/wildlife/?AreaID=sub-basin-herb-archer-river",
+          "role": "Native fern specimen records; coarse precision/buffer and growth form caveat",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "url": "https://www.wetspottropicalfish.com/product/pseudomugil-gertrudae/",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://www.aquariumcoop.com/products/water-sprite",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        }
+      ],
+      "environmental_observations": {
+        "minimum_internal_length": {
+          "value": {
+            "value": 60,
+            "unit": "cm"
+          },
+          "status": "assumed",
+          "source": "07-archer-vegetated-wetland-margin.md; linked care and habitat sources",
+          "observed_at": "2026-10-04",
+          "notes": "Design requirement, not an observed tank dimension"
+        },
+        "minimum_internal_width": {
+          "value": {
+            "value": 35,
+            "unit": "cm"
+          },
+          "status": "assumed",
+          "source": "07-archer-vegetated-wetland-margin.md; linked care and habitat sources",
+          "observed_at": "2026-10-04",
+          "notes": "Clear swimming/refuge space must be assessed after planting; Kalu 30cm is lane width with additional refuges"
+        }
+      },
+      "existing_model_candidate": {
+        "purchase": {
+          "cost_items": [
+            {
+              "id": "substrate",
+              "category": "setup",
+              "amount": {
+                "value": {
+                  "value": 26.24,
+                  "unit": "USD"
+                },
+                "status": "documented",
+                "source": "https://www.bulkreefsupply.com/super-naturals-substrate-moonlight-sand-caribsea.html",
+                "observed_at": "2026-10-04",
+                "notes": "One20lbMoonlightsandbag; shallow decorative bed appropriate to floating fern, not a rooted plant bed."
+              },
+              "timing": "startup"
+            }
+          ]
+        }
+      },
+      "evaluator_reference": {
+        "current_report_json": "assessment-results/archer-vegetated-wetland-margin.json",
+        "current_report_markdown": "assessment-results/archer-vegetated-wetland-margin.md",
+        "meaning": "Public cost/work snapshot; full private installation model is not distributed. Not compatibility proof."
+      }
+    },
+    {
+      "id": "araguaia-ember-chain-sword-margin",
+      "status": "conditional_planning_design_delivered",
+      "plan_file": "08-araguaia-vegetated-tributary-margin.md",
+      "geography": {
+        "country": "Brazil",
+        "drainage": "Araguaia, including Mato Grosso Rio das Mortes",
+        "habitat": "proposed slow vegetated tributary/backwater margin",
+        "scope_note": "Plant voucher is Goi\u00e1s Jussara-Aragar\u00e7as road, not the fish type locality; aquarium is a drainage-based research approximation."
+      },
+      "evidence_level": "drainage/habitat overlap; collector-authored translated aquatic-habitat account plus independent fish/plant vouchers; not joint patch",
+      "strict_locality_cooccurrence_proven": false,
+      "fish_groups": [
+        {
+          "scientific_name": "Hyphessobrycon amandae",
+          "common_name": "ember tetra",
+          "count": 21,
+          "adult_size_allowance_cm": 2.5,
+          "social_minimum": 10,
+          "sex_ratio": "unsexed mixed shoal; no enforced ratio or breeding objective",
+          "care_grade": "beginner species; combined system provisionally beginner-intermediate",
+          "native_record": "https://revistas.usp.br/paz/article/download/211612/193862",
+          "taxonomy_source": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=7876",
+          "care_sources": [
+            "https://fluvalaquatics.com/uk/wp-content/uploads/2022/02/Species-Spotlight_Ember-Tetra_EN.pdf",
+            "https://www.seriouslyfish.com/species/hyphessobrycon-amandae",
+            "https://www.aquariumcoop.com/blogs/aquarium/ember-tetra",
+            "https://www.wetspottropicalfish.com/product/hyphessobrycon-amandae/",
+            "https://aquaticarts.com/products/ember-tetra"
+          ],
+          "feeding": "appropriately tiny complete prepared food; occasional small frozen food, no obligatory live-food culture",
+          "habitat_limit": "Collector-authored translated discovery narrative supports clear-water vegetated igarape; originalissue/date/coordinates unavailable; selected chain-sword not named at exact patch.",
+          "native_habitat_source": "https://roslinyakwariowe.pl/artykuly/ryby-akwariowe/4481-hyphessobrycon-amandae-bystrzyk-amandy.html",
+          "supplier_origin": "Tank-bred, explicit Aquatic Arts listing; locality ancestry unknown",
+          "adult_count": 21,
+          "care_ceiling": "beginner species; combined system provisionally beginner-intermediate"
+        }
+      ],
+      "plant_groups": [
+        {
+          "scientific_name": "Helanthium tenellum",
+          "common_name": "dwarf chain sword",
+          "quantity": 4,
+          "unit": "pot",
+          "placement": "rooted rear/side margin meadow, preserving central swimming lane",
+          "culture": "submerged rosettes, crown exposed, root tabs and liquid nutrients, no injected CO2",
+          "taxonomy_source": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A118649-2",
+          "native_drainage_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4822066/",
+          "native_record": "Voucher161 C.P.Bove etal, Jussara-Aragar\u00e7as road100kmfromJussara, Goi\u00e1s,1997-05-26; Table1Em/Sf",
+          "care_source": "https://www.aquariumcoop.com/products/dwarf-chain-sword",
+          "light_target": {
+            "low": 20,
+            "high": 35,
+            "unit": "PAR",
+            "status": "documented_care_guidance_not_measured_installation"
+          },
+          "additional_culture_source": "https://www.tfhmagazine.com/articles/aquatic-plants/helanthium-tenellum",
+          "initial_quantity": 4,
+          "quantity_unit": "pot"
+        }
+      ],
+      "environmental_requirements": {
+        "temperature_degC": {
+          "low": 24,
+          "high": 26,
+          "status": "assumed_keeping_scenario"
+        },
+        "pH": {
+          "low": 6.2,
+          "high": 7,
+          "status": "assumed_keeping_overlap"
+        },
+        "fish_GH_dGH": {
+          "low": 2,
+          "high": 10,
+          "status": "selected_supplier_care_envelope_not_full_system_ideal"
+        },
+        "plant_GH_KH": "Cultivation supports soft/hard water,pH6-8; investigateGH2-10 selected-stock scenario. KH/stability remain unknown.",
+        "flow": "gentle margin circulation and surface exchange; avoid direct high-velocity jet through shoal",
+        "minimum_internal_base_cm": {
+          "length": 80,
+          "width": 35,
+          "status": "conservative_planning_design_not_owned_measurement"
+        },
+        "usable_water": "unknown; no percentage of nominal capacity silently applied"
+      },
+      "retail_cost_screen": {
+        "subtotal_usd": 960.19,
+        "regular_stand_price_total_usd": 987.19,
+        "fits_1000_ceiling": true,
+        "current_sale_dependency": false,
+        "scope_complete": true,
+        "scope_status": "assumed_complete_categories_fitted_quotes_incomplete",
+        "fully_quoted_available_cart": false,
+        "dated_at": "2026-10-04",
+        "shared_price_reference": "shared-retail-prices.json",
+        "fish_order_usd": 54.98,
+        "fish_shipping_usd": 43,
+        "nursery_order_usd": 67.92,
+        "substrate_lb": 40,
+        "contingency_usd": 30,
+        "prepared_food_selected": "Magic Small Fish Feed 1oz,3.99",
+        "current_assessment_directory": "assessment-results/araguaia-aa-main-screen",
+        "notes": "21fish12+9 accepted tank-bred packs54.98 plus43 quoted reference-regionZIP overnight; matching209.99tank/66.99top benchmarks included.30contingency retained. Sale39.81headroom; regular12.81. No fully quoted local fitted cart.",
+        "fits_1000_ceiling_at_regular_stand": true
+      },
+      "unresolved": [
+        "Received21fish identity/health/food intake and source water; full12+9pack cart accepted but not reserved",
+        "Quoted reference-region tank route and fitted lid/light/tools/food/tax/transport",
+        "Actual internal dimensions, usable water, planted substrate depth and installed light/flow",
+        "Measured home GH/KH/pH stability, room extremes, support and water-change access",
+        "Exact joint selected fish\u2013Helanthium patch remains unproven; practical regional compromise disclosed. Translated narrative lacks original issue/date and coordinates."
+      ],
+      "sources": [
+        {
+          "url": "https://roslinyakwariowe.pl/artykuly/ryby-akwariowe/4481-hyphessobrycon-amandae-bystrzyk-amandy.html",
+          "role": "Collector-authored translated discovery account; clear-water vegetated igarape, reported26C,pH6.6-7.2,85-115uS/cm; primary narrative with translation/date limitations",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6002418/",
+          "role": "2018primary examined museum comparative material UFRJ1557 five ember specimens JussaraGoias; no shared botanical event",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4822066/",
+          "role": "2016primary botanical Araguaia record and emergent/submerged-fixed category; separate fish observation",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "url": "https://www.wetspottropicalfish.com/product/hyphessobrycon-amandae/",
+          "role": "CurrentTR identity,price3.99-4.99,min6,ordinary prepared/frozen food andGH2-10 guidance",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "url": "https://www.wetspottropicalfish.com/shipping-information/",
+          "role": "Published49.99 overnight toNorthCarolina; actual weather/address conditional",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "url": "https://aquaticarts.com/products/ember-tetra",
+          "accessed_at": "2026-10-04",
+          "purpose": "Tank-bred full21fish pack route, prepared/frozen diet and vendor water guidance; cart/shipping audit saved separately"
+        },
+        {
+          "url": "https://www.aquariumcoop.com/products/dwarf-chain-sword",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        }
+      ],
+      "environmental_observations": {
+        "minimum_internal_length": {
+          "value": {
+            "value": 80,
+            "unit": "cm"
+          },
+          "status": "assumed",
+          "source": "08-araguaia-vegetated-tributary-margin.md; linked care and habitat sources",
+          "observed_at": "2026-10-04",
+          "notes": "Design requirement, not an observed tank dimension"
+        },
+        "minimum_internal_width": {
+          "value": {
+            "value": 35,
+            "unit": "cm"
+          },
+          "status": "assumed",
+          "source": "08-araguaia-vegetated-tributary-margin.md; linked care and habitat sources",
+          "observed_at": "2026-10-04",
+          "notes": "Conservative21-adult design requirement; actual internal footprint/layout and processing unknown."
+        }
+      },
+      "existing_model_candidate": {
+        "purchase": {
+          "cost_items": [
+            {
+              "id": "substrate",
+              "category": "setup",
+              "amount": {
+                "value": {
+                  "value": 47.33,
+                  "unit": "USD"
+                },
+                "status": "documented",
+                "source": "https://www.bulkreefsupply.com/super-naturals-substrate-moonlight-sand-caribsea.html",
+                "observed_at": "2026-10-04",
+                "notes": "One 40 lb bag; SKU252296, selected row in stock. Slope to a 4-5 cm planted margin; actual geometry/depth verification pending."
+              },
+              "timing": "startup"
+            }
+          ]
+        }
+      },
+      "evaluator_reference": {
+        "current_report_json": "assessment-results/araguaia-ember-chain-sword-margin.json",
+        "current_report_markdown": "assessment-results/araguaia-ember-chain-sword-margin.md",
+        "meaning": "Public cost/work snapshot; full private installation model is not distributed. Not compatibility proof."
+      }
+    },
+    {
+      "id": "essequibo-small-creek-community",
+      "status": "conditional_planning_design_delivered",
+      "plan_file": "09-essequibo-forest-creek-margin.md",
+      "geography": {
+        "country": "Guyana",
+        "drainage": "Essequibo including Potaro",
+        "habitat": "Slow forest tributary margin with a light opening for native Mayaca"
+      },
+      "evidence_level": "fish_field_habitat_category_overlap; plant_separate_named_drainage_voucher_and_margin_growth_support",
+      "strict_locality_cooccurrence_proven": false,
+      "fish_groups": [
+        {
+          "scientific_name": "Hemigrammus erythrozonus",
+          "common_name": "Glowlight tetra",
+          "adult_count": 12,
+          "adult_standard_length_planning_cm": 4.0,
+          "social_minimum_planning_count": 6,
+          "sex_ratio": "unsexed mixed group; no obligatory breeding ratio",
+          "care_ceiling": "beginner",
+          "native_habitat_source": "https://www.scielo.br/j/bn/a/gxdzHNNbGR5KFBmVMxytPdM/",
+          "preferred_group_count": 10,
+          "retail_source": "https://imperialtropicals.com/products/glo-light-tetra",
+          "supplier_origin": "captive bred"
+        },
+        {
+          "scientific_name": "Holopristis ocellifera",
+          "common_name": "Head-and-tail-light tetra",
+          "adult_count": 9,
+          "adult_standard_length_planning_cm": 4.5,
+          "social_minimum_planning_count": 6,
+          "sex_ratio": "unsexed mixed group; no obligatory breeding ratio",
+          "care_ceiling": "beginner",
+          "native_habitat_source": "https://www.scielo.br/j/bn/a/gxdzHNNbGR5KFBmVMxytPdM/",
+          "preferred_group_count": 10,
+          "retail_source": "https://imperialtropicals.com/products/head-and-tail-light-tetra",
+          "supplier_origin": "captive bred"
+        }
+      ],
+      "plant_groups": [
+        {
+          "scientific_name": "Mayaca fluviatilis",
+          "initial_quantity": 3,
+          "quantity_unit": "nursery pot",
+          "placement": "rear and one side; spaced rooted stems; retain open lane",
+          "care_ceiling": "intermediate",
+          "native_source": "https://records.data.kew.org/occurrences/df1f7ff5-b47f-4dc4-bf3d-764452208f31",
+          "culture_source": "https://www.aquariumcoop.com/products/mayaca-fluviatilis",
+          "field_growth_form_at_voucher": "not established by accessible locality record",
+          "original_voucher_name": "Mayaca longipes Gand. (authority essential; not M.longipes Mart.exSeub.)",
+          "voucher_metadata_crosscheck": "https://www.gbif.org/occurrence/4602039152",
+          "native_evidence_quality": "KewpublicAPIauthority-specificmapping toM.fluviatilis and writtenPotarolocality checked. No adverseuserassertion; taxon/homonym/identificationchecks passed. Missinggeoreferencing prevents exactcoordinates; noindependentspecimenredetermination or sharedpatchclaim.",
+          "care_audit_file": "selected-nursery-plant-care-supply-audit.json",
+          "record_quality_audit": "mayaca-kew-record-quality-audit.json"
+        }
+      ],
+      "environmental_requirements": {
+        "water_temperature_C": {
+          "low": 24,
+          "target": 25,
+          "high": 26,
+          "status": "assumed keeping scenario"
+        },
+        "pH": {
+          "low": 6.5,
+          "high": 7.0,
+          "status": "provisional overlap; not field measurement"
+        },
+        "GH_dGH": {
+          "low": 2,
+          "high": 8,
+          "status": "provisional soft-water keeping screen"
+        },
+        "KH": "unknown; verify stable ordinary tap water",
+        "minimum_internal_base_cm": [
+          80,
+          38
+        ],
+        "light": "moderate at plant stand; dimmer fish refuge; installed PAR unknown",
+        "flow": "gentle circulation and surface exchange"
+      },
+      "retail_cost_screen": {
+        "subtotal_usd": 981.13,
+        "regular_stand_price_total_usd": 1008.13,
+        "fits_1000_ceiling": true,
+        "scope_complete": true,
+        "fully_quoted_available_cart": false,
+        "dated_at": "2026-10-04",
+        "fish_goods_usd": 71.93,
+        "fish_postage_allowance_usd": 39.99,
+        "notes": "Exact21fish anonymous cart accepted;39.99overnight to assumedreference-region[reference delivery area]. Matching209.99tank/66.99top benchmarks included; local acquisition conditional, current stand sale required.30reserve retained.",
+        "contingency_usd": 30,
+        "fish_shipping_usd": 39.99,
+        "current_assessment_directory": "assessment-results/essequibo-reference-region-main-screen",
+        "scope_status": "assumed_complete_categories_fitted_quotes_incomplete",
+        "superseded_sensitivity_note": "Previous conservative max-zone freight and unchanged-reserve scenarios are historical. Exact reference-region-ZIP basket quote now39.99; matching tank/top benchmarks included;30reserve retained.",
+        "fits_1000_ceiling_at_regular_stand": false,
+        "regular_stand_total_usd": 1008.13,
+        "freight_status": "documented exact anonymous basket estimate; actual address/date/weather conditional"
+      },
+      "unresolved": [
+        "Received stock identity, health and ordinary feeding; full selected pack quantities accepted by anonymous cart but not reserved.",
+        "Actual reference-region fitted tank/top acquisition, tax and transport within complete ceiling; current discounted stand required,18.87USDheadroom beyond30reserve.",
+        "Mayaca establishment at20-35PARwithoutinjectedCO2; nutrition/iron/pruning within time target",
+        "Plant voucher field growth form and exact joint patch unknown; regional reconstruction only",
+        "Actualinternalgeometry/usablewater/homechemistry/room/support",
+        "Health-observation/isolation needs and any added costs"
+      ],
+      "sources": [
+        {
+          "url": "https://www.scielo.br/j/bn/a/gxdzHNNbGR5KFBmVMxytPdM/",
+          "role": "See organism source fields and numbered plan for precise claim and limitations",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "url": "https://imperialtropicals.com/products/glo-light-tetra",
+          "role": "See organism source fields and numbered plan for precise claim and limitations",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "url": "https://imperialtropicals.com/products/head-and-tail-light-tetra",
+          "role": "See organism source fields and numbered plan for precise claim and limitations",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "url": "https://records.data.kew.org/occurrences/df1f7ff5-b47f-4dc4-bf3d-764452208f31",
+          "role": "See organism source fields and numbered plan for precise claim and limitations",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "url": "https://www.aquariumcoop.com/products/mayaca-fluviatilis",
+          "role": "See organism source fields and numbered plan for precise claim and limitations",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "url": "https://www.aquariumcoop.com/products/mayaca-fluviatilis",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://www.gbif.org/occurrence/4602039152",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:565395-1",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://records-ws.data.kew.org/occurrences/df1f7ff5-b47f-4dc4-bf3d-764452208f31",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        }
+      ],
+      "environmental_observations": {
+        "minimum_internal_length": {
+          "value": {
+            "value": 80,
+            "unit": "cm"
+          },
+          "status": "assumed",
+          "source": "09-essequibo-forest-creek-margin.md; linked care and habitat sources",
+          "observed_at": "2026-10-04",
+          "notes": "Design requirement, not an observed tank dimension"
+        },
+        "minimum_internal_width": {
+          "value": {
+            "value": 38,
+            "unit": "cm"
+          },
+          "status": "assumed",
+          "source": "09-essequibo-forest-creek-margin.md; linked care and habitat sources",
+          "observed_at": "2026-10-04",
+          "notes": "Clear swimming/refuge space must be assessed after planting; Kalu 30cm is lane width with additional refuges"
+        }
+      },
+      "existing_model_candidate": {
+        "purchase": {
+          "cost_items": [
+            {
+              "id": "substrate",
+              "category": "setup",
+              "amount": {
+                "value": {
+                  "value": 47.33,
+                  "unit": "USD"
+                },
+                "status": "documented",
+                "source": "https://www.bulkreefsupply.com/super-naturals-substrate-moonlight-sand-caribsea.html",
+                "observed_at": "2026-10-04",
+                "notes": "40lb inert smooth sand retained. Redistribute into6-8cm rooted rear patches over about25%base, shallow front. Actual internal footprint/depth unknown; no uniformly shallow bed claimed."
+              },
+              "timing": "startup"
+            }
+          ]
+        }
+      },
+      "evaluator_reference": {
+        "current_report_json": "assessment-results/essequibo-small-creek-community.json",
+        "current_report_markdown": "assessment-results/essequibo-small-creek-community.md",
+        "meaning": "Public cost/work snapshot; full private installation model is not distributed. Not compatibility proof."
+      }
+    },
+    {
+      "id": "apure-pristella-floodplain-margin",
+      "status": "conditional_planning_design_delivered",
+      "plan_file": "10-apure-floodplain-margin.md",
+      "geography": {
+        "country": "Venezuela",
+        "drainage": "Apure, Orinoco basin",
+        "habitat": "Sheltered vegetated floodplain-lagoon margin; plant record specifically Guaritico overflow lagoons"
+      },
+      "evidence_level": "named_drainage_and_compatible_habitat_overlap; separate_sources",
+      "strict_locality_cooccurrence_proven": false,
+      "fish_groups": [
+        {
+          "scientific_name": "Pristella maxillaris",
+          "common_name": "Ordinary x-ray tetra",
+          "adult_count": 16,
+          "adult_standard_length_planning_cm": 4.5,
+          "adult_total_length_planning_cm": 5.5,
+          "social_minimum_planning_count": 10,
+          "sex_ratio": "unsexed mixed shoal; no breeding ratio required",
+          "care_ceiling": "beginner",
+          "native_source": "https://bioone.org/journals/bulletin-of-the-american-museum-of-natural-history/volume-2019/issue-431/0003-0090.431.1.1/The-Fishes-of-the-Amazon--Distribution-and-Biogeographical-Patterns/10.1206/0003-0090.431.1.1.pdf",
+          "source_page": 89,
+          "identity_source": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=32998",
+          "care_source": "https://www.seriouslyfish.com/species/pristella-maxillaris/",
+          "captive_origin_of_selected_stock_verified": true,
+          "captive_origin_evidence": "Supplier-selected listing labels TR; exact shipped batch unverified"
+        }
+      ],
+      "plant_groups": [
+        {
+          "scientific_name": "Najas guadalupensis",
+          "common_name": "Guppy grass / southern waternymph",
+          "initial_quantity": 4,
+          "quantity_unit": "retail one-cup portion",
+          "placement": "loose submerged rear/side stands; open central lane and surface",
+          "native_source": "https://www.hatoelfrio.com/wp-content/uploads/repositorio/biblioteca/Rial_plantas_2007.pdf",
+          "source_printed_page": 144,
+          "source_pdf_zero_based_page": 142,
+          "field_growth": "submerged in Guaritico overflow lagoons",
+          "care_ceiling": "beginner",
+          "culture_source": "https://quinnsfins.com/product/guppy-grass-live-aquarium-plant/",
+          "subspecies_of_trade_stock": "unverified; species-level regional reconstruction only"
+        }
+      ],
+      "environmental_requirements": {
+        "temperature_C": {
+          "low": 24,
+          "target": 25,
+          "high": 26,
+          "status": "assumed keeping scenario"
+        },
+        "pH": {
+          "low": 6.5,
+          "high": 7.5,
+          "status": "keeping overlap"
+        },
+        "GH_dGH": {
+          "low": 4,
+          "high": 10,
+          "status": "provisional supplier/care overlap; home readings unknown"
+        },
+        "KH": "unknown; stable untreated-with-conditioner home water required",
+        "minimum_internal_base_cm": [
+          80,
+          35
+        ],
+        "light": "low to moderate, six-hour starting schedule, installed coverage unknown",
+        "flow": "gentle circulation with surface exchange; quiet submerged vegetation margin"
+      },
+      "retail_cost_screen": {
+        "subtotal_usd": 976.94,
+        "regular_stand_price_total_usd": 1003.94,
+        "fits_1000_ceiling": true,
+        "scope_complete": true,
+        "fully_quoted_available_cart": false,
+        "dated_at": "2026-10-04",
+        "fish_order_usd": 47.84,
+        "fish_shipping_usd": 49.99,
+        "plant_order_usd": 31.96,
+        "plant_shipping_usd": 24.99,
+        "food_nutrition_shipping_allowance_usd": 6.99,
+        "substrate_lb": 20,
+        "notes": "16selectedTRXSjuveniles2.99each acceptedaddcart; adultdesign unchanged. Matching209.99tank/66.99lid and50reserve retained.976.94sale/1003.94regularfails;991.94saleovernightplantsfits. Noactualreference-regionfittedquote orreceivedbatch claim.",
+        "sale_stand_overnight_plants_total_usd": 991.94,
+        "scope_notes": "All startup categories included, with explicit benchmarks/caps and actual quote checks; no claim every item is quoted.",
+        "fits_1000_ceiling_at_regular_stand": false,
+        "sale_stand_price_total_usd": 976.94,
+        "current_sale_dependency": true,
+        "fits_1000_ceiling_at_regular_stand_price": false,
+        "current_assessment_directory": "assessment-results/apure-selected-xs-main-screen"
+      },
+      "unresolved": [
+        "Fully quoted matched hardware/transport and exact parcel eligibility",
+        "Supplier labels fish TR; actual shipped-batch provenance/health and prepared-food acceptance remain unverified",
+        "Trade Najas identity/subspecies and actual portion biomass",
+        "Actual internal base/usable water and installed flow/light/heat",
+        "Home chemistry may be softer than4dGH supplier overlap; no routine mineral forcing",
+        "No exact fish-plant collecting patch; practical drainage overlap only",
+        "Current matchingtank/top categoryscreen976.94 sale /1003.94 regular; complete localdeliveredquote stillunknown. No futureuseddiscount credited."
+      ],
+      "sources": [
+        {
+          "url": "https://www.wetspottropicalfish.com/product/pristella-maxillaris/",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://www.wetspottropicalfish.com/shipping-information/",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        }
+      ],
+      "environmental_observations": {
+        "minimum_internal_length": {
+          "value": {
+            "value": 80,
+            "unit": "cm"
+          },
+          "status": "assumed",
+          "source": "10-apure-floodplain-margin.md; linked care and habitat sources",
+          "observed_at": "2026-10-04",
+          "notes": "Design requirement, not an observed tank dimension"
+        },
+        "minimum_internal_width": {
+          "value": {
+            "value": 35,
+            "unit": "cm"
+          },
+          "status": "assumed",
+          "source": "10-apure-floodplain-margin.md; linked care and habitat sources",
+          "observed_at": "2026-10-04",
+          "notes": "Clear swimming/refuge space must be assessed after planting; Kalu 30cm is lane width with additional refuges"
+        }
+      },
+      "existing_model_candidate": {
+        "purchase": {
+          "cost_items": [
+            {
+              "id": "substrate",
+              "category": "setup",
+              "amount": {
+                "value": {
+                  "value": 26.24,
+                  "unit": "USD"
+                },
+                "status": "documented",
+                "source": "https://www.bulkreefsupply.com/super-naturals-substrate-moonlight-sand-caribsea.html",
+                "observed_at": "2026-10-04",
+                "notes": "One actual 20 lb Moonlight sand bag, SKU252294; shallow decorative bed for rootless vegetation, not the Araguaia rooted-bed design. About 1.4 cm nominal uniform depth; geometry unmeasured."
+              },
+              "timing": "startup"
+            }
+          ]
+        }
+      },
+      "evaluator_reference": {
+        "current_report_json": "assessment-results/apure-pristella-floodplain-margin.json",
+        "current_report_markdown": "assessment-results/apure-pristella-floodplain-margin.md",
+        "meaning": "Public cost/work snapshot; full private installation model is not distributed. Not compatibility proof."
+      }
+    }
+  ]
+}

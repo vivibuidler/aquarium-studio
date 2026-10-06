@@ -1,0 +1,17 @@
+[
+  {
+    "type": "filter",
+    "vertices": 490,
+    "outside": 0
+  },
+  {
+    "type": "heater",
+    "vertices": 100,
+    "outside": 0
+  },
+  {
+    "type": "thermometer",
+    "vertices": 157,
+    "outside": 0
+  }
+]

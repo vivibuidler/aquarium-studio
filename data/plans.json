@@ -1,0 +1,2660 @@
+{
+  "schemaVersion": 1,
+  "sourceAccessedAt": "2026-10-04",
+  "source": "references/habitat-options/options.json",
+  "sourceSnapshotNote": "Curated public data derived from the active ten-plan collection. Personal installation/owner details and private procurement audit paths omitted. SHA-256 applies to this public snapshot, not the private source. Scientific identities, quantities, source size fields, cost/work values and constraints are retained.",
+  "sourceSha256": "36426669025b62e80f24f9ed5b5128a4e79a551967a71d091dc6289f9cef894c",
+  "generatedBy": "tools/build_manifest.py",
+  "units": "cm",
+  "ownerProfile": {
+    "targetVolume": {
+      "value": 50,
+      "unit": "US_gal",
+      "status": "configurable_display_default"
+    },
+    "upfrontBudgetUsd": 1000,
+    "maintenanceCeilingMinutes": 65
+  },
+  "visualAssumptions": "Numerical motion, shape proportions, colors, illustrative sex/strain mix and plant biomass are artistic interpretations; care evidence is not a measured animation model.",
+  "plans": [
+    {
+      "id": "tanguar-haor-honey-gourami",
+      "name": "Tanguar Haor",
+      "number": 1,
+      "country": "Bangladesh",
+      "habitat": "Sheltered vegetated freshwater floodplain margin",
+      "displayHabitat": "Vegetated wetland margin",
+      "groups": [
+        {
+          "species": "Trichogaster chuna",
+          "count": 4,
+          "sexRequirement": "Refer to the numbered plan; displayed sex mix is illustrative",
+          "visualSexMix": [
+            "male",
+            "female",
+            "female",
+            "female"
+          ]
+        },
+        {
+          "species": "Danio rerio",
+          "count": 8,
+          "sexRequirement": "Refer to the numbered plan; displayed sex mix is illustrative"
+        }
+      ],
+      "plants": [
+        {
+          "species": "Ceratophyllum demersum",
+          "quantity": 6,
+          "unit": "bunch",
+          "placement": "back and side refuges; loose submerged/floating stems",
+          "mode": "loose",
+          "rootedUnits": null,
+          "patchPattern": [
+            0,
+            1,
+            2
+          ],
+          "profile": {
+            "form": "hornwort",
+            "color": "#587840",
+            "height": [
+              16,
+              32
+            ],
+            "shoots": [
+              5,
+              9
+            ],
+            "rooted": false
+          },
+          "biomassNote": "Shoot/crown counts, patch area and growth are illustrative, not guaranteed nursery biomass or timed outcomes"
+        }
+      ],
+      "fishCount": 12,
+      "minimumBaseCm": [
+        90,
+        30
+      ],
+      "minimumLaneCm": 90,
+      "substrate": {
+        "massLb": 20,
+        "densityLbPerFt3": 95,
+        "patchDepthCm": 0,
+        "patchAreaFraction": 0,
+        "color": "#d0c7af",
+        "note": "Funded commercial sand, not authenticated wild sediment"
+      },
+      "decor": [],
+      "startupUsd": 963.45,
+      "regularStandUsd": null,
+      "maintenance": {
+        "low": 48.48733744010951,
+        "expected": 54.62012320328542,
+        "high": 60.75290896646133,
+        "unit": "min",
+        "method": "Sum of supplied bounds; not a statistical confidence interval"
+      },
+      "verdict": "conditional",
+      "environment": {
+        "status": "proposed_husbandry_overlap_not_wild_measurements",
+        "temperature_c": [
+          24,
+          25
+        ],
+        "ph": [
+          6,
+          7.5
+        ],
+        "gh_dgh": [
+          5,
+          8
+        ],
+        "kh_dkh": null,
+        "flow": "Gentle distributed circulation with calm refuges",
+        "co2_injection_required": false,
+        "source": "https://fluvalaquatics.com/uk/wp-content/uploads/2022/02/Species-Spotlight_Honey-Gourami_EN.pdf",
+        "notes": "Conservative published-care overlap scenario, not field chemistry. Actual soft reference-region water may fall outside it; retailer general holding water does not verify lifetime performance. No routine chemistry forcing."
+      },
+      "unresolved": [
+        "Actual 90 cm swimming length and open lane; nominal 36-inch tank is not an internal measurement",
+        "Gourami sex balance, retreat access and feeding competition",
+        "Measured tap chemistry versus conservative GH 5\u20138 envelope without routine adjustment",
+        "Recheck chosen TR variants before acquisition; offered full quantities verified on October 4; complete fitted retail checkout and transport",
+        "Any required isolation setup must be included before acquisition",
+        "Current matchingtank/top categoryscreen963.45sale/990.45regular; complete localdeliveredquote stillunknown. No futureuseddiscount credited."
+      ],
+      "planFile": "01-tanguar-haor-vegetated-margin.md",
+      "reportFile": "assessment-results/tanguar-haor-honey-gourami.md",
+      "sources": [
+        {
+          "url": "https://www.researchgate.net/publication/283152209_Assessment_of_aquatic_natural_resources_in_the_Tanguar_haor_at_Sunamgonj_Bangladesh",
+          "role": "Author-uploaded2012study Table4fish and mixed field/interview/secondary methodology; locality-level list not joint-site evidence",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "url": "https://www.fisheriesjournal.com/archives/2018/vol6issue4/PartG/6-4-25-560.pdf",
+          "role": "2018Tanguar vegetation surveyTable2 Cdemersum; table growth headings unreliable, independently verify rootless submerged culture",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "url": "https://fluvalaquatics.com/uk/wp-content/uploads/2022/02/Species-Spotlight_Honey-Gourami_EN.pdf",
+          "role": "Manufacturer direct husbandry guidance; moderatecare, plantcover and omnivorous prepared/frozen diet",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "evidenceLevel": "wetland_and_microhabitat_overlap_separate_surveys"
+    },
+    {
+      "id": "hainan-gold-barb-stream-margin",
+      "name": "Hainan stream",
+      "number": 2,
+      "country": "China",
+      "habitat": "Sheltered vegetated stream margin",
+      "displayHabitat": "Sheltered coastal stream",
+      "groups": [
+        {
+          "species": "Barbodes semifasciolatus",
+          "count": 10,
+          "sexRequirement": "Mixed sexes preferred; one unsexedshoal, no mandatorybreedingratio."
+        }
+      ],
+      "plants": [
+        {
+          "species": "Ceratopteris thalictroides",
+          "quantity": 3,
+          "unit": "pot",
+          "placement": "two rear planted groups, one floating refuge",
+          "mode": "mixed",
+          "rootedUnits": 2,
+          "patchPattern": [
+            0,
+            2,
+            1
+          ],
+          "profile": {
+            "form": "fern",
+            "color": "#6d9147",
+            "height": [
+              13,
+              27
+            ],
+            "shoots": [
+              2,
+              5
+            ],
+            "rooted": true
+          },
+          "biomassNote": "Shoot/crown counts, patch area and growth are illustrative, not guaranteed nursery biomass or timed outcomes"
+        }
+      ],
+      "fishCount": 10,
+      "minimumBaseCm": [
+        90,
+        35
+      ],
+      "minimumLaneCm": 90,
+      "substrate": {
+        "massLb": 40,
+        "densityLbPerFt3": 95,
+        "patchDepthCm": 4.5,
+        "patchAreaFraction": 0.5,
+        "color": "#d0c7af",
+        "note": "Funded commercial sand, not authenticated wild sediment"
+      },
+      "decor": [],
+      "startupUsd": 974.11,
+      "regularStandUsd": 1001.11,
+      "maintenance": {
+        "low": 48.48733744010951,
+        "expected": 54.62012320328542,
+        "high": 60.75290896646133,
+        "unit": "min",
+        "method": "Sum of supplied bounds; not a statistical confidence interval"
+      },
+      "verdict": "conditional",
+      "environment": {
+        "status": "proposed_ordinary_husbandry_scenario_site_unknown",
+        "temperature_c": [
+          22,
+          24
+        ],
+        "ph": [
+          6.5,
+          7.5
+        ],
+        "gh_dgh": [
+          2,
+          12
+        ],
+        "kh_dkh": null,
+        "flow": "mild with calm refuge and open breathing access",
+        "co2_injection_required": false
+      },
+      "unresolved": [
+        "Actual90x35cm internalbase/90cmlane,usablewater, support andserviceaccess.",
+        "ConditionedhomepH/GH/KH/stability andtemperatureextremes; noforcedadvancedtreatment.",
+        "Completefittedreference-regionquotes/tax/parcel eligibility;974.11sale,1001.11regularfails.",
+        "Receivedfishidentity/health/ordinaryfoodintake andhealthyferncover/biomass.",
+        "Goldenstrain/unverifiedHainanlineage and fieldemergent-to-aquariumculture compromises disclosed."
+      ],
+      "planFile": "02-hainan-coastal-stream-margin.md",
+      "reportFile": "assessment-results/hainan-gold-barb-stream-margin.md",
+      "sources": [
+        {
+          "url": "https://www.researchgate.net/profile/Bosco-Chan/publication/43564174_Discovery_of_Tanichthys_albonubes_Lin_1932_Cyprinidae_on_Hainan_Island_and_Notes_on_Its_Ecology/links/0c96052c6775ae6570000000/Discovery-of-Tanichthys-albonubes-Lin-1932-Cyprinidae-on-Hainan-Island-and-Notes-on-Its-Ecology.pdf",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=2006",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://www.seriouslyfish.com/species/barbodes-semifasciolatus",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://www.wetspottropicalfish.com/product/barbodes-semifasciolatus/",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://www.wetspottropicalfish.com/shipping-information/",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://www.aquariumcoop.com/products/easy-fry-and-small-fish-food",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://www.aquariumcoop.com/products/water-sprite",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://www.iplant.cn/foc/pdf/Pteridaceae.pdf",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        }
+      ],
+      "evidenceLevel": "locality_supported_selection_with_field_growth_compromise"
+    },
+    {
+      "id": "kalu-cherry-stream-margin",
+      "name": "Kalu Ganga",
+      "number": 3,
+      "country": "Sri Lanka",
+      "habitat": "Shaded sheltered stream margin; plant record middle river at Gilimale",
+      "displayHabitat": "Shaded stream margin",
+      "groups": [
+        {
+          "species": "Rohanella titteya",
+          "count": 10,
+          "sexRequirement": "Refer to the numbered plan; displayed sex mix is illustrative"
+        },
+        {
+          "species": "Pethia nigrofasciata",
+          "count": 10,
+          "sexRequirement": "Refer to the numbered plan; displayed sex mix is illustrative"
+        }
+      ],
+      "plants": [
+        {
+          "species": "Cryptocoryne walkeri",
+          "quantity": 3,
+          "unit": "pot",
+          "placement": "rear/side rooted patches, crown exposed",
+          "mode": "rooted",
+          "rootedUnits": null,
+          "patchPattern": [
+            0,
+            1,
+            2
+          ],
+          "profile": {
+            "form": "crypt",
+            "color": "#66814b",
+            "height": [
+              10,
+              22
+            ],
+            "shoots": [
+              1,
+              3
+            ],
+            "rooted": true
+          },
+          "biomassNote": "Shoot/crown counts, patch area and growth are illustrative, not guaranteed nursery biomass or timed outcomes"
+        }
+      ],
+      "fishCount": 20,
+      "minimumBaseCm": [
+        90,
+        40
+      ],
+      "minimumLaneCm": 80,
+      "substrate": {
+        "massLb": 40,
+        "densityLbPerFt3": 95,
+        "patchDepthCm": 4.5,
+        "patchAreaFraction": 0.5,
+        "color": "#d0c7af",
+        "note": "Funded commercial sand, not authenticated wild sediment"
+      },
+      "decor": [],
+      "startupUsd": 980.02,
+      "regularStandUsd": null,
+      "maintenance": {
+        "low": 48.48733744010951,
+        "expected": 54.62012320328542,
+        "high": 60.75290896646133,
+        "unit": "min",
+        "method": "Sum of supplied bounds; not a statistical confidence interval"
+      },
+      "verdict": "conditional",
+      "environment": {
+        "status": "supported_culture_planning_envelope_actual_site_and_stock_unknown",
+        "temperature_c": [
+          23,
+          25
+        ],
+        "ph": [
+          6.5,
+          7.5
+        ],
+        "gh_dgh": [
+          2,
+          10
+        ],
+        "kh_dkh": null,
+        "flow": "mild distributed circulation with sheltered planted margin",
+        "co2_injection_required": false,
+        "minimum_internal_base_cm": [
+          90,
+          40
+        ]
+      },
+      "unresolved": [
+        "Received10+10selectedjuvenile identity/health/sex mix and suitably small prepared-food intake; full groups accepted public add-to-cart, not reserved",
+        "Actual90x40cm internalbase,80cmopenlane, establishedthreecryptrefuges andusablewater/filterprocessing",
+        "Complete local fitted retail/tax/transport quote;980.02sale includes25reserve,1007.02regular fails",
+        "Homechemistry/room/support/serviceaccess; no routinechemistryforcing",
+        "Plantidentity/low-tech submergedgrowth; exactjointGilimale collectingpatchnotclaimed"
+      ],
+      "planFile": "03-kalu-shaded-stream-margin.md",
+      "reportFile": "assessment-results/kalu-cherry-stream-margin.md",
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41598-023-45377-9",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://heimbiotop.de/Lagenandra-Literatur/deGraaf_1991.pdf",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://cryptocoryneworld.org/c_walkeri.php",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://www.aquariumcoop.com/products/cryptocoryne-lutea",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://www.seriouslyfish.com/species/puntius-titteya/",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8582130/",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://sljas.sljol.info/articles/7548/files/submission/proof/7548-1-26642-1-10-20180531.pdf",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://aquahuna.com/products/black-ruby-barb",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://aquahuna.com/pages/shipping",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://shopgdlf.com/products/40-50-gallon-fish-tank-stand-with-hidden-litter-box-cabinet-and-cat-perch-36-6x18-9",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://shopgdlf.com/policies/shipping-policy",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://www.heimbiotop.de/cryptocoryne.html",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://www.aquariumindustries.com.au/wp-content/uploads/2015/05/Cryptocoryne-walkeri.pdf",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://www.bulkreefsupply.com/super-naturals-substrate-moonlight-sand-caribsea.html",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://www.aquariumcoop.com/products/hikari-micro-pellets",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://www.aquariumcoop.com/products/floating-glass-thermometer",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        }
+      ],
+      "evidenceLevel": "separate_drainage_and_compatible_margin_records_submerged_culture_compromise"
+    },
+    {
+      "id": "upper-paraguay-bodoquena-community",
+      "name": "Upper Paraguay",
+      "number": 4,
+      "country": "Brazil",
+      "habitat": "Sheltered shallow clearwater vegetated margins; fish Taquari records, plant Salobra record",
+      "displayHabitat": "Vegetated clear-water margin",
+      "groups": [
+        {
+          "species": "Hyphessobrycon herbertaxelrodi",
+          "count": 10,
+          "sexRequirement": "Refer to the numbered plan; displayed sex mix is illustrative"
+        },
+        {
+          "species": "Megalamphodus megalopterus",
+          "count": 10,
+          "sexRequirement": "Refer to the numbered plan; displayed sex mix is illustrative"
+        }
+      ],
+      "plants": [
+        {
+          "species": "Ceratophyllum demersum",
+          "quantity": 3,
+          "unit": "bunch",
+          "placement": "Rear/side planting with open front; see numbered plan",
+          "mode": "loose",
+          "rootedUnits": null,
+          "patchPattern": [
+            0,
+            2
+          ],
+          "profile": {
+            "form": "hornwort",
+            "color": "#587840",
+            "height": [
+              16,
+              32
+            ],
+            "shoots": [
+              5,
+              9
+            ],
+            "rooted": false
+          },
+          "biomassNote": "Shoot/crown counts, patch area and growth are illustrative, not guaranteed nursery biomass or timed outcomes"
+        }
+      ],
+      "fishCount": 20,
+      "minimumBaseCm": [
+        90,
+        40
+      ],
+      "minimumLaneCm": 80,
+      "substrate": {
+        "massLb": 20,
+        "densityLbPerFt3": 95,
+        "patchDepthCm": 0,
+        "patchAreaFraction": 0,
+        "color": "#d0c7af",
+        "note": "Funded commercial sand, not authenticated wild sediment"
+      },
+      "decor": [],
+      "startupUsd": 977.0600000000001,
+      "regularStandUsd": null,
+      "maintenance": {
+        "low": 48.48733744010951,
+        "expected": 54.62012320328542,
+        "high": 60.75290896646133,
+        "unit": "min",
+        "method": "Sum of supplied bounds; not a statistical confidence interval"
+      },
+      "verdict": "conditional",
+      "environment": {
+        "temperature_C": [
+          23,
+          25
+        ],
+        "target_temperature_C": 24,
+        "pH": [
+          6,
+          7
+        ],
+        "GH_dGH": [
+          1,
+          10
+        ],
+        "KH": null,
+        "minimum_internal_base_cm": [
+          90,
+          40
+        ],
+        "minimum_clear_lane_cm": 80,
+        "co2_injection_required": false
+      },
+      "unresolved": [
+        "Fitted available hardware cart, final tax/transport/postage",
+        "Actual internal dimensions, usable water and support",
+        "Home pH/GH/KH and stability",
+        "Offered full TR quantities verified; received ordinary-fin phenotype and food acceptance",
+        "Actual three-bunch biomass/identity and established cover",
+        "No exact joint collecting patch; practical regional reconstruction only",
+        "Current matchingtank/top categoryscreen977.06sale/1004.06regular; complete localdeliveredquote stillunknown. No futureuseddiscount credited."
+      ],
+      "planFile": "04-upper-paraguay-vegetated-margin.md",
+      "reportFile": "assessment-results/upper-paraguay-bodoquena-community.md",
+      "sources": [
+        {
+          "url": "https://www.imasul.ms.gov.br/wp-content/uploads/2022/11/Montagem-livro-Peixes-VERSAO-FINAL-MARCO-2022-ISBN97865-81066-05-5-ONLINE_FINAL-1.pdf",
+          "role": "See organism source fields and numbered plan for precise claim and limitations",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "url": "https://www.seriouslyfish.com/species/hyphessobrycon-herbertaxelrodi/",
+          "role": "See organism source fields and numbered plan for precise claim and limitations",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "url": "https://www.wetspottropicalfish.com/product/hyphessobrycon-herbertaxelrodi/",
+          "role": "See organism source fields and numbered plan for precise claim and limitations",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "url": "https://www.seriouslyfish.com/species/megalamphodus-megalopterus",
+          "role": "See organism source fields and numbered plan for precise claim and limitations",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "url": "https://www.wetspottropicalfish.com/product/hyphessobrycon-megalopterus/",
+          "role": "See organism source fields and numbered plan for precise claim and limitations",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "url": "https://www.cantonaquatics.com/products/hornwort-coontail-bunch-2-3-stems",
+          "role": "See organism source fields and numbered plan for precise claim and limitations",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "evidenceLevel": "drainage_and_compatible_microhabitat_overlap_separate_observations"
+    },
+    {
+      "id": "boraphet-vegetated-marsh-margin",
+      "name": "Boraphet marsh",
+      "number": 5,
+      "country": "Thailand",
+      "habitat": "Sheltered vegetated freshwater littoral margin",
+      "displayHabitat": "Planted marsh margin",
+      "groups": [
+        {
+          "species": "Rasbora borapetensis",
+          "count": 9,
+          "sexRequirement": "Unsexed; no prescribed ratio."
+        },
+        {
+          "species": "Trichopsis pumila",
+          "count": 4,
+          "sexRequirement": "Ideally2males2females; random supplier sexes, no guaranteed ratio."
+        }
+      ],
+      "plants": [
+        {
+          "species": "Ceratophyllum demersum",
+          "quantity": 6,
+          "unit": "5+stem_portion",
+          "placement": "Loose submerged/floating stems in3rear/side patches, open front and air access; grow dense refuges before gouramis.",
+          "mode": "loose",
+          "rootedUnits": null,
+          "patchPattern": [
+            0,
+            1,
+            2
+          ],
+          "profile": {
+            "form": "hornwort",
+            "color": "#587840",
+            "height": [
+              16,
+              32
+            ],
+            "shoots": [
+              5,
+              9
+            ],
+            "rooted": false
+          },
+          "biomassNote": "Shoot/crown counts, patch area and growth are illustrative, not guaranteed nursery biomass or timed outcomes"
+        }
+      ],
+      "fishCount": 13,
+      "minimumBaseCm": [
+        80,
+        35
+      ],
+      "minimumLaneCm": 75,
+      "substrate": {
+        "massLb": 20,
+        "densityLbPerFt3": 95,
+        "patchDepthCm": 0,
+        "patchAreaFraction": 0,
+        "color": "#d0c7af",
+        "note": "Funded commercial sand, not authenticated wild sediment"
+      },
+      "decor": [],
+      "startupUsd": 986.04,
+      "regularStandUsd": 1013.04,
+      "maintenance": {
+        "low": 48.48733744010951,
+        "expected": 54.62012320328542,
+        "high": 60.75290896646133,
+        "unit": "min",
+        "method": "Sum of supplied bounds; not a statistical confidence interval"
+      },
+      "verdict": "conditional",
+      "environment": {
+        "status": "proposed_husbandry_scenario_not_wild_measurements",
+        "temperature_c": [
+          24,
+          24
+        ],
+        "ph": [
+          6.5,
+          7.0
+        ],
+        "gh_dgh": [
+          5,
+          10
+        ],
+        "kh_dkh": null,
+        "hardness_note": "Sparkler supplierKH4\u20138dKH; rasbora-specificKHunreported. No claimed proved shared optimum or forced mineral treatment.",
+        "flow": "Gentle distributed current and surface exchange; quiet planted refuges.",
+        "co2_injection_required": false
+      },
+      "unresolved": [
+        "Actual home chemistry, temperature, internal geometry and support.",
+        "Available reference-region fitted tank/lid acquisition and complete final costs; current stand discount must hold.",
+        "Received health, identities, sex mix and food intake; cover establishment before gouramis."
+      ],
+      "planFile": "05-boraphet-vegetated-marsh-margin.md",
+      "reportFile": "assessment-results/boraphet-vegetated-marsh-margin.md",
+      "sources": [
+        {
+          "url": "https://www.scienceasia.org/2013.39.n2/scias39_105.pdf",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://www4.fisheries.go.th/local/file_document/20220303110514_new.pdf",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://wldb.ilec.or.jp/Display/html/3536",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://powo.science.kew.org/taxon/30006047-2",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://www.fishbase.se/Country/CountrySpeciesSummary.php?Country=Thailand&genusname=Trichopsis&speciesname=pumila",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://www.fws.gov/sites/default/files/documents/Ecological-Risk-Screening-Summary-Blackline-Rasbora.pdf",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://www.seriouslyfish.com/species/rasbora-borapetensis/",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://www.seriouslyfish.com/species/trichopsis-pumila/",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://imperialtropicals.com/products/brilliant-rasbora-rasbora-borapetensis",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://imperialtropicals.com/products/hornwort-ceratophyllum-demursum-floating-pond-plant",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://aquaticarts.com/products/sparkling-dwarf-gourami",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        }
+      ],
+      "evidenceLevel": "locality_records_from_separate_observations"
+    },
+    {
+      "id": "kasumigaura-medaka-channel-margin",
+      "name": "Kasumigaura",
+      "number": 6,
+      "country": "Japan",
+      "habitat": "Sheltered vegetated freshwater lake and agricultural-channel margin",
+      "displayHabitat": "Freshwater channel margin",
+      "groups": [
+        {
+          "species": "Oryzias latipes",
+          "count": 12,
+          "sexRequirement": "Refer to the numbered plan; displayed sex mix is illustrative"
+        }
+      ],
+      "plants": [
+        {
+          "species": "Ceratophyllum demersum",
+          "quantity": 6,
+          "unit": "nursery bunch",
+          "placement": "rootless submerged rear/side clumps; open center",
+          "mode": "loose",
+          "rootedUnits": null,
+          "patchPattern": [
+            0,
+            1,
+            2
+          ],
+          "profile": {
+            "form": "hornwort",
+            "color": "#587840",
+            "height": [
+              16,
+              32
+            ],
+            "shoots": [
+              5,
+              9
+            ],
+            "rooted": false
+          },
+          "biomassNote": "Shoot/crown counts, patch area and growth are illustrative, not guaranteed nursery biomass or timed outcomes"
+        }
+      ],
+      "fishCount": 12,
+      "minimumBaseCm": [
+        80,
+        35
+      ],
+      "minimumLaneCm": 80,
+      "substrate": {
+        "massLb": 20,
+        "densityLbPerFt3": 95,
+        "patchDepthCm": 0,
+        "patchAreaFraction": 0,
+        "color": "#d0c7af",
+        "note": "Funded commercial sand, not authenticated wild sediment"
+      },
+      "decor": [],
+      "startupUsd": 977.08,
+      "regularStandUsd": null,
+      "maintenance": {
+        "low": 48.48733744010951,
+        "expected": 54.62012320328542,
+        "high": 60.75290896646133,
+        "unit": "min",
+        "method": "Sum of supplied bounds; not a statistical confidence interval"
+      },
+      "verdict": "conditional",
+      "environment": {
+        "status": "selected_husbandry_scenario_not_measurements",
+        "temperature_c": [
+          20,
+          22
+        ],
+        "ph": [
+          7,
+          7.5
+        ],
+        "whole_system_gh_dgh": [
+          5,
+          15
+        ],
+        "kh_dkh": null,
+        "flow": "Gentle distributed circulation, visible surface exchange and calm feeding margins",
+        "photoperiod_start_h": 6,
+        "co2_injection_required": false
+      },
+      "unresolved": [
+        "Home pH/GH/KH and stability; scenario may exclude soft reference-region water",
+        "Sustained room/tank warmth above22C cannot be solved with heater; no compulsory chiller",
+        "Actual internal geometry/usable water/support and installed flow",
+        "Complete correctly fitted local retail quotes, actual tax/address delivery and health/identity",
+        "Observe received food intake and recruitment within65min/week; no forced advanced routine",
+        "Current matchingtank/top categoryscreen977.08sale/1004.08regular; complete localdeliveredquote stillunknown. No futureuseddiscount credited."
+      ],
+      "planFile": "06-kasumigaura-medaka-channel-margin.md",
+      "reportFile": "assessment-results/kasumigaura-medaka-channel-margin.md",
+      "sources": [
+        {
+          "url": "https://www.jstage.jst.go.jp/article/jarq/36/4/36_219/_pdf/-char/en",
+          "accessed_at": "2026-10-04",
+          "role": "Primary fish locality/habitat"
+        },
+        {
+          "url": "https://www.nat.museum.ibk.ed.jp/wp-content/uploads/2021/03/2021-03-17_17-18-13_962019.pdf",
+          "accessed_at": "2026-10-04",
+          "role": "Museum submerged botanical records"
+        },
+        {
+          "url": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/50910e.html",
+          "accessed_at": "2026-10-04",
+          "role": "Modern Japanese fish identity/native account"
+        },
+        {
+          "url": "https://powo.science.kew.org/taxon/30006047-2",
+          "accessed_at": "2026-10-04",
+          "role": "Accepted plant/native Japan"
+        },
+        {
+          "url": "https://aquaticarts.com/products/assorted-medaka-ricefish",
+          "accessed_at": "2026-10-04",
+          "role": "Selected tank-bred pack price/ordinary food"
+        },
+        {
+          "url": "https://quinnsfins.com/product/bunch-plants-hornwort/",
+          "accessed_at": "2026-10-04",
+          "role": "Plant stock/price/culture"
+        },
+        {
+          "url": "https://quinnsfins.com/shipping-process/",
+          "accessed_at": "2026-10-04",
+          "role": "Separate plant shipping"
+        },
+        {
+          "url": "https://www.seriouslyfish.com/species/oryzias-latipes/",
+          "accessed_at": "2026-10-04",
+          "role": "Secondary ordinary keeping/reproduction"
+        },
+        {
+          "url": "https://www.aquariumcoop.com/products/easy-fry-and-small-fish-food",
+          "accessed_at": "2026-10-04",
+          "role": "Prepared food ingredients/price"
+        }
+      ],
+      "evidenceLevel": "drainage_and_aquatic_habitat_overlap_separate_observations"
+    },
+    {
+      "id": "archer-vegetated-wetland-margin",
+      "name": "Archer wetland",
+      "number": 7,
+      "country": "Australia",
+      "habitat": "Sheltered vegetated freshwater wetland margin",
+      "displayHabitat": "Vegetated floodplain wetland",
+      "groups": [
+        {
+          "species": "Pseudomugil gertrudae",
+          "count": 12,
+          "sexRequirement": "Refer to the numbered plan; displayed sex mix is illustrative"
+        }
+      ],
+      "plants": [
+        {
+          "species": "Ceratopteris thalictroides",
+          "quantity": 3,
+          "unit": "nursery pot",
+          "placement": "floating rear/sides; opencenterandsurface",
+          "mode": "floating",
+          "rootedUnits": null,
+          "patchPattern": [
+            0,
+            1,
+            2
+          ],
+          "profile": {
+            "form": "fern",
+            "color": "#6d9147",
+            "height": [
+              13,
+              27
+            ],
+            "shoots": [
+              2,
+              5
+            ],
+            "rooted": true
+          },
+          "biomassNote": "Shoot/crown counts, patch area and growth are illustrative, not guaranteed nursery biomass or timed outcomes"
+        }
+      ],
+      "fishCount": 12,
+      "minimumBaseCm": [
+        60,
+        35
+      ],
+      "minimumLaneCm": 60,
+      "substrate": {
+        "massLb": 20,
+        "densityLbPerFt3": 95,
+        "patchDepthCm": 0,
+        "patchAreaFraction": 0,
+        "color": "#d0c7af",
+        "note": "Funded commercial sand, not authenticated wild sediment"
+      },
+      "decor": [],
+      "startupUsd": 976.01,
+      "regularStandUsd": null,
+      "maintenance": {
+        "low": 48.48733744010951,
+        "expected": 54.62012320328542,
+        "high": 60.75290896646133,
+        "unit": "min",
+        "method": "Sum of supplied bounds; not a statistical confidence interval"
+      },
+      "verdict": "conditional",
+      "environment": {
+        "temperature_C": [
+          24,
+          26
+        ],
+        "target_temperature_C": 25,
+        "pH": [
+          6.5,
+          7.5
+        ],
+        "GH_dGH": [
+          5,
+          10
+        ],
+        "KH": "unknown; stock guidance conflicts, no12-15dKHtargetadopted",
+        "minimum_internal_base_cm": [
+          60,
+          35
+        ],
+        "light": "low/moderate for floating fern,6hourstart",
+        "flow": "gentle distributed flow with visible surface exchange andquietfeedingareas"
+      },
+      "unresolved": [
+        "Supplierstock frozen/prepared-food success and actualholdingchemistry; do not invent resolution",
+        "Received3pot plantidentity/biomass and establishment of adequatefloatingcover; offeredquantityacceptedcart, no reservedstock",
+        "Native fern reportingboundary precision and noexactjointpatch; practicalregionalonly",
+        "Full fitted reference-regionretailcart/tax/transport; matchingbenchmarks included, sale976.01/regular1003.01fails",
+        "Actualhomechemistry may failGH5-10; dimensions/usablewater/room/support",
+        "Receiving/isolation need and associatedbudget/time"
+      ],
+      "planFile": "07-archer-vegetated-wetland-margin.md",
+      "reportFile": "assessment-results/archer-vegetated-wetland-margin.md",
+      "sources": [
+        {
+          "url": "https://researchonline.jcu.edu.au/73250/1/Will%20fencing%20floodplain%20and%20riverrine%20wetlands%20from%20feral%20pig%20damage.pdf",
+          "role": "Primary Archer wetland fish survey, Table 1; pooled not joint-site evidence",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "url": "https://wetlandinfo.detsi.qld.gov.au/wetlands/facts-maps/wildlife/?AreaID=sub-basin-herb-archer-river",
+          "role": "Native fern specimen records; coarse precision/buffer and growth form caveat",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "url": "https://www.wetspottropicalfish.com/product/pseudomugil-gertrudae/",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://www.aquariumcoop.com/products/water-sprite",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        }
+      ],
+      "evidenceLevel": "pooled_wetland_fish_records_and_separate_named_area_native_fern_records"
+    },
+    {
+      "id": "araguaia-ember-chain-sword-margin",
+      "name": "Araguaia tributary",
+      "number": 8,
+      "country": "Brazil",
+      "habitat": "proposed slow vegetated tributary/backwater margin",
+      "displayHabitat": "Clear-water tributary margin",
+      "groups": [
+        {
+          "species": "Hyphessobrycon amandae",
+          "count": 21,
+          "sexRequirement": "Refer to the numbered plan; displayed sex mix is illustrative"
+        }
+      ],
+      "plants": [
+        {
+          "species": "Helanthium tenellum",
+          "quantity": 4,
+          "unit": "pot",
+          "placement": "rooted rear/side margin meadow, preserving central swimming lane",
+          "mode": "rooted",
+          "rootedUnits": null,
+          "patchPattern": [
+            0,
+            1,
+            2
+          ],
+          "profile": {
+            "form": "grass",
+            "color": "#789a47",
+            "height": [
+              5,
+              10
+            ],
+            "shoots": [
+              3,
+              9
+            ],
+            "rooted": true
+          },
+          "biomassNote": "Shoot/crown counts, patch area and growth are illustrative, not guaranteed nursery biomass or timed outcomes"
+        }
+      ],
+      "fishCount": 21,
+      "minimumBaseCm": [
+        80,
+        35
+      ],
+      "minimumLaneCm": 80,
+      "substrate": {
+        "massLb": 40,
+        "densityLbPerFt3": 95,
+        "patchDepthCm": 4.5,
+        "patchAreaFraction": 0.5,
+        "color": "#d0c7af",
+        "note": "Funded commercial sand, not authenticated wild sediment"
+      },
+      "decor": [],
+      "startupUsd": 960.19,
+      "regularStandUsd": null,
+      "maintenance": {
+        "low": 48.98562628336755,
+        "expected": 55.6167008898015,
+        "high": 61.74948665297741,
+        "unit": "min",
+        "method": "Sum of supplied bounds; not a statistical confidence interval"
+      },
+      "verdict": "conditional",
+      "environment": {
+        "temperature_degC": {
+          "low": 24,
+          "high": 26,
+          "status": "assumed_keeping_scenario"
+        },
+        "pH": {
+          "low": 6.2,
+          "high": 7,
+          "status": "assumed_keeping_overlap"
+        },
+        "fish_GH_dGH": {
+          "low": 2,
+          "high": 10,
+          "status": "selected_supplier_care_envelope_not_full_system_ideal"
+        },
+        "plant_GH_KH": "Cultivation supports soft/hard water,pH6-8; investigateGH2-10 selected-stock scenario. KH/stability remain unknown.",
+        "flow": "gentle margin circulation and surface exchange; avoid direct high-velocity jet through shoal",
+        "minimum_internal_base_cm": {
+          "length": 80,
+          "width": 35,
+          "status": "conservative_planning_design_not_owned_measurement"
+        },
+        "usable_water": "unknown; no percentage of nominal capacity silently applied"
+      },
+      "unresolved": [
+        "Received21fish identity/health/food intake and source water; full12+9pack cart accepted but not reserved",
+        "Quoted reference-region tank route and fitted lid/light/tools/food/tax/transport",
+        "Actual internal dimensions, usable water, planted substrate depth and installed light/flow",
+        "Measured home GH/KH/pH stability, room extremes, support and water-change access",
+        "Exact joint selected fish\u2013Helanthium patch remains unproven; practical regional compromise disclosed. Translated narrative lacks original issue/date and coordinates."
+      ],
+      "planFile": "08-araguaia-vegetated-tributary-margin.md",
+      "reportFile": "assessment-results/araguaia-ember-chain-sword-margin.md",
+      "sources": [
+        {
+          "url": "https://roslinyakwariowe.pl/artykuly/ryby-akwariowe/4481-hyphessobrycon-amandae-bystrzyk-amandy.html",
+          "role": "Collector-authored translated discovery account; clear-water vegetated igarape, reported26C,pH6.6-7.2,85-115uS/cm; primary narrative with translation/date limitations",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6002418/",
+          "role": "2018primary examined museum comparative material UFRJ1557 five ember specimens JussaraGoias; no shared botanical event",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4822066/",
+          "role": "2016primary botanical Araguaia record and emergent/submerged-fixed category; separate fish observation",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "url": "https://www.wetspottropicalfish.com/product/hyphessobrycon-amandae/",
+          "role": "CurrentTR identity,price3.99-4.99,min6,ordinary prepared/frozen food andGH2-10 guidance",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "url": "https://www.wetspottropicalfish.com/shipping-information/",
+          "role": "Published49.99 overnight toNorthCarolina; actual weather/address conditional",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "url": "https://aquaticarts.com/products/ember-tetra",
+          "accessed_at": "2026-10-04",
+          "purpose": "Tank-bred full21fish pack route, prepared/frozen diet and vendor water guidance; cart/shipping audit saved separately"
+        },
+        {
+          "url": "https://www.aquariumcoop.com/products/dwarf-chain-sword",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        }
+      ],
+      "evidenceLevel": "drainage/habitat overlap; collector-authored translated aquatic-habitat account plus independent fish/plant vouchers; not joint patch"
+    },
+    {
+      "id": "essequibo-small-creek-community",
+      "name": "Essequibo creek",
+      "number": 9,
+      "country": "Guyana",
+      "habitat": "Slow forest tributary margin with a light opening for native Mayaca",
+      "displayHabitat": "Shaded forest creek",
+      "groups": [
+        {
+          "species": "Hemigrammus erythrozonus",
+          "count": 12,
+          "sexRequirement": "Refer to the numbered plan; displayed sex mix is illustrative"
+        },
+        {
+          "species": "Holopristis ocellifera",
+          "count": 9,
+          "sexRequirement": "Refer to the numbered plan; displayed sex mix is illustrative"
+        }
+      ],
+      "plants": [
+        {
+          "species": "Mayaca fluviatilis",
+          "quantity": 3,
+          "unit": "nursery pot",
+          "placement": "rear and one side; spaced rooted stems; retain open lane",
+          "mode": "rooted",
+          "rootedUnits": null,
+          "patchPattern": [
+            0,
+            1,
+            2
+          ],
+          "profile": {
+            "form": "mayaca",
+            "color": "#739659",
+            "height": [
+              17,
+              30
+            ],
+            "shoots": [
+              4,
+              8
+            ],
+            "rooted": true
+          },
+          "biomassNote": "Shoot/crown counts, patch area and growth are illustrative, not guaranteed nursery biomass or timed outcomes"
+        }
+      ],
+      "fishCount": 21,
+      "minimumBaseCm": [
+        80,
+        38
+      ],
+      "minimumLaneCm": 80,
+      "substrate": {
+        "massLb": 40,
+        "densityLbPerFt3": 95,
+        "patchDepthCm": 7,
+        "patchAreaFraction": 0.25,
+        "color": "#d0c7af",
+        "note": "Funded commercial sand, not authenticated wild sediment"
+      },
+      "decor": [],
+      "startupUsd": 981.13,
+      "regularStandUsd": 1008.13,
+      "maintenance": {
+        "low": 53.968514715947975,
+        "expected": 58.10814510609171,
+        "high": 61.74948665297741,
+        "unit": "min",
+        "method": "Sum of supplied bounds; not a statistical confidence interval"
+      },
+      "verdict": "conditional",
+      "environment": {
+        "water_temperature_C": {
+          "low": 24,
+          "target": 25,
+          "high": 26,
+          "status": "assumed keeping scenario"
+        },
+        "pH": {
+          "low": 6.5,
+          "high": 7.0,
+          "status": "provisional overlap; not field measurement"
+        },
+        "GH_dGH": {
+          "low": 2,
+          "high": 8,
+          "status": "provisional soft-water keeping screen"
+        },
+        "KH": "unknown; verify stable ordinary tap water",
+        "minimum_internal_base_cm": [
+          80,
+          38
+        ],
+        "light": "moderate at plant stand; dimmer fish refuge; installed PAR unknown",
+        "flow": "gentle circulation and surface exchange"
+      },
+      "unresolved": [
+        "Received stock identity, health and ordinary feeding; full selected pack quantities accepted by anonymous cart but not reserved.",
+        "Actual reference-region fitted tank/top acquisition, tax and transport within complete ceiling; current discounted stand required,18.87USDheadroom beyond30reserve.",
+        "Mayaca establishment at20-35PARwithoutinjectedCO2; nutrition/iron/pruning within time target",
+        "Plant voucher field growth form and exact joint patch unknown; regional reconstruction only",
+        "Actualinternalgeometry/usablewater/homechemistry/room/support",
+        "Health-observation/isolation needs and any added costs"
+      ],
+      "planFile": "09-essequibo-forest-creek-margin.md",
+      "reportFile": "assessment-results/essequibo-small-creek-community.md",
+      "sources": [
+        {
+          "url": "https://www.scielo.br/j/bn/a/gxdzHNNbGR5KFBmVMxytPdM/",
+          "role": "See organism source fields and numbered plan for precise claim and limitations",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "url": "https://imperialtropicals.com/products/glo-light-tetra",
+          "role": "See organism source fields and numbered plan for precise claim and limitations",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "url": "https://imperialtropicals.com/products/head-and-tail-light-tetra",
+          "role": "See organism source fields and numbered plan for precise claim and limitations",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "url": "https://records.data.kew.org/occurrences/df1f7ff5-b47f-4dc4-bf3d-764452208f31",
+          "role": "See organism source fields and numbered plan for precise claim and limitations",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "url": "https://www.aquariumcoop.com/products/mayaca-fluviatilis",
+          "role": "See organism source fields and numbered plan for precise claim and limitations",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "url": "https://www.aquariumcoop.com/products/mayaca-fluviatilis",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://www.gbif.org/occurrence/4602039152",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:565395-1",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://records-ws.data.kew.org/occurrences/df1f7ff5-b47f-4dc4-bf3d-764452208f31",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        }
+      ],
+      "evidenceLevel": "fish_field_habitat_category_overlap; plant_separate_named_drainage_voucher_and_margin_growth_support"
+    },
+    {
+      "id": "apure-pristella-floodplain-margin",
+      "name": "Apure floodplain",
+      "number": 10,
+      "country": "Venezuela",
+      "habitat": "Sheltered vegetated floodplain-lagoon margin; plant record specifically Guaritico overflow lagoons",
+      "displayHabitat": "Vegetated floodplain margin",
+      "groups": [
+        {
+          "species": "Pristella maxillaris",
+          "count": 16,
+          "sexRequirement": "Refer to the numbered plan; displayed sex mix is illustrative"
+        }
+      ],
+      "plants": [
+        {
+          "species": "Najas guadalupensis",
+          "quantity": 4,
+          "unit": "retail one-cup portion",
+          "placement": "loose submerged rear/side stands; open central lane and surface",
+          "mode": "loose",
+          "rootedUnits": null,
+          "patchPattern": [
+            0,
+            1,
+            2
+          ],
+          "profile": {
+            "form": "najas",
+            "color": "#637f46",
+            "height": [
+              15,
+              29
+            ],
+            "shoots": [
+              7,
+              12
+            ],
+            "rooted": false
+          },
+          "biomassNote": "Shoot/crown counts, patch area and growth are illustrative, not guaranteed nursery biomass or timed outcomes"
+        }
+      ],
+      "fishCount": 16,
+      "minimumBaseCm": [
+        80,
+        35
+      ],
+      "minimumLaneCm": 80,
+      "substrate": {
+        "massLb": 20,
+        "densityLbPerFt3": 95,
+        "patchDepthCm": 0,
+        "patchAreaFraction": 0,
+        "color": "#d0c7af",
+        "note": "Funded commercial sand, not authenticated wild sediment"
+      },
+      "decor": [],
+      "startupUsd": 976.94,
+      "regularStandUsd": null,
+      "maintenance": {
+        "low": 48.48733744010951,
+        "expected": 54.62012320328542,
+        "high": 60.75290896646133,
+        "unit": "min",
+        "method": "Sum of supplied bounds; not a statistical confidence interval"
+      },
+      "verdict": "conditional",
+      "environment": {
+        "temperature_C": {
+          "low": 24,
+          "target": 25,
+          "high": 26,
+          "status": "assumed keeping scenario"
+        },
+        "pH": {
+          "low": 6.5,
+          "high": 7.5,
+          "status": "keeping overlap"
+        },
+        "GH_dGH": {
+          "low": 4,
+          "high": 10,
+          "status": "provisional supplier/care overlap; home readings unknown"
+        },
+        "KH": "unknown; stable untreated-with-conditioner home water required",
+        "minimum_internal_base_cm": [
+          80,
+          35
+        ],
+        "light": "low to moderate, six-hour starting schedule, installed coverage unknown",
+        "flow": "gentle circulation with surface exchange; quiet submerged vegetation margin"
+      },
+      "unresolved": [
+        "Fully quoted matched hardware/transport and exact parcel eligibility",
+        "Supplier labels fish TR; actual shipped-batch provenance/health and prepared-food acceptance remain unverified",
+        "Trade Najas identity/subspecies and actual portion biomass",
+        "Actual internal base/usable water and installed flow/light/heat",
+        "Home chemistry may be softer than4dGH supplier overlap; no routine mineral forcing",
+        "No exact fish-plant collecting patch; practical drainage overlap only",
+        "Current matchingtank/top categoryscreen976.94 sale /1003.94 regular; complete localdeliveredquote stillunknown. No futureuseddiscount credited."
+      ],
+      "planFile": "10-apure-floodplain-margin.md",
+      "reportFile": "assessment-results/apure-pristella-floodplain-margin.md",
+      "sources": [
+        {
+          "url": "https://www.wetspottropicalfish.com/product/pristella-maxillaris/",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        },
+        {
+          "url": "https://www.wetspottropicalfish.com/shipping-information/",
+          "role": "Evidence or procurement source; see organism fields for exact claim"
+        }
+      ],
+      "evidenceLevel": "named_drainage_and_compatible_habitat_overlap; separate_sources"
+    }
+  ],
+  "species": {
+    "Trichogaster chuna": {
+      "scientificName": "Trichogaster chuna",
+      "commonName": "Honey gourami",
+      "commonNamePlural": "Honey gouramis",
+      "totalLengthCm": 7,
+      "sourceSizeField": "adult_total_length_planning_cm",
+      "sourceSizeValue": [
+        5,
+        7
+      ],
+      "sizeInterpretation": "Source total-length planning allowance",
+      "appearance": "Representative ordinary commercial adults; exact sexes and batch colors not guaranteed",
+      "profile": {
+        "form": "gourami",
+        "color": "#d9a13f",
+        "mark": "honey",
+        "depth": 0.34,
+        "thickness": 0.13,
+        "tail": 0.23,
+        "speed": 0.45,
+        "shoal": 0.08,
+        "level": 0.66,
+        "preferredVisualSexMix": [
+          "male",
+          "female",
+          "female",
+          "female"
+        ],
+        "dorsalOutline": [
+          [
+            -0.28,
+            0.04,
+            0
+          ],
+          [
+            -0.27,
+            0.13,
+            0
+          ],
+          [
+            -0.17,
+            0.205,
+            0
+          ],
+          [
+            -0.06,
+            0.22,
+            0
+          ],
+          [
+            0.1,
+            0.19,
+            0
+          ],
+          [
+            0.2,
+            0.13,
+            0
+          ]
+        ],
+        "analOutline": [
+          [
+            -0.29,
+            -0.04,
+            0
+          ],
+          [
+            -0.28,
+            -0.18,
+            0
+          ],
+          [
+            -0.15,
+            -0.25,
+            0
+          ],
+          [
+            0.05,
+            -0.235,
+            0
+          ],
+          [
+            0.22,
+            -0.13,
+            0
+          ]
+        ],
+        "eyeRadiusFraction": 0.026,
+        "finOpacity": 0.4,
+        "bodyTaperExponent": 0.8,
+        "noseRise": 0.0,
+        "surfaceVisit": {
+          "chance": 0.15,
+          "clearanceFraction": 0.444,
+          "pitchRadians": 1.04,
+          "pauseSeconds": [
+            2,
+            4
+          ]
+        },
+        "femaleDorsalScale": 1,
+        "femaleAnalScale": 1,
+        "clearanceRadiusFraction": 0.54
+      },
+      "careSource": null,
+      "sourcePlan": "01-tanguar-haor-vegetated-margin.md"
+    },
+    "Danio rerio": {
+      "scientificName": "Danio rerio",
+      "commonName": "Ordinary striped zebra danio",
+      "commonNamePlural": "Ordinary striped zebra danios",
+      "totalLengthCm": 6,
+      "sourceSizeField": "adult_total_length_planning_cm",
+      "sourceSizeValue": 6,
+      "sizeInterpretation": "Source total-length planning allowance",
+      "appearance": "Representative ordinary commercial adults; exact sexes and batch colors not guaranteed",
+      "profile": {
+        "form": "slender",
+        "color": "#a6bdba",
+        "mark": "zebra",
+        "depth": 0.17,
+        "thickness": 0.085,
+        "tail": 0.22,
+        "speed": 1.35,
+        "shoal": 0.5,
+        "level": 0.65,
+        "dorsalOutline": [
+          [
+            -0.21,
+            0.065,
+            0
+          ],
+          [
+            -0.18,
+            0.15,
+            0
+          ],
+          [
+            -0.1,
+            0.2,
+            0
+          ],
+          [
+            -0.04,
+            0.16,
+            0
+          ],
+          [
+            0.04,
+            0.08,
+            0
+          ]
+        ],
+        "analOutline": [
+          [
+            -0.2,
+            -0.045,
+            0
+          ],
+          [
+            -0.15,
+            -0.13,
+            0
+          ],
+          [
+            -0.03,
+            -0.16,
+            0
+          ],
+          [
+            0.08,
+            -0.07,
+            0
+          ]
+        ],
+        "eyeRadiusFraction": 0.026,
+        "finOpacity": 0.4,
+        "bodyTaperExponent": 0.65,
+        "noseRise": 0.0,
+        "femaleDorsalScale": 1,
+        "femaleAnalScale": 1,
+        "clearanceRadiusFraction": 0.54
+      },
+      "careSource": "https://www.seriouslyfish.com/species/danio-rerio/",
+      "sourcePlan": "01-tanguar-haor-vegetated-margin.md"
+    },
+    "Barbodes semifasciolatus": {
+      "scientificName": "Barbodes semifasciolatus",
+      "commonName": "Gold barb",
+      "commonNamePlural": "Gold barbs",
+      "totalLengthCm": 9,
+      "sourceSizeField": "adult_total_length_planning_cm",
+      "sourceSizeValue": 9,
+      "sizeInterpretation": "Source total-length planning allowance",
+      "appearance": "Golden ornamentalstrain; naturalgreenform notquoted.",
+      "profile": {
+        "form": "barb",
+        "color": "#d7ad37",
+        "mark": "gold",
+        "depth": 0.29,
+        "thickness": 0.115,
+        "tail": 0.24,
+        "speed": 0.8,
+        "shoal": 0.4,
+        "level": 0.46,
+        "dorsalOutline": [
+          [
+            -0.18,
+            0.07,
+            0
+          ],
+          [
+            -0.12,
+            0.2,
+            0
+          ],
+          [
+            -0.045,
+            0.3,
+            0
+          ],
+          [
+            0.035,
+            0.235,
+            0
+          ],
+          [
+            0.11,
+            0.105,
+            0
+          ]
+        ],
+        "analOutline": [
+          [
+            -0.2,
+            -0.065,
+            0
+          ],
+          [
+            -0.15,
+            -0.17,
+            0
+          ],
+          [
+            -0.05,
+            -0.215,
+            0
+          ],
+          [
+            0.065,
+            -0.12,
+            0
+          ]
+        ],
+        "eyeRadiusFraction": 0.026,
+        "finOpacity": 0.4,
+        "bodyTaperExponent": 0.8,
+        "noseRise": 0.0,
+        "femaleDorsalScale": 1,
+        "femaleAnalScale": 1,
+        "clearanceRadiusFraction": 0.54
+      },
+      "careSource": "https://www.seriouslyfish.com/species/barbodes-semifasciolatus",
+      "sourcePlan": "02-hainan-coastal-stream-margin.md"
+    },
+    "Rohanella titteya": {
+      "scientificName": "Rohanella titteya",
+      "commonName": "Cherry barb",
+      "commonNamePlural": "Cherry barbs",
+      "totalLengthCm": 6.58,
+      "sourceSizeField": "adult_standard_length_cm",
+      "sourceSizeValue": 5,
+      "sizeInterpretation": "Visual total-length conversion; source body/standard length divided by configured body proportion, not a new measured maximum",
+      "appearance": "Representative ordinary commercial adults; exact sexes and batch colors not guaranteed",
+      "profile": {
+        "form": "barb",
+        "color": "#bc503c",
+        "mark": "cherry",
+        "depth": 0.25,
+        "thickness": 0.105,
+        "tail": 0.24,
+        "speed": 0.65,
+        "shoal": 0.28,
+        "level": 0.4,
+        "dorsalOutline": [
+          [
+            -0.18,
+            0.07,
+            0
+          ],
+          [
+            -0.12,
+            0.2,
+            0
+          ],
+          [
+            -0.045,
+            0.3,
+            0
+          ],
+          [
+            0.035,
+            0.235,
+            0
+          ],
+          [
+            0.11,
+            0.105,
+            0
+          ]
+        ],
+        "analOutline": [
+          [
+            -0.2,
+            -0.065,
+            0
+          ],
+          [
+            -0.15,
+            -0.17,
+            0
+          ],
+          [
+            -0.05,
+            -0.215,
+            0
+          ],
+          [
+            0.065,
+            -0.12,
+            0
+          ]
+        ],
+        "eyeRadiusFraction": 0.026,
+        "finOpacity": 0.4,
+        "bodyTaperExponent": 0.8,
+        "noseRise": 0.0,
+        "femaleDorsalScale": 1,
+        "femaleAnalScale": 1,
+        "clearanceRadiusFraction": 0.54
+      },
+      "careSource": null,
+      "sourcePlan": "03-kalu-shaded-stream-margin.md"
+    },
+    "Pethia nigrofasciata": {
+      "scientificName": "Pethia nigrofasciata",
+      "commonName": "Black ruby barb",
+      "commonNamePlural": "Black ruby barbs",
+      "totalLengthCm": 7.5,
+      "sourceSizeField": "adult_total_length_allowance_cm",
+      "sourceSizeValue": 7.5,
+      "sizeInterpretation": "Source total-length planning allowance",
+      "appearance": "Representative ordinary commercial adults; exact sexes and batch colors not guaranteed",
+      "profile": {
+        "form": "barb",
+        "color": "#9b756d",
+        "mark": "ruby",
+        "depth": 0.34,
+        "thickness": 0.13,
+        "tail": 0.26,
+        "speed": 0.63,
+        "shoal": 0.35,
+        "level": 0.46,
+        "dorsalOutline": [
+          [
+            -0.18,
+            0.07,
+            0
+          ],
+          [
+            -0.12,
+            0.2,
+            0
+          ],
+          [
+            -0.045,
+            0.3,
+            0
+          ],
+          [
+            0.035,
+            0.235,
+            0
+          ],
+          [
+            0.11,
+            0.105,
+            0
+          ]
+        ],
+        "analOutline": [
+          [
+            -0.2,
+            -0.065,
+            0
+          ],
+          [
+            -0.15,
+            -0.17,
+            0
+          ],
+          [
+            -0.05,
+            -0.215,
+            0
+          ],
+          [
+            0.065,
+            -0.12,
+            0
+          ]
+        ],
+        "eyeRadiusFraction": 0.026,
+        "finOpacity": 0.4,
+        "bodyTaperExponent": 0.8,
+        "noseRise": 0.0,
+        "femaleDorsalScale": 1,
+        "femaleAnalScale": 1,
+        "clearanceRadiusFraction": 0.54
+      },
+      "careSource": null,
+      "sourcePlan": "03-kalu-shaded-stream-margin.md"
+    },
+    "Hyphessobrycon herbertaxelrodi": {
+      "scientificName": "Hyphessobrycon herbertaxelrodi",
+      "commonName": "Black neon tetra",
+      "commonNamePlural": "Black neon tetras",
+      "totalLengthCm": 5.13,
+      "sourceSizeField": "adult_body_length_planning_cm",
+      "sourceSizeValue": 4,
+      "sizeInterpretation": "Visual total-length conversion; source body/standard length divided by configured body proportion, not a new measured maximum",
+      "appearance": "Representative ordinary commercial adults; exact sexes and batch colors not guaranteed",
+      "profile": {
+        "form": "tetra",
+        "color": "#a9b8a5",
+        "mark": "blackneon",
+        "depth": 0.25,
+        "thickness": 0.105,
+        "tail": 0.22,
+        "speed": 0.7,
+        "shoal": 0.48,
+        "level": 0.57,
+        "dorsalOutline": [
+          [
+            -0.15,
+            0.065,
+            0
+          ],
+          [
+            -0.115,
+            0.205,
+            0
+          ],
+          [
+            -0.035,
+            0.25,
+            0
+          ],
+          [
+            0.04,
+            0.2,
+            0
+          ],
+          [
+            0.09,
+            0.1,
+            0
+          ]
+        ],
+        "analOutline": [
+          [
+            -0.25,
+            -0.035,
+            0
+          ],
+          [
+            -0.2,
+            -0.18,
+            0
+          ],
+          [
+            -0.02,
+            -0.23,
+            0
+          ],
+          [
+            0.14,
+            -0.105,
+            0
+          ]
+        ],
+        "eyeRadiusFraction": 0.026,
+        "finOpacity": 0.4,
+        "bodyTaperExponent": 0.8,
+        "noseRise": 0.0,
+        "femaleDorsalScale": 1,
+        "femaleAnalScale": 1,
+        "clearanceRadiusFraction": 0.54
+      },
+      "careSource": "https://www.seriouslyfish.com/species/hyphessobrycon-herbertaxelrodi/",
+      "sourcePlan": "04-upper-paraguay-vegetated-margin.md"
+    },
+    "Megalamphodus megalopterus": {
+      "scientificName": "Megalamphodus megalopterus",
+      "commonName": "Black phantom tetra",
+      "commonNamePlural": "Black phantom tetras",
+      "totalLengthCm": 5.33,
+      "sourceSizeField": "adult_body_length_planning_cm",
+      "sourceSizeValue": 4,
+      "sizeInterpretation": "Visual total-length conversion; source body/standard length divided by configured body proportion, not a new measured maximum",
+      "appearance": "Representative ordinary commercial adults; exact sexes and batch colors not guaranteed",
+      "profile": {
+        "form": "deep",
+        "color": "#909d92",
+        "mark": "phantom",
+        "depth": 0.38,
+        "thickness": 0.115,
+        "tail": 0.25,
+        "speed": 0.55,
+        "shoal": 0.25,
+        "level": 0.42,
+        "dorsalOutline": [
+          [
+            -0.2,
+            0.1,
+            0
+          ],
+          [
+            -0.15,
+            0.3,
+            0
+          ],
+          [
+            -0.065,
+            0.39,
+            0
+          ],
+          [
+            0.035,
+            0.295,
+            0
+          ],
+          [
+            0.13,
+            0.13,
+            0
+          ]
+        ],
+        "analOutline": [
+          [
+            -0.24,
+            -0.06,
+            0
+          ],
+          [
+            -0.22,
+            -0.2,
+            0
+          ],
+          [
+            -0.08,
+            -0.3,
+            0
+          ],
+          [
+            0.105,
+            -0.2,
+            0
+          ],
+          [
+            0.2,
+            -0.13,
+            0
+          ]
+        ],
+        "eyeRadiusFraction": 0.026,
+        "finOpacity": 0.4,
+        "bodyTaperExponent": 0.8,
+        "noseRise": 0.0,
+        "femaleDorsalScale": 0.72,
+        "femaleAnalScale": 1,
+        "clearanceRadiusFraction": 0.54
+      },
+      "careSource": "https://www.seriouslyfish.com/species/megalamphodus-megalopterus",
+      "sourcePlan": "04-upper-paraguay-vegetated-margin.md"
+    },
+    "Rasbora borapetensis": {
+      "scientificName": "Rasbora borapetensis",
+      "commonName": "Red-tailed rasbora",
+      "commonNamePlural": "Red-tailed rasboras",
+      "totalLengthCm": 8,
+      "sourceSizeField": "adult_total_length_planning_cm",
+      "sourceSizeValue": 8,
+      "sizeInterpretation": "Source total-length planning allowance",
+      "appearance": "Representative ordinary commercial adults; exact sexes and batch colors not guaranteed",
+      "profile": {
+        "form": "slender",
+        "color": "#bdc0a7",
+        "mark": "rasbora",
+        "depth": 0.21,
+        "thickness": 0.085,
+        "tail": 0.24,
+        "speed": 0.85,
+        "shoal": 0.5,
+        "level": 0.58,
+        "dorsalOutline": [
+          [
+            -0.21,
+            0.065,
+            0
+          ],
+          [
+            -0.18,
+            0.15,
+            0
+          ],
+          [
+            -0.1,
+            0.2,
+            0
+          ],
+          [
+            -0.04,
+            0.16,
+            0
+          ],
+          [
+            0.04,
+            0.08,
+            0
+          ]
+        ],
+        "analOutline": [
+          [
+            -0.2,
+            -0.045,
+            0
+          ],
+          [
+            -0.15,
+            -0.13,
+            0
+          ],
+          [
+            -0.03,
+            -0.16,
+            0
+          ],
+          [
+            0.08,
+            -0.07,
+            0
+          ]
+        ],
+        "eyeRadiusFraction": 0.026,
+        "finOpacity": 0.4,
+        "bodyTaperExponent": 0.65,
+        "noseRise": 0.0,
+        "femaleDorsalScale": 1,
+        "femaleAnalScale": 1,
+        "clearanceRadiusFraction": 0.54
+      },
+      "careSource": null,
+      "sourcePlan": "05-boraphet-vegetated-marsh-margin.md"
+    },
+    "Trichopsis pumila": {
+      "scientificName": "Trichopsis pumila",
+      "commonName": "Sparkling gourami",
+      "commonNamePlural": "Sparkling gouramis",
+      "totalLengthCm": 5,
+      "sourceSizeField": "adult_total_length_planning_cm",
+      "sourceSizeValue": 5,
+      "sizeInterpretation": "Source total-length planning allowance",
+      "appearance": "Representative ordinary commercial adults; exact sexes and batch colors not guaranteed",
+      "profile": {
+        "form": "gourami",
+        "color": "#999b74",
+        "mark": "sparkler",
+        "depth": 0.29,
+        "thickness": 0.11,
+        "tail": 0.21,
+        "speed": 0.38,
+        "shoal": 0.06,
+        "level": 0.43,
+        "dorsalOutline": [
+          [
+            -0.28,
+            0.04,
+            0
+          ],
+          [
+            -0.27,
+            0.13,
+            0
+          ],
+          [
+            -0.17,
+            0.205,
+            0
+          ],
+          [
+            -0.06,
+            0.22,
+            0
+          ],
+          [
+            0.1,
+            0.19,
+            0
+          ],
+          [
+            0.2,
+            0.13,
+            0
+          ]
+        ],
+        "analOutline": [
+          [
+            -0.29,
+            -0.04,
+            0
+          ],
+          [
+            -0.28,
+            -0.18,
+            0
+          ],
+          [
+            -0.15,
+            -0.25,
+            0
+          ],
+          [
+            0.05,
+            -0.235,
+            0
+          ],
+          [
+            0.22,
+            -0.13,
+            0
+          ]
+        ],
+        "eyeRadiusFraction": 0.026,
+        "finOpacity": 0.4,
+        "bodyTaperExponent": 0.8,
+        "noseRise": 0.0,
+        "surfaceVisit": {
+          "chance": 0.15,
+          "clearanceFraction": 0.444,
+          "pitchRadians": 1.04,
+          "pauseSeconds": [
+            2,
+            4
+          ]
+        },
+        "femaleDorsalScale": 1,
+        "femaleAnalScale": 1,
+        "clearanceRadiusFraction": 0.54
+      },
+      "careSource": null,
+      "sourcePlan": "05-boraphet-vegetated-marsh-margin.md"
+    },
+    "Oryzias latipes": {
+      "scientificName": "Oryzias latipes",
+      "commonName": "Japanese medaka",
+      "commonNamePlural": "Japanese medaka",
+      "totalLengthCm": 4,
+      "sourceSizeField": "adult_total_length_allowance_cm",
+      "sourceSizeValue": 4,
+      "sizeInterpretation": "Source total-length planning allowance",
+      "appearance": "Representative ordinary commercial adults; exact sexes and batch colors not guaranteed",
+      "profile": {
+        "form": "ricefish",
+        "color": "#d9bc87",
+        "mark": "medaka",
+        "depth": 0.18,
+        "thickness": 0.09,
+        "tail": 0.22,
+        "speed": 0.65,
+        "shoal": 0.25,
+        "level": 0.76,
+        "dorsalOutline": [
+          [
+            -0.24,
+            0.04,
+            0
+          ],
+          [
+            -0.22,
+            0.13,
+            0
+          ],
+          [
+            -0.14,
+            0.16,
+            0
+          ],
+          [
+            -0.1,
+            0.12,
+            0
+          ],
+          [
+            -0.06,
+            0.04,
+            0
+          ]
+        ],
+        "analOutline": [
+          [
+            -0.26,
+            -0.04,
+            0
+          ],
+          [
+            -0.24,
+            -0.14,
+            0
+          ],
+          [
+            -0.06,
+            -0.2,
+            0
+          ],
+          [
+            0.12,
+            -0.11,
+            0
+          ]
+        ],
+        "eyeRadiusFraction": 0.026,
+        "finOpacity": 0.4,
+        "bodyTaperExponent": 0.65,
+        "noseRise": 0.026,
+        "ornamentalColors": [
+          "#cfbca4",
+          "#e0b974",
+          "#909d98",
+          "#e4dcca"
+        ],
+        "femaleDorsalScale": 1,
+        "femaleAnalScale": 1,
+        "clearanceRadiusFraction": 0.54
+      },
+      "careSource": null,
+      "sourcePlan": "06-kasumigaura-medaka-channel-margin.md"
+    },
+    "Pseudomugil gertrudae": {
+      "scientificName": "Pseudomugil gertrudae",
+      "commonName": "Spotted blue-eye",
+      "commonNamePlural": "Spotted blue-eyes",
+      "totalLengthCm": 4,
+      "sourceSizeField": "adult_total_length_planning_cm",
+      "sourceSizeValue": 4,
+      "sizeInterpretation": "Source total-length planning allowance",
+      "appearance": "Representative ordinary commercial adults; exact sexes and batch colors not guaranteed",
+      "profile": {
+        "form": "blueeye",
+        "color": "#b9b779",
+        "mark": "blueeye",
+        "depth": 0.19,
+        "thickness": 0.08,
+        "tail": 0.24,
+        "speed": 0.65,
+        "shoal": 0.28,
+        "level": 0.64,
+        "dorsalOutline": [
+          [
+            -0.22,
+            0.06,
+            0
+          ],
+          [
+            -0.19,
+            0.16,
+            0
+          ],
+          [
+            -0.12,
+            0.215,
+            0
+          ],
+          [
+            -0.035,
+            0.18,
+            0
+          ],
+          [
+            0.015,
+            0.08,
+            0
+          ]
+        ],
+        "analOutline": [
+          [
+            -0.25,
+            -0.03,
+            0
+          ],
+          [
+            -0.2,
+            -0.17,
+            0
+          ],
+          [
+            -0.105,
+            -0.2,
+            0
+          ],
+          [
+            0.055,
+            -0.11,
+            0
+          ]
+        ],
+        "eyeRadiusFraction": 0.029,
+        "finOpacity": 0.4,
+        "bodyTaperExponent": 0.8,
+        "noseRise": 0.0,
+        "femaleDorsalScale": 0.72,
+        "femaleAnalScale": 0.8,
+        "clearanceRadiusFraction": 0.54
+      },
+      "careSource": "https://www.seriouslyfish.com/species/pseudomugil-gertrudae/",
+      "sourcePlan": "07-archer-vegetated-wetland-margin.md"
+    },
+    "Hyphessobrycon amandae": {
+      "scientificName": "Hyphessobrycon amandae",
+      "commonName": "ember tetra",
+      "commonNamePlural": "ember tetras",
+      "totalLengthCm": 2.5,
+      "sourceSizeField": "adult_size_allowance_cm",
+      "sourceSizeValue": 2.5,
+      "sizeInterpretation": "Source total-length planning allowance",
+      "appearance": "Representative ordinary commercial adults; exact sexes and batch colors not guaranteed",
+      "profile": {
+        "form": "tetra",
+        "color": "#cf7440",
+        "mark": "ember",
+        "depth": 0.26,
+        "thickness": 0.1,
+        "tail": 0.24,
+        "speed": 0.62,
+        "shoal": 0.48,
+        "level": 0.48,
+        "dorsalOutline": [
+          [
+            -0.15,
+            0.065,
+            0
+          ],
+          [
+            -0.115,
+            0.205,
+            0
+          ],
+          [
+            -0.035,
+            0.25,
+            0
+          ],
+          [
+            0.04,
+            0.2,
+            0
+          ],
+          [
+            0.09,
+            0.1,
+            0
+          ]
+        ],
+        "analOutline": [
+          [
+            -0.25,
+            -0.035,
+            0
+          ],
+          [
+            -0.2,
+            -0.18,
+            0
+          ],
+          [
+            -0.02,
+            -0.23,
+            0
+          ],
+          [
+            0.14,
+            -0.105,
+            0
+          ]
+        ],
+        "eyeRadiusFraction": 0.026,
+        "finOpacity": 0.4,
+        "bodyTaperExponent": 0.8,
+        "noseRise": 0.0,
+        "femaleDorsalScale": 1,
+        "femaleAnalScale": 1,
+        "clearanceRadiusFraction": 0.54
+      },
+      "careSource": null,
+      "sourcePlan": "08-araguaia-vegetated-tributary-margin.md"
+    },
+    "Hemigrammus erythrozonus": {
+      "scientificName": "Hemigrammus erythrozonus",
+      "commonName": "Glowlight tetra",
+      "commonNamePlural": "Glowlight tetras",
+      "totalLengthCm": 5.19,
+      "sourceSizeField": "adult_standard_length_planning_cm",
+      "sourceSizeValue": 4.0,
+      "sizeInterpretation": "Visual total-length conversion; source body/standard length divided by configured body proportion, not a new measured maximum",
+      "appearance": "Representative ordinary commercial adults; exact sexes and batch colors not guaranteed",
+      "profile": {
+        "form": "tetra",
+        "color": "#bdb1a1",
+        "mark": "glowlight",
+        "depth": 0.25,
+        "thickness": 0.105,
+        "tail": 0.23,
+        "speed": 0.65,
+        "shoal": 0.45,
+        "level": 0.51,
+        "dorsalOutline": [
+          [
+            -0.15,
+            0.065,
+            0
+          ],
+          [
+            -0.115,
+            0.205,
+            0
+          ],
+          [
+            -0.035,
+            0.25,
+            0
+          ],
+          [
+            0.04,
+            0.2,
+            0
+          ],
+          [
+            0.09,
+            0.1,
+            0
+          ]
+        ],
+        "analOutline": [
+          [
+            -0.25,
+            -0.035,
+            0
+          ],
+          [
+            -0.2,
+            -0.18,
+            0
+          ],
+          [
+            -0.02,
+            -0.23,
+            0
+          ],
+          [
+            0.14,
+            -0.105,
+            0
+          ]
+        ],
+        "eyeRadiusFraction": 0.026,
+        "finOpacity": 0.4,
+        "bodyTaperExponent": 0.8,
+        "noseRise": 0.0,
+        "femaleDorsalScale": 1,
+        "femaleAnalScale": 1,
+        "clearanceRadiusFraction": 0.54
+      },
+      "careSource": null,
+      "sourcePlan": "09-essequibo-forest-creek-margin.md"
+    },
+    "Holopristis ocellifera": {
+      "scientificName": "Holopristis ocellifera",
+      "commonName": "Head-and-tail-light tetra",
+      "commonNamePlural": "Head-and-tail-light tetras",
+      "totalLengthCm": 5.92,
+      "sourceSizeField": "adult_standard_length_planning_cm",
+      "sourceSizeValue": 4.5,
+      "sizeInterpretation": "Visual total-length conversion; source body/standard length divided by configured body proportion, not a new measured maximum",
+      "appearance": "Representative ordinary commercial adults; exact sexes and batch colors not guaranteed",
+      "profile": {
+        "form": "tetra",
+        "color": "#b4b9ab",
+        "mark": "headtail",
+        "depth": 0.3,
+        "thickness": 0.115,
+        "tail": 0.24,
+        "speed": 0.68,
+        "shoal": 0.4,
+        "level": 0.53,
+        "dorsalOutline": [
+          [
+            -0.15,
+            0.065,
+            0
+          ],
+          [
+            -0.115,
+            0.205,
+            0
+          ],
+          [
+            -0.035,
+            0.25,
+            0
+          ],
+          [
+            0.04,
+            0.2,
+            0
+          ],
+          [
+            0.09,
+            0.1,
+            0
+          ]
+        ],
+        "analOutline": [
+          [
+            -0.25,
+            -0.035,
+            0
+          ],
+          [
+            -0.2,
+            -0.18,
+            0
+          ],
+          [
+            -0.02,
+            -0.23,
+            0
+          ],
+          [
+            0.14,
+            -0.105,
+            0
+          ]
+        ],
+        "eyeRadiusFraction": 0.026,
+        "finOpacity": 0.4,
+        "bodyTaperExponent": 0.8,
+        "noseRise": 0.0,
+        "femaleDorsalScale": 1,
+        "femaleAnalScale": 1,
+        "clearanceRadiusFraction": 0.54
+      },
+      "careSource": null,
+      "sourcePlan": "09-essequibo-forest-creek-margin.md"
+    },
+    "Pristella maxillaris": {
+      "scientificName": "Pristella maxillaris",
+      "commonName": "Ordinary x-ray tetra",
+      "commonNamePlural": "Ordinary x-ray tetras",
+      "totalLengthCm": 5.5,
+      "sourceSizeField": "adult_total_length_planning_cm",
+      "sourceSizeValue": 5.5,
+      "sizeInterpretation": "Source total-length planning allowance",
+      "appearance": "Representative ordinary commercial adults; exact sexes and batch colors not guaranteed",
+      "profile": {
+        "form": "tetra",
+        "color": "#c1c4a9",
+        "mark": "xray",
+        "depth": 0.31,
+        "thickness": 0.11,
+        "tail": 0.24,
+        "speed": 0.6,
+        "shoal": 0.4,
+        "level": 0.51,
+        "dorsalOutline": [
+          [
+            -0.15,
+            0.065,
+            0
+          ],
+          [
+            -0.115,
+            0.205,
+            0
+          ],
+          [
+            -0.035,
+            0.25,
+            0
+          ],
+          [
+            0.04,
+            0.2,
+            0
+          ],
+          [
+            0.09,
+            0.1,
+            0
+          ]
+        ],
+        "analOutline": [
+          [
+            -0.25,
+            -0.035,
+            0
+          ],
+          [
+            -0.2,
+            -0.18,
+            0
+          ],
+          [
+            -0.02,
+            -0.23,
+            0
+          ],
+          [
+            0.14,
+            -0.105,
+            0
+          ]
+        ],
+        "eyeRadiusFraction": 0.026,
+        "finOpacity": 0.4,
+        "bodyTaperExponent": 0.8,
+        "noseRise": 0.0,
+        "femaleDorsalScale": 1,
+        "femaleAnalScale": 1,
+        "clearanceRadiusFraction": 0.54
+      },
+      "careSource": "https://www.seriouslyfish.com/species/pristella-maxillaris/",
+      "sourcePlan": "10-apure-floodplain-margin.md"
+    }
+  }
+}

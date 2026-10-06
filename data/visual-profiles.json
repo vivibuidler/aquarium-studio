@@ -1,0 +1,1258 @@
+{
+  "schemaVersion": 1,
+  "note": "Editable visual assumptions derived from the numbered plans; not measured anatomy, behavior or plant growth.",
+  "species": {
+    "Trichogaster chuna": {
+      "form": "gourami",
+      "color": "#d9a13f",
+      "mark": "honey",
+      "depth": 0.34,
+      "thickness": 0.13,
+      "tail": 0.23,
+      "speed": 0.45,
+      "shoal": 0.08,
+      "level": 0.66,
+      "preferredVisualSexMix": [
+        "male",
+        "female",
+        "female",
+        "female"
+      ],
+      "dorsalOutline": [
+        [
+          -0.28,
+          0.04,
+          0
+        ],
+        [
+          -0.27,
+          0.13,
+          0
+        ],
+        [
+          -0.17,
+          0.205,
+          0
+        ],
+        [
+          -0.06,
+          0.22,
+          0
+        ],
+        [
+          0.1,
+          0.19,
+          0
+        ],
+        [
+          0.2,
+          0.13,
+          0
+        ]
+      ],
+      "analOutline": [
+        [
+          -0.29,
+          -0.04,
+          0
+        ],
+        [
+          -0.28,
+          -0.18,
+          0
+        ],
+        [
+          -0.15,
+          -0.25,
+          0
+        ],
+        [
+          0.05,
+          -0.235,
+          0
+        ],
+        [
+          0.22,
+          -0.13,
+          0
+        ]
+      ],
+      "eyeRadiusFraction": 0.026,
+      "finOpacity": 0.4,
+      "bodyTaperExponent": 0.8,
+      "noseRise": 0.0,
+      "surfaceVisit": {
+        "chance": 0.15,
+        "clearanceFraction": 0.444,
+        "pitchRadians": 1.04,
+        "pauseSeconds": [
+          2,
+          4
+        ]
+      },
+      "femaleDorsalScale": 1,
+      "femaleAnalScale": 1,
+      "clearanceRadiusFraction": 0.54
+    },
+    "Danio rerio": {
+      "form": "slender",
+      "color": "#a6bdba",
+      "mark": "zebra",
+      "depth": 0.17,
+      "thickness": 0.085,
+      "tail": 0.22,
+      "speed": 1.35,
+      "shoal": 0.5,
+      "level": 0.65,
+      "dorsalOutline": [
+        [
+          -0.21,
+          0.065,
+          0
+        ],
+        [
+          -0.18,
+          0.15,
+          0
+        ],
+        [
+          -0.1,
+          0.2,
+          0
+        ],
+        [
+          -0.04,
+          0.16,
+          0
+        ],
+        [
+          0.04,
+          0.08,
+          0
+        ]
+      ],
+      "analOutline": [
+        [
+          -0.2,
+          -0.045,
+          0
+        ],
+        [
+          -0.15,
+          -0.13,
+          0
+        ],
+        [
+          -0.03,
+          -0.16,
+          0
+        ],
+        [
+          0.08,
+          -0.07,
+          0
+        ]
+      ],
+      "eyeRadiusFraction": 0.026,
+      "finOpacity": 0.4,
+      "bodyTaperExponent": 0.65,
+      "noseRise": 0.0,
+      "femaleDorsalScale": 1,
+      "femaleAnalScale": 1,
+      "clearanceRadiusFraction": 0.54
+    },
+    "Barbodes semifasciolatus": {
+      "form": "barb",
+      "color": "#d7ad37",
+      "mark": "gold",
+      "depth": 0.29,
+      "thickness": 0.115,
+      "tail": 0.24,
+      "speed": 0.8,
+      "shoal": 0.4,
+      "level": 0.46,
+      "dorsalOutline": [
+        [
+          -0.18,
+          0.07,
+          0
+        ],
+        [
+          -0.12,
+          0.2,
+          0
+        ],
+        [
+          -0.045,
+          0.3,
+          0
+        ],
+        [
+          0.035,
+          0.235,
+          0
+        ],
+        [
+          0.11,
+          0.105,
+          0
+        ]
+      ],
+      "analOutline": [
+        [
+          -0.2,
+          -0.065,
+          0
+        ],
+        [
+          -0.15,
+          -0.17,
+          0
+        ],
+        [
+          -0.05,
+          -0.215,
+          0
+        ],
+        [
+          0.065,
+          -0.12,
+          0
+        ]
+      ],
+      "eyeRadiusFraction": 0.026,
+      "finOpacity": 0.4,
+      "bodyTaperExponent": 0.8,
+      "noseRise": 0.0,
+      "femaleDorsalScale": 1,
+      "femaleAnalScale": 1,
+      "clearanceRadiusFraction": 0.54
+    },
+    "Rohanella titteya": {
+      "form": "barb",
+      "color": "#bc503c",
+      "mark": "cherry",
+      "depth": 0.25,
+      "thickness": 0.105,
+      "tail": 0.24,
+      "speed": 0.65,
+      "shoal": 0.28,
+      "level": 0.4,
+      "dorsalOutline": [
+        [
+          -0.18,
+          0.07,
+          0
+        ],
+        [
+          -0.12,
+          0.2,
+          0
+        ],
+        [
+          -0.045,
+          0.3,
+          0
+        ],
+        [
+          0.035,
+          0.235,
+          0
+        ],
+        [
+          0.11,
+          0.105,
+          0
+        ]
+      ],
+      "analOutline": [
+        [
+          -0.2,
+          -0.065,
+          0
+        ],
+        [
+          -0.15,
+          -0.17,
+          0
+        ],
+        [
+          -0.05,
+          -0.215,
+          0
+        ],
+        [
+          0.065,
+          -0.12,
+          0
+        ]
+      ],
+      "eyeRadiusFraction": 0.026,
+      "finOpacity": 0.4,
+      "bodyTaperExponent": 0.8,
+      "noseRise": 0.0,
+      "femaleDorsalScale": 1,
+      "femaleAnalScale": 1,
+      "clearanceRadiusFraction": 0.54
+    },
+    "Pethia nigrofasciata": {
+      "form": "barb",
+      "color": "#9b756d",
+      "mark": "ruby",
+      "depth": 0.34,
+      "thickness": 0.13,
+      "tail": 0.26,
+      "speed": 0.63,
+      "shoal": 0.35,
+      "level": 0.46,
+      "dorsalOutline": [
+        [
+          -0.18,
+          0.07,
+          0
+        ],
+        [
+          -0.12,
+          0.2,
+          0
+        ],
+        [
+          -0.045,
+          0.3,
+          0
+        ],
+        [
+          0.035,
+          0.235,
+          0
+        ],
+        [
+          0.11,
+          0.105,
+          0
+        ]
+      ],
+      "analOutline": [
+        [
+          -0.2,
+          -0.065,
+          0
+        ],
+        [
+          -0.15,
+          -0.17,
+          0
+        ],
+        [
+          -0.05,
+          -0.215,
+          0
+        ],
+        [
+          0.065,
+          -0.12,
+          0
+        ]
+      ],
+      "eyeRadiusFraction": 0.026,
+      "finOpacity": 0.4,
+      "bodyTaperExponent": 0.8,
+      "noseRise": 0.0,
+      "femaleDorsalScale": 1,
+      "femaleAnalScale": 1,
+      "clearanceRadiusFraction": 0.54
+    },
+    "Hyphessobrycon herbertaxelrodi": {
+      "form": "tetra",
+      "color": "#a9b8a5",
+      "mark": "blackneon",
+      "depth": 0.25,
+      "thickness": 0.105,
+      "tail": 0.22,
+      "speed": 0.7,
+      "shoal": 0.48,
+      "level": 0.57,
+      "dorsalOutline": [
+        [
+          -0.15,
+          0.065,
+          0
+        ],
+        [
+          -0.115,
+          0.205,
+          0
+        ],
+        [
+          -0.035,
+          0.25,
+          0
+        ],
+        [
+          0.04,
+          0.2,
+          0
+        ],
+        [
+          0.09,
+          0.1,
+          0
+        ]
+      ],
+      "analOutline": [
+        [
+          -0.25,
+          -0.035,
+          0
+        ],
+        [
+          -0.2,
+          -0.18,
+          0
+        ],
+        [
+          -0.02,
+          -0.23,
+          0
+        ],
+        [
+          0.14,
+          -0.105,
+          0
+        ]
+      ],
+      "eyeRadiusFraction": 0.026,
+      "finOpacity": 0.4,
+      "bodyTaperExponent": 0.8,
+      "noseRise": 0.0,
+      "femaleDorsalScale": 1,
+      "femaleAnalScale": 1,
+      "clearanceRadiusFraction": 0.54
+    },
+    "Megalamphodus megalopterus": {
+      "form": "deep",
+      "color": "#909d92",
+      "mark": "phantom",
+      "depth": 0.38,
+      "thickness": 0.115,
+      "tail": 0.25,
+      "speed": 0.55,
+      "shoal": 0.25,
+      "level": 0.42,
+      "dorsalOutline": [
+        [
+          -0.2,
+          0.1,
+          0
+        ],
+        [
+          -0.15,
+          0.3,
+          0
+        ],
+        [
+          -0.065,
+          0.39,
+          0
+        ],
+        [
+          0.035,
+          0.295,
+          0
+        ],
+        [
+          0.13,
+          0.13,
+          0
+        ]
+      ],
+      "analOutline": [
+        [
+          -0.24,
+          -0.06,
+          0
+        ],
+        [
+          -0.22,
+          -0.2,
+          0
+        ],
+        [
+          -0.08,
+          -0.3,
+          0
+        ],
+        [
+          0.105,
+          -0.2,
+          0
+        ],
+        [
+          0.2,
+          -0.13,
+          0
+        ]
+      ],
+      "eyeRadiusFraction": 0.026,
+      "finOpacity": 0.4,
+      "bodyTaperExponent": 0.8,
+      "noseRise": 0.0,
+      "femaleDorsalScale": 0.72,
+      "femaleAnalScale": 1,
+      "clearanceRadiusFraction": 0.54
+    },
+    "Rasbora borapetensis": {
+      "form": "slender",
+      "color": "#bdc0a7",
+      "mark": "rasbora",
+      "depth": 0.21,
+      "thickness": 0.085,
+      "tail": 0.24,
+      "speed": 0.85,
+      "shoal": 0.5,
+      "level": 0.58,
+      "dorsalOutline": [
+        [
+          -0.21,
+          0.065,
+          0
+        ],
+        [
+          -0.18,
+          0.15,
+          0
+        ],
+        [
+          -0.1,
+          0.2,
+          0
+        ],
+        [
+          -0.04,
+          0.16,
+          0
+        ],
+        [
+          0.04,
+          0.08,
+          0
+        ]
+      ],
+      "analOutline": [
+        [
+          -0.2,
+          -0.045,
+          0
+        ],
+        [
+          -0.15,
+          -0.13,
+          0
+        ],
+        [
+          -0.03,
+          -0.16,
+          0
+        ],
+        [
+          0.08,
+          -0.07,
+          0
+        ]
+      ],
+      "eyeRadiusFraction": 0.026,
+      "finOpacity": 0.4,
+      "bodyTaperExponent": 0.65,
+      "noseRise": 0.0,
+      "femaleDorsalScale": 1,
+      "femaleAnalScale": 1,
+      "clearanceRadiusFraction": 0.54
+    },
+    "Trichopsis pumila": {
+      "form": "gourami",
+      "color": "#999b74",
+      "mark": "sparkler",
+      "depth": 0.29,
+      "thickness": 0.11,
+      "tail": 0.21,
+      "speed": 0.38,
+      "shoal": 0.06,
+      "level": 0.43,
+      "dorsalOutline": [
+        [
+          -0.28,
+          0.04,
+          0
+        ],
+        [
+          -0.27,
+          0.13,
+          0
+        ],
+        [
+          -0.17,
+          0.205,
+          0
+        ],
+        [
+          -0.06,
+          0.22,
+          0
+        ],
+        [
+          0.1,
+          0.19,
+          0
+        ],
+        [
+          0.2,
+          0.13,
+          0
+        ]
+      ],
+      "analOutline": [
+        [
+          -0.29,
+          -0.04,
+          0
+        ],
+        [
+          -0.28,
+          -0.18,
+          0
+        ],
+        [
+          -0.15,
+          -0.25,
+          0
+        ],
+        [
+          0.05,
+          -0.235,
+          0
+        ],
+        [
+          0.22,
+          -0.13,
+          0
+        ]
+      ],
+      "eyeRadiusFraction": 0.026,
+      "finOpacity": 0.4,
+      "bodyTaperExponent": 0.8,
+      "noseRise": 0.0,
+      "surfaceVisit": {
+        "chance": 0.15,
+        "clearanceFraction": 0.444,
+        "pitchRadians": 1.04,
+        "pauseSeconds": [
+          2,
+          4
+        ]
+      },
+      "femaleDorsalScale": 1,
+      "femaleAnalScale": 1,
+      "clearanceRadiusFraction": 0.54
+    },
+    "Oryzias latipes": {
+      "form": "ricefish",
+      "color": "#d9bc87",
+      "mark": "medaka",
+      "depth": 0.18,
+      "thickness": 0.09,
+      "tail": 0.22,
+      "speed": 0.65,
+      "shoal": 0.25,
+      "level": 0.76,
+      "dorsalOutline": [
+        [
+          -0.24,
+          0.04,
+          0
+        ],
+        [
+          -0.22,
+          0.13,
+          0
+        ],
+        [
+          -0.14,
+          0.16,
+          0
+        ],
+        [
+          -0.1,
+          0.12,
+          0
+        ],
+        [
+          -0.06,
+          0.04,
+          0
+        ]
+      ],
+      "analOutline": [
+        [
+          -0.26,
+          -0.04,
+          0
+        ],
+        [
+          -0.24,
+          -0.14,
+          0
+        ],
+        [
+          -0.06,
+          -0.2,
+          0
+        ],
+        [
+          0.12,
+          -0.11,
+          0
+        ]
+      ],
+      "eyeRadiusFraction": 0.026,
+      "finOpacity": 0.4,
+      "bodyTaperExponent": 0.65,
+      "noseRise": 0.026,
+      "ornamentalColors": [
+        "#cfbca4",
+        "#e0b974",
+        "#909d98",
+        "#e4dcca"
+      ],
+      "femaleDorsalScale": 1,
+      "femaleAnalScale": 1,
+      "clearanceRadiusFraction": 0.54
+    },
+    "Pseudomugil gertrudae": {
+      "form": "blueeye",
+      "color": "#b9b779",
+      "mark": "blueeye",
+      "depth": 0.19,
+      "thickness": 0.08,
+      "tail": 0.24,
+      "speed": 0.65,
+      "shoal": 0.28,
+      "level": 0.64,
+      "dorsalOutline": [
+        [
+          -0.22,
+          0.06,
+          0
+        ],
+        [
+          -0.19,
+          0.16,
+          0
+        ],
+        [
+          -0.12,
+          0.215,
+          0
+        ],
+        [
+          -0.035,
+          0.18,
+          0
+        ],
+        [
+          0.015,
+          0.08,
+          0
+        ]
+      ],
+      "analOutline": [
+        [
+          -0.25,
+          -0.03,
+          0
+        ],
+        [
+          -0.2,
+          -0.17,
+          0
+        ],
+        [
+          -0.105,
+          -0.2,
+          0
+        ],
+        [
+          0.055,
+          -0.11,
+          0
+        ]
+      ],
+      "eyeRadiusFraction": 0.029,
+      "finOpacity": 0.4,
+      "bodyTaperExponent": 0.8,
+      "noseRise": 0.0,
+      "femaleDorsalScale": 0.72,
+      "femaleAnalScale": 0.8,
+      "clearanceRadiusFraction": 0.54
+    },
+    "Hyphessobrycon amandae": {
+      "form": "tetra",
+      "color": "#cf7440",
+      "mark": "ember",
+      "depth": 0.26,
+      "thickness": 0.1,
+      "tail": 0.24,
+      "speed": 0.62,
+      "shoal": 0.48,
+      "level": 0.48,
+      "dorsalOutline": [
+        [
+          -0.15,
+          0.065,
+          0
+        ],
+        [
+          -0.115,
+          0.205,
+          0
+        ],
+        [
+          -0.035,
+          0.25,
+          0
+        ],
+        [
+          0.04,
+          0.2,
+          0
+        ],
+        [
+          0.09,
+          0.1,
+          0
+        ]
+      ],
+      "analOutline": [
+        [
+          -0.25,
+          -0.035,
+          0
+        ],
+        [
+          -0.2,
+          -0.18,
+          0
+        ],
+        [
+          -0.02,
+          -0.23,
+          0
+        ],
+        [
+          0.14,
+          -0.105,
+          0
+        ]
+      ],
+      "eyeRadiusFraction": 0.026,
+      "finOpacity": 0.4,
+      "bodyTaperExponent": 0.8,
+      "noseRise": 0.0,
+      "femaleDorsalScale": 1,
+      "femaleAnalScale": 1,
+      "clearanceRadiusFraction": 0.54
+    },
+    "Hemigrammus erythrozonus": {
+      "form": "tetra",
+      "color": "#bdb1a1",
+      "mark": "glowlight",
+      "depth": 0.25,
+      "thickness": 0.105,
+      "tail": 0.23,
+      "speed": 0.65,
+      "shoal": 0.45,
+      "level": 0.51,
+      "dorsalOutline": [
+        [
+          -0.15,
+          0.065,
+          0
+        ],
+        [
+          -0.115,
+          0.205,
+          0
+        ],
+        [
+          -0.035,
+          0.25,
+          0
+        ],
+        [
+          0.04,
+          0.2,
+          0
+        ],
+        [
+          0.09,
+          0.1,
+          0
+        ]
+      ],
+      "analOutline": [
+        [
+          -0.25,
+          -0.035,
+          0
+        ],
+        [
+          -0.2,
+          -0.18,
+          0
+        ],
+        [
+          -0.02,
+          -0.23,
+          0
+        ],
+        [
+          0.14,
+          -0.105,
+          0
+        ]
+      ],
+      "eyeRadiusFraction": 0.026,
+      "finOpacity": 0.4,
+      "bodyTaperExponent": 0.8,
+      "noseRise": 0.0,
+      "femaleDorsalScale": 1,
+      "femaleAnalScale": 1,
+      "clearanceRadiusFraction": 0.54
+    },
+    "Holopristis ocellifera": {
+      "form": "tetra",
+      "color": "#b4b9ab",
+      "mark": "headtail",
+      "depth": 0.3,
+      "thickness": 0.115,
+      "tail": 0.24,
+      "speed": 0.68,
+      "shoal": 0.4,
+      "level": 0.53,
+      "dorsalOutline": [
+        [
+          -0.15,
+          0.065,
+          0
+        ],
+        [
+          -0.115,
+          0.205,
+          0
+        ],
+        [
+          -0.035,
+          0.25,
+          0
+        ],
+        [
+          0.04,
+          0.2,
+          0
+        ],
+        [
+          0.09,
+          0.1,
+          0
+        ]
+      ],
+      "analOutline": [
+        [
+          -0.25,
+          -0.035,
+          0
+        ],
+        [
+          -0.2,
+          -0.18,
+          0
+        ],
+        [
+          -0.02,
+          -0.23,
+          0
+        ],
+        [
+          0.14,
+          -0.105,
+          0
+        ]
+      ],
+      "eyeRadiusFraction": 0.026,
+      "finOpacity": 0.4,
+      "bodyTaperExponent": 0.8,
+      "noseRise": 0.0,
+      "femaleDorsalScale": 1,
+      "femaleAnalScale": 1,
+      "clearanceRadiusFraction": 0.54
+    },
+    "Pristella maxillaris": {
+      "form": "tetra",
+      "color": "#c1c4a9",
+      "mark": "xray",
+      "depth": 0.31,
+      "thickness": 0.11,
+      "tail": 0.24,
+      "speed": 0.6,
+      "shoal": 0.4,
+      "level": 0.51,
+      "dorsalOutline": [
+        [
+          -0.15,
+          0.065,
+          0
+        ],
+        [
+          -0.115,
+          0.205,
+          0
+        ],
+        [
+          -0.035,
+          0.25,
+          0
+        ],
+        [
+          0.04,
+          0.2,
+          0
+        ],
+        [
+          0.09,
+          0.1,
+          0
+        ]
+      ],
+      "analOutline": [
+        [
+          -0.25,
+          -0.035,
+          0
+        ],
+        [
+          -0.2,
+          -0.18,
+          0
+        ],
+        [
+          -0.02,
+          -0.23,
+          0
+        ],
+        [
+          0.14,
+          -0.105,
+          0
+        ]
+      ],
+      "eyeRadiusFraction": 0.026,
+      "finOpacity": 0.4,
+      "bodyTaperExponent": 0.8,
+      "noseRise": 0.0,
+      "femaleDorsalScale": 1,
+      "femaleAnalScale": 1,
+      "clearanceRadiusFraction": 0.54
+    }
+  },
+  "plants": {
+    "Ceratophyllum demersum": {
+      "form": "hornwort",
+      "color": "#587840",
+      "height": [
+        16,
+        32
+      ],
+      "shoots": [
+        5,
+        9
+      ],
+      "rooted": false
+    },
+    "Ceratopteris thalictroides": {
+      "form": "fern",
+      "color": "#6d9147",
+      "height": [
+        13,
+        27
+      ],
+      "shoots": [
+        2,
+        5
+      ],
+      "rooted": true
+    },
+    "Cryptocoryne walkeri": {
+      "form": "crypt",
+      "color": "#66814b",
+      "height": [
+        10,
+        22
+      ],
+      "shoots": [
+        1,
+        3
+      ],
+      "rooted": true
+    },
+    "Helanthium tenellum": {
+      "form": "grass",
+      "color": "#789a47",
+      "height": [
+        5,
+        10
+      ],
+      "shoots": [
+        3,
+        9
+      ],
+      "rooted": true
+    },
+    "Mayaca fluviatilis": {
+      "form": "mayaca",
+      "color": "#739659",
+      "height": [
+        17,
+        30
+      ],
+      "shoots": [
+        4,
+        8
+      ],
+      "rooted": true
+    },
+    "Najas guadalupensis": {
+      "form": "najas",
+      "color": "#637f46",
+      "height": [
+        15,
+        29
+      ],
+      "shoots": [
+        7,
+        12
+      ],
+      "rooted": false
+    }
+  },
+  "habitats": {
+    "tanguar-haor-honey-gourami": {
+      "name": "Tanguar Haor",
+      "minimumLaneCm": 90,
+      "plantMode": "loose",
+      "sandMassLb": 20,
+      "patchDepthCm": 0,
+      "patchAreaFraction": 0,
+      "sourcePlan": "01-tanguar-haor-vegetated-margin.md",
+      "displayHabitat": "Vegetated wetland margin"
+    },
+    "hainan-gold-barb-stream-margin": {
+      "name": "Hainan stream",
+      "minimumLaneCm": 90,
+      "plantMode": "mixed",
+      "sandMassLb": 40,
+      "patchDepthCm": 4.5,
+      "patchAreaFraction": 0.5,
+      "sourcePlan": "02-hainan-coastal-stream-margin.md",
+      "patchPattern": [
+        0,
+        2,
+        1
+      ],
+      "rootedUnits": 2,
+      "displayHabitat": "Sheltered coastal stream"
+    },
+    "kalu-cherry-stream-margin": {
+      "name": "Kalu Ganga",
+      "minimumLaneCm": 80,
+      "plantMode": "rooted",
+      "sandMassLb": 40,
+      "patchDepthCm": 4.5,
+      "patchAreaFraction": 0.5,
+      "sourcePlan": "03-kalu-shaded-stream-margin.md",
+      "displayHabitat": "Shaded stream margin"
+    },
+    "upper-paraguay-bodoquena-community": {
+      "name": "Upper Paraguay",
+      "minimumLaneCm": 80,
+      "plantMode": "loose",
+      "sandMassLb": 20,
+      "patchDepthCm": 0,
+      "patchAreaFraction": 0,
+      "sourcePlan": "04-upper-paraguay-vegetated-margin.md",
+      "patchPattern": [
+        0,
+        2
+      ],
+      "displayHabitat": "Vegetated clear-water margin"
+    },
+    "boraphet-vegetated-marsh-margin": {
+      "name": "Boraphet marsh",
+      "minimumLaneCm": 75,
+      "plantMode": "loose",
+      "sandMassLb": 20,
+      "patchDepthCm": 0,
+      "patchAreaFraction": 0,
+      "sourcePlan": "05-boraphet-vegetated-marsh-margin.md",
+      "displayHabitat": "Planted marsh margin"
+    },
+    "kasumigaura-medaka-channel-margin": {
+      "name": "Kasumigaura",
+      "minimumLaneCm": 80,
+      "plantMode": "loose",
+      "sandMassLb": 20,
+      "patchDepthCm": 0,
+      "patchAreaFraction": 0,
+      "sourcePlan": "06-kasumigaura-medaka-channel-margin.md",
+      "displayHabitat": "Freshwater channel margin"
+    },
+    "archer-vegetated-wetland-margin": {
+      "name": "Archer wetland",
+      "minimumLaneCm": 60,
+      "plantMode": "floating",
+      "sandMassLb": 20,
+      "patchDepthCm": 0,
+      "patchAreaFraction": 0,
+      "sourcePlan": "07-archer-vegetated-wetland-margin.md",
+      "displayHabitat": "Vegetated floodplain wetland"
+    },
+    "araguaia-ember-chain-sword-margin": {
+      "name": "Araguaia tributary",
+      "minimumLaneCm": 80,
+      "plantMode": "rooted",
+      "sandMassLb": 40,
+      "patchDepthCm": 4.5,
+      "patchAreaFraction": 0.5,
+      "sourcePlan": "08-araguaia-vegetated-tributary-margin.md",
+      "displayHabitat": "Clear-water tributary margin"
+    },
+    "essequibo-small-creek-community": {
+      "name": "Essequibo creek",
+      "minimumLaneCm": 80,
+      "plantMode": "rooted",
+      "sandMassLb": 40,
+      "patchDepthCm": 7,
+      "patchAreaFraction": 0.25,
+      "sourcePlan": "09-essequibo-forest-creek-margin.md",
+      "displayHabitat": "Shaded forest creek"
+    },
+    "apure-pristella-floodplain-margin": {
+      "name": "Apure floodplain",
+      "minimumLaneCm": 80,
+      "plantMode": "loose",
+      "sandMassLb": 20,
+      "patchDepthCm": 0,
+      "patchAreaFraction": 0,
+      "sourcePlan": "10-apure-floodplain-margin.md",
+      "displayHabitat": "Vegetated floodplain margin"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "verified": [
+    "stage",
+    "view",
+    "quality",
+    "labels",
+    "scale",
+    "dimension input bounds",
+    "five-color ornamental palette batching",
+    "fish picking after one minute of movement"
+  ],
+  "state": {
+    "stage": "starter",
+    "view": "top",
+    "quality": "economy"
+  },
+  "errors": []
+}

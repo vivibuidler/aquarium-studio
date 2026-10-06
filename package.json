@@ -1,0 +1,19 @@
+{
+  "name": "aquarium-studio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "start": "python3 server.py",
+    "manifest": "python3 tools/build_manifest.py"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0"
+  },
+  "license": "BUSL-1.1",
+  "description": "Compare ten freshwater habitat plans in an interactive, configurable 3D aquarium.",
+  "engines": {
+    "node": ">=20"
+  }
+}

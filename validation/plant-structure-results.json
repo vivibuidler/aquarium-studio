@@ -1,0 +1,165 @@
+{
+  "records": [
+    {
+      "plan": "tanguar-haor-honey-gourami",
+      "stage": "starter",
+      "vertices": 2040,
+      "outside": 0,
+      "maxExcessCm": -0.011582971984392954,
+      "shader": "both theoretical sway extrema at every structural vertex"
+    },
+    {
+      "plan": "tanguar-haor-honey-gourami",
+      "stage": "established",
+      "vertices": 3672,
+      "outside": 0,
+      "maxExcessCm": -0.011582698687495452,
+      "shader": "both theoretical sway extrema at every structural vertex"
+    },
+    {
+      "plan": "hainan-gold-barb-stream-margin",
+      "stage": "starter",
+      "vertices": 30384,
+      "outside": 0,
+      "maxExcessCm": -0.016555464152371295,
+      "shader": "both theoretical sway extrema at every structural vertex"
+    },
+    {
+      "plan": "hainan-gold-barb-stream-margin",
+      "stage": "established",
+      "vertices": 75960,
+      "outside": 0,
+      "maxExcessCm": -0.01655516802429896,
+      "shader": "both theoretical sway extrema at every structural vertex"
+    },
+    {
+      "plan": "kalu-cherry-stream-margin",
+      "stage": "starter",
+      "vertices": 0,
+      "outside": 0,
+      "maxExcessCm": null,
+      "shader": "both theoretical sway extrema at every structural vertex"
+    },
+    {
+      "plan": "kalu-cherry-stream-margin",
+      "stage": "established",
+      "vertices": 0,
+      "outside": 0,
+      "maxExcessCm": null,
+      "shader": "both theoretical sway extrema at every structural vertex"
+    },
+    {
+      "plan": "upper-paraguay-bodoquena-community",
+      "stage": "starter",
+      "vertices": 1020,
+      "outside": 0,
+      "maxExcessCm": -0.011582985204797322,
+      "shader": "both theoretical sway extrema at every structural vertex"
+    },
+    {
+      "plan": "upper-paraguay-bodoquena-community",
+      "stage": "established",
+      "vertices": 1836,
+      "outside": 0,
+      "maxExcessCm": -0.011582581866874872,
+      "shader": "both theoretical sway extrema at every structural vertex"
+    },
+    {
+      "plan": "boraphet-vegetated-marsh-margin",
+      "stage": "starter",
+      "vertices": 2040,
+      "outside": 0,
+      "maxExcessCm": -0.011582583527259785,
+      "shader": "both theoretical sway extrema at every structural vertex"
+    },
+    {
+      "plan": "boraphet-vegetated-marsh-margin",
+      "stage": "established",
+      "vertices": 3672,
+      "outside": 0,
+      "maxExcessCm": -0.011582646750261369,
+      "shader": "both theoretical sway extrema at every structural vertex"
+    },
+    {
+      "plan": "kasumigaura-medaka-channel-margin",
+      "stage": "starter",
+      "vertices": 2040,
+      "outside": 0,
+      "maxExcessCm": -0.01158270642797432,
+      "shader": "both theoretical sway extrema at every structural vertex"
+    },
+    {
+      "plan": "kasumigaura-medaka-channel-margin",
+      "stage": "established",
+      "vertices": 3672,
+      "outside": 0,
+      "maxExcessCm": -0.011582855206635725,
+      "shader": "both theoretical sway extrema at every structural vertex"
+    },
+    {
+      "plan": "archer-vegetated-wetland-margin",
+      "stage": "starter",
+      "vertices": 32400,
+      "outside": 0,
+      "maxExcessCm": -0.016554911665648847,
+      "shader": "both theoretical sway extrema at every structural vertex"
+    },
+    {
+      "plan": "archer-vegetated-wetland-margin",
+      "stage": "established",
+      "vertices": 81000,
+      "outside": 0,
+      "maxExcessCm": -0.016554794541208506,
+      "shader": "both theoretical sway extrema at every structural vertex"
+    },
+    {
+      "plan": "araguaia-ember-chain-sword-margin",
+      "stage": "starter",
+      "vertices": 0,
+      "outside": 0,
+      "maxExcessCm": null,
+      "shader": "both theoretical sway extrema at every structural vertex"
+    },
+    {
+      "plan": "araguaia-ember-chain-sword-margin",
+      "stage": "established",
+      "vertices": 0,
+      "outside": 0,
+      "maxExcessCm": null,
+      "shader": "both theoretical sway extrema at every structural vertex"
+    },
+    {
+      "plan": "essequibo-small-creek-community",
+      "stage": "starter",
+      "vertices": 816,
+      "outside": 0,
+      "maxExcessCm": -0.011582875280485891,
+      "shader": "both theoretical sway extrema at every structural vertex"
+    },
+    {
+      "plan": "essequibo-small-creek-community",
+      "stage": "established",
+      "vertices": 1632,
+      "outside": 0,
+      "maxExcessCm": -0.011582837097103102,
+      "shader": "both theoretical sway extrema at every structural vertex"
+    },
+    {
+      "plan": "apure-pristella-floodplain-margin",
+      "stage": "starter",
+      "vertices": 9520,
+      "outside": 0,
+      "maxExcessCm": -0.01158274690624038,
+      "shader": "both theoretical sway extrema at every structural vertex"
+    },
+    {
+      "plan": "apure-pristella-floodplain-margin",
+      "stage": "established",
+      "vertices": 16320,
+      "outside": 0,
+      "maxExcessCm": -0.011582817717500984,
+      "shader": "both theoretical sway extrema at every structural vertex"
+    }
+  ],
+  "errors": []
+}

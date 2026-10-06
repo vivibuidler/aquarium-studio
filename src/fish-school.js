@@ -1,0 +1,17 @@
+import * as THREE from 'three';
+// Batch identical anatomy/sex assets while retaining independent full rigs, poses and motion.
+// The source rigs remain useful for portraits and provenance; only draw submission changes.
+function ribbonGeometry(source){const positions=source.geometry.attributes.position.array,verts=[];const count=positions.length/3;const pairs=source.isLineSegments?Array.from({length:Math.floor(count/2)},(_,i)=>[i*2,i*2+1]):Array.from({length:count-1},(_,i)=>[i,i+1]);for(const [i,j] of pairs){const a=new THREE.Vector3(...positions.slice(i*3,i*3+3)),b=new THREE.Vector3(...positions.slice(j*3,j*3+3)),v=b.clone().sub(a),normal=new THREE.Vector3(-v.y,v.x,0);if(normal.lengthSq()<1e-10)normal.set(0,-v.z,v.y);normal.normalize().multiplyScalar(.00065);const p=[a.clone().add(normal),a.clone().sub(normal),b.clone().add(normal),b.clone().sub(normal)];for(const k of [0,1,2,1,3,2])verts.push(...p[k].toArray());}const g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.Float32BufferAttribute(verts,3));g.computeVertexNormals();return g;}
+export class FishSchool {
+ constructor(models){this.models=models;this.root=new THREE.Group();this.batches=[];const groups=new Map();for(const model of models){const a=model.agent,key=a.species.scientificName+'|'+a.sex+(a.species.profile.ornamentalColors?.length?'|'+a.id%a.species.profile.ornamentalColors.length:'');if(!groups.has(key))groups.set(key,[]);groups.get(key).push(model);}
+  for(const members of groups.values()){
+   const components=members.map(model=>{const list=[];model.root.traverse(o=>{if(o.isMesh||o.isLine)list.push(o);});return list;});
+   for(let k=0;k<components[0].length;k++){const src=components[0][k],line=src.isLine;const geo=line?ribbonGeometry(src):src.geometry.clone();const mat=line?new THREE.MeshBasicMaterial({color:src.material.color,transparent:true,opacity:src.material.opacity,side:THREE.DoubleSide,forceSinglePass:true,depthWrite:false}):src.material.clone();
+    if(!line){const originalCompile=src.material.onBeforeCompile;mat.onBeforeCompile=shader=>{originalCompile(shader);shader.vertexShader='attribute vec2 fishMotion;\n'+shader.vertexShader;shader.vertexShader=shader.vertexShader.replace('time*(4.+effort*3.)+phase','time*(4.+fishMotion.x*3.)+fishMotion.y').replace('(0.006+effort*0.015)','(0.006+fishMotion.x*0.015)');};mat.customProgramCacheKey=()=>src.material.customProgramCacheKey()+'|fish-school';}
+    const motion=new THREE.InstancedBufferAttribute(new Float32Array(members.length*2),2);motion.setUsage(THREE.DynamicDrawUsage);geo.setAttribute('fishMotion',motion);const mesh=new THREE.InstancedMesh(geo,mat,members.length);mesh.instanceMatrix.setUsage(THREE.DynamicDrawUsage);mesh.castShadow=src.castShadow;mesh.receiveShadow=src.receiveShadow;mesh.frustumCulled=false;mesh.userData.agentIds=members.map(m=>m.agent.id);this.root.add(mesh);this.batches.push({mesh,motion,members,components:components.map(cs=>cs[k])});
+   }
+  }
+ }
+ update(time){for(const m of this.models){m.update(time);m.root.updateMatrixWorld(true);}for(const b of this.batches){for(let i=0;i<b.members.length;i++){const a=b.members[i].agent;b.mesh.setMatrixAt(i,b.components[i].matrixWorld);b.motion.setXY(i,Math.hypot(...a.velocity)/a.species.totalLengthCm,a.phase);}b.mesh.instanceMatrix.needsUpdate=true;b.motion.needsUpdate=true;}}
+ dispose(){for(const b of this.batches){b.mesh.dispose();b.mesh.geometry.dispose();b.mesh.material.dispose();}this.root.clear();this.batches=[];}
+}

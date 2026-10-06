@@ -1,0 +1,6 @@
+Public portable package: npm test
+Node 23.2.0 / Python 3.13 / macOS; local run.
+Seven tests passed, zero failed. Full runner duration: 233339.454554 ms.
+All-plan movement test duration: 230394.256659 ms.
+All ten plans x two planting stages x two seeds; each runs 125 simulated seconds.
+Tests: active record/count mapping; length/cost/work semantics; configurable dimension warnings; fixed-step reproducibility; funded substrate conservation; full-body all-layout motion; Hainan rooted/floating grouping.

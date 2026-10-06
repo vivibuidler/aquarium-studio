@@ -1,0 +1,59 @@
+[
+  {
+    "plan": "tanguar-haor-honey-gourami",
+    "seconds": 180.00000000003539,
+    "fishVisitingSurface": [
+      0,
+      1,
+      2
+    ],
+    "minimumMouthGapsCm": [
+      {
+        "id": 0,
+        "gap": 0.09058521348651993
+      },
+      {
+        "id": 1,
+        "gap": 0.09058520505696777
+      },
+      {
+        "id": 2,
+        "gap": 0.09058554638154703
+      },
+      {
+        "id": 3,
+        "gap": 8.199939830567125
+      }
+    ],
+    "cadence": "illustrative, not a biological measurement"
+  },
+  {
+    "plan": "boraphet-vegetated-marsh-margin",
+    "seconds": 180.00000000003539,
+    "fishVisitingSurface": [
+      11,
+      10,
+      12,
+      9
+    ],
+    "minimumMouthGapsCm": [
+      {
+        "id": 9,
+        "gap": 0.06500100004530651
+      },
+      {
+        "id": 10,
+        "gap": 0.06498943189428985
+      },
+      {
+        "id": 11,
+        "gap": 0.06498943204814367
+      },
+      {
+        "id": 12,
+        "gap": 0.06498943189900075
+      }
+    ],
+    "cadence": "illustrative, not a biological measurement"
+  }
+]
